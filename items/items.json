@@ -1,0 +1,115 @@
+﻿[
+{"name": "Forest Source", "type": "toggle", "loop": "true", "img": "images/tracks/forest_source_shared_wtt.png", "codes": "forest_source_shared_wtt"},
+{"name": "Forest Source", "type": "toggle", "loop": "true", "img": "images/tracks/forest_source_shared_fg.png", "codes": "forest_source_shared_fg"},
+{"name": "Forest Source", "type": "toggle", "loop": "true", "img": "images/tracks/forest_source.png", "codes": "forest_source"},
+{"name": "Snowdrift Station Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/snowdrift.png", "codes": "snowdrift"},
+{"name": "Blizzard Temple Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/btt.png", "codes": "btt"},
+{"name": "Slippery Station Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/slippery.png", "codes": "slippery"},
+{"name": "N Icy Spring Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/nicyspring.png", "codes": "nicyspring"},
+{"name": "Snow Source", "type": "toggle", "loop": "true", "img": "images/tracks/snow_source_shared.png", "codes": "snow_source_shared"},
+{"name": "Snow Source", "type": "toggle", "loop": "true", "img": "images/tracks/snow_source.png", "codes": "snow_source"},
+{"name": "Snow Source", "type": "toggle", "loop": "true", "img": "images/tracks/snow_source_tos.png", "codes": "snow_source_tos"},
+{"name": "Snow Glyph", "type": "toggle", "loop": "true", "img": "images/tracks/snow_glyph.png", "codes": "snow_glyph"},
+{"name": "Snow Glyph", "type": "toggle", "loop": "true", "img": "images/tracks/snow_glyph_rabbit.png", "codes": "snow_glyph_rabbit"},
+{"name": "W Forest Realm Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/w_forest.png", "codes": "w_forest"},
+{"name": "Forest Realm SW Cave Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/cave.png", "codes": "cave"},
+{"name": "Compass of Light", "type": "toggle", "loop": "true", "img": "images/tracks/compass.png", "codes": "compass"},
+{"name": "Forest Glyph", "type": "toggle", "loop": "true", "img": "images/tracks/forest_glyph_outset.png", "codes": "forest_glyph_outset"},
+{"name": "Wooded Temple Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/wtt.png", "codes": "wtt"},
+{"name": "W Castle Town Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/w_castle.png", "codes": "w_castle"},
+{"name": "Snow Realm Bridge Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/snow_bridge.png", "codes": "snow_bridge"},
+{"name": "N Castle Town Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/n_castle.png", "codes": "n_castle"},
+{"name": "Forest Glyph", "type": "toggle", "loop": "true", "img": "images/tracks/forest_glyph.png", "codes": "forest_glyph"},
+{"name": "Ocean Shortcut Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/ocean_shortcut.png", "codes": "ocean_shortcut"},
+{"name": "E Mayscore Bridge Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/mayscore_bridge.png", "codes": "mayscore_bridge"},
+{"name": "Ocean Glyph", "type": "toggle", "loop": "true", "img": "images/tracks/ocean_glyph.png", "codes": "ocean_glyph"},
+{"name": "Ocean Glyph", "type": "toggle", "loop": "true", "img": "images/tracks/ocean_glyph_upper.png", "codes": "ocean_glyph_upper"},
+{"name": "Pirate Hideout Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/pirate.png", "codes": "pirate"},
+{"name": "Ocean Portal Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/ocean_portal.png", "codes": "ocean_portal"},
+{"name": "Ocean Source", "type": "toggle", "loop": "true", "img": "images/tracks/ocean_source.png", "codes": "ocean_source"},
+{"name": "Ocean Source", "type": "toggle", "loop": "true", "img": "images/tracks/ocean_source_tos.png", "codes": "ocean_source_tos"},
+{"name": "Ocean Source", "type": "toggle", "loop": "true", "img": "images/tracks/ocean_source_shared_sand.png", "codes": "ocean_source_shared_sand"},
+{"name": "Ocean Source", "type": "toggle", "loop": "true", "img": "images/tracks/ocean_source_shared_oct.png", "codes": "ocean_source_shared_oct"},
+{"name": "Marine Temple Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/oct.png", "codes": "oct"},
+{"name": "Lost at Sea Station Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/las.png", "codes": "las"},
+{"name": "Desert Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/desert.png", "codes": "desert"},
+{"name": "Desert Temple Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/dtt.png", "codes": "dtt"},
+{"name": "Fire Realm Sand Portal Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/sand_shortcut.png", "codes": "sand_shortcut"},
+{"name": "Snow Realm Gorge Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/gorge.png", "codes": "gorge"},
+{"name": "Disorientation Station Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/disorientation.png", "codes": "disorientation"},
+{"name": "Ends of the Earth Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/eote.png", "codes": "eote"},
+{"name": "Dark Ore Mine Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/dom.png", "codes": "dom"},
+{"name": "Mountain Temple Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/mtt.png", "codes": "mtt"},
+{"name": "Fire Glyph", "type": "toggle", "loop": "true", "img": "images/tracks/fire_glyph.png", "codes": "fire_glyph"},
+{"name": "Fire Source", "type": "toggle", "loop": "true", "img": "images/tracks/fire_source_tos.png", "codes": "fire_source_tos"},
+{"name": "Fire Source", "type": "toggle", "loop": "true", "img": "images/tracks/fire_source.png", "codes": "fire_source"},
+{"name": "Fire Source", "type": "toggle", "loop": "true", "img": "images/tracks/fire_source_shared_glyph.png", "codes": "fire_source_shared_glyph"},
+{"name": "Fire Source", "type": "toggle", "loop": "true", "img": "images/tracks/fire_source_shared_mtt.png", "codes": "fire_source_shared_mtt"},
+{"name": "Fire Realm Sand Portal Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/sand_shortcut_shared.png", "codes": "sand_shortcut_shared"},
+{"name": "Tower of Spirits", "type": "toggle", "loop": "true", "img": "images/tracks/tos.png", "codes": "tos"},
+{"name": "Forest Realm SE Portal Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/tp_portal.png", "codes": "tp_portal"},
+{"name": "W Wooded Temple Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/w_wt.png", "codes": "w_wt"},
+{"name": "Fire Realm Sand Portal Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/sand_sc_blocker.png", "codes": "sand_sc_blocker"},
+{"name": "Fire Glyph", "type": "toggle", "loop": "true", "img": "images/tracks/fire_snow_blocker.png", "codes": "fire_snow_blocker"},
+{"name": "W Wooded Temple Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/w_wt_blocker.png", "codes": "w_wt_blocker"},
+{"name": "W Castle Town Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/w_castle_blocker.png", "codes": "w_castle_blocker"},
+{"name": "Snow Realm Bridge Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/snow_bridge_blocker.png", "codes": "snow_bridge_blocker"},
+{"name": "Desert Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/desert_blocker.png", "codes": "desert_blocker"},
+{"name": "Snow Realm Bridge Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/snow_bridge_south.png", "codes": "snow_bridge_south"},
+
+{"name": "N Icy Spring Portal", "type": "toggle", "loop": "true", "img": "images/track_icons/portal_d.png", "codes": "portal_d_sr"},
+{"name": "E Snow Realm Portal", "type": "toggle", "loop": "true", "img": "images/track_icons/portal_b.png", "codes": "portal_b_sr"},
+{"name": "Snow Realm Bridge Portal", "type": "toggle", "loop": "true", "img": "images/track_icons/portal_c.png", "codes": "portal_c_sr"},
+{"name": "Anouki Village Portal", "type": "toggle", "loop": "true", "img": "images/track_icons/portal_a.png", "codes": "portal_a_sr"},
+{"name": "Castle Town Portal", "type": "toggle", "loop": "true", "img": "images/track_icons/portal_a.png", "codes": "portal_a_fr"},
+{"name": "Forest Realm Cave Portal", "type": "toggle", "loop": "true", "img": "images/track_icons/portal_e.png", "codes": "portal_e_fr"},
+{"name": "Mayscore Portal", "type": "toggle", "loop": "true", "img": "images/track_icons/portal_g.png", "codes": "portal_g_fr"},
+{"name": "S Trading Post Portal", "type": "toggle", "loop": "true", "img": "images/track_icons/portal_b.png", "codes": "portal_b_fr"},
+{"name": "Goron Village Portal", "type": "toggle", "loop": "true", "img": "images/track_icons/portal_e.png", "codes": "portal_e_mr"},
+{"name": "Mountain Portal", "type": "toggle", "loop": "true", "img": "images/track_icons/portal_d.png", "codes": "portal_d_mr"},
+{"name": "Fire Realm Sand Portal", "type": "toggle", "loop": "true", "img": "images/track_icons/portal_f.png", "codes": "portal_f_mr"},
+{"name": "Desert Temple Portal", "type": "toggle", "loop": "true", "img": "images/track_icons/portal_h.png", "codes": "portal_h_e"},
+{"name": "Desert Realm Portal", "type": "toggle", "loop": "true", "img": "images/track_icons/portal_h.png", "codes": "portal_h_w"},
+{"name": "Ocean Portal", "type": "toggle", "loop": "true", "img": "images/track_icons/portal_g.png", "codes": "portal_g_or"},
+{"name": "Marine Temple Portal", "type": "toggle", "loop": "true", "img": "images/track_icons/portal_f.png", "codes": "portal_f_or"},
+{"name": "Island Sanctuary Portal", "type": "toggle", "loop": "true", "img": "images/track_icons/portal_c.png", "codes": "portal_c_or"},
+{"name": "Mountain Temple Snurglar Keys", "type": "progressive", "loop": "true", "allow_disabled": false,
+    "stages": [
+        {
+            "img": "images/track_icons/lock.png",
+            "codes": "lock_mtt",
+            "img_mods": "brightness|1.0"
+        },
+        {
+            "img": "images/track_icons/lock_blank.png",
+            "codes": "lock_mtt"
+        }
+    ]
+},
+{"name": "Snowfall Sanctuary Cave Key", "type": "progressive", "loop": "true", "allow_disabled": false,
+    "stages": [
+        {
+            "img": "images/track_icons/lock.png",
+            "codes": "lock_sr",
+            "img_mods": "brightness|1.0"
+        },
+        {
+            "img": "images/track_icons/lock_blank.png",
+            "codes": "lock_sr"
+        }
+    ]
+},
+{"name": "Trading Post Repair Bridge", "type": "progressive", "loop": "true", "allow_disabled": false,
+    "stages": [
+        {
+            "img": "images/track_icons/lock.png",
+            "codes": "lock_bridge",
+            "img_mods": "brightness|1.0"
+        },
+        {
+            "img": "images/track_icons/lock_blank.png",
+            "codes": "lock_bridge"
+        }
+    ]
+}
+]
