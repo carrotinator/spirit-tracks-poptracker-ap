@@ -1,5 +1,5 @@
 # spirit-tracks-poptracker-ap
-Poptracker pack for The Legend of Zelda: Spirit Tracks Archipelago
+Poptracker pack for [The Legend of Zelda: Spirit Tracks Archipelago](https://github.com/DayKat/spirit-tracks)
 
 Current features: 
   - Manual Rail Tracker with Portals
