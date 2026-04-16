@@ -9,7 +9,4 @@ Current features:
 
 <img width="501" height="424" alt="image" src="https://github.com/user-attachments/assets/47f45856-3630-4be6-ba3d-7344400720a6" />
 
-
-Currently looking for someone to make an item grid and add autotracking to everything! Let @carrotinator know if you're interested and I'll send you all the item ids and stuff!
-
 Huge thanks to @OmegaZeron and @OnlySpaghettiCode for helping to figure out the complicated map stuff!
