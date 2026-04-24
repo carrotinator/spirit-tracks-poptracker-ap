@@ -111,5 +111,21 @@
             "codes": "lock_bridge"
         }
     ]
-}
+},
+{"name": "Ocean Glyph", "type": "toggle", "loop": "true", "img": "images/tracks/ocean_glyph_tp.png", "codes": "ocean_glyph_tp"},
+{"name": "Ocean Glyph", "type": "toggle", "loop": "true", "img": "images/tracks/ocean_glyph_n.png", "codes": "ocean_glyph_n"},
+{"name": "N Castle Town Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/n_castle_w.png", "codes": "n_castle_w"},
+{"name": "Forest Source", "type": "toggle", "loop": "true", "img": "images/tracks/forest_source_shared_e.png", "codes": "forest_source_shared_e"},
+{"name": "Fire Glyph", "type": "toggle", "loop": "true", "img": "images/tracks/fire_glyph_w.png", "codes": "fire_glyph_w"},
+{"name": "Fire Glyph", "type": "toggle", "loop": "true", "img": "images/tracks/fire_glyph_n.png", "codes": "fire_glyph_n"},
+{"name": "Mountain Temple Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/mtt_w.png", "codes": "mtt_w"},
+{"name": "Mountain Temple Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/mtt_e.png", "codes": "mtt_e"},
+{"name": "Compass of Light", "type": "toggle", "loop": "true", "img": "images/tracks/compass_blocker.png", "codes": "compass_blocker"},
+{"name": "Forest Realm SE Portal Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/tp_portal_blocker.png", "codes": "tp_portal_blocker"},
+{"name": "Ocean Shortcut Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/ocean_shortcut_s.png", "codes": "ocean_shortcut_s"},
+{"name": "Blizzard Temple Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/btt_snowfall.png", "codes": "btt_snowfall"},
+{"name": "Blizzard Temple Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/btt_anouki.png", "codes": "btt_anouki"},
+{"name": "Wooded Temple Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/wtt_blocker_fg.png", "codes": "wtt_blocker_fg"},
+{"name": "Ocean Shortcut Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/ocean_shortcut_blocker.png", "codes": "ocean_shortcut_blocker"},
+{"name": "Wooded Temple Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/w_forest_blocker.png", "codes": "w_forest_blocker"}
 ]

@@ -6,26 +6,46 @@ end
 
 -- link together
 local railDict = {
-	["btt"] = {"snow_source_shared"},
-	["fire_glyph"] = {"fire_source_shared_glyph"},
+	["fire_glyph"] = {"fire_source_shared_glyph", "fire_glyph_w", "fire_glyph_n"},
+	["fire_glyph_w"] = {"fire_source_shared_glyph", "fire_glyph_n", "fire_glyph"},
+	["fire_glyph_n"] = {"fire_source_shared_glyph", "fire_glyph_w", "fire_glyph"},
+
 	["fire_source"] = {"fire_source_tos", "fire_source_shared_glyph", "fire_source_shared_mtt"},
 	["fire_source_tos"] = {"fire_source", "fire_source_shared_glyph", "fire_source_shared_mtt"},
+	
 	["forest_glyph"] = {"forest_glyph_outset", "forest_source_shared_fg"},
 	["forest_glyph_outset"] = {"forest_glyph", "forest_source_shared_fg"},
-	["forest_source"] = {"forest_source_shared_fg", "forest_source_shared_wtt"},
-	["mtt"] = {"fire_source_shared_mtt"},
-	["ocean_glyph"] = {"ocean_glyph_upper"},
-	["ocean_glyph_upper"] = {"ocean_glyph"},
+	["forest_source"] = {"forest_source_shared_fg", "forest_source_shared_wtt", "forest_source_shared_e"},
+	["ocean_shortcut"] = {"forest_source_shared_e", "ocean_shortcut_s"},
+	["ocean_shortcut_s"] = {"forest_source_shared_e", "ocean_shortcut"},
+	
+	["mtt"] = {"fire_source_shared_mtt", "mtt_w", "mtt_e"},
+	["mtt_w"] = {"fire_source_shared_mtt", "mtt", "mtt_e"},
+	["mtt_e"] = {"fire_source_shared_mtt", "mtt_w", "mtt"},
+	
 	["ocean_source"] = {"ocean_source_tos", "ocean_source_shared_sand", "ocean_source_shared_oct"},
 	["ocean_source_tos"] = {"ocean_source", "ocean_source_shared_sand", "ocean_source_shared_oct"},
 	["oct"] = {"ocean_source_shared_oct"},
+	
+	["btt"] = {"snow_source_shared", "btt_snowfall", "btt_anouki"},
+	["btt_snowfall"] = {"snow_source_shared", "btt", "btt_anouki"},
+	["btt_anouki"] = {"snow_source_shared", "btt_snowfall", "btt"},
 	["snow_glyph"] = {"snow_glyph_rabbit"},
 	["snow_glyph_rabbit"] = {"snow_glyph"},
 	["snow_source"] = {"snow_source_shared", "snow_source_tos"},
 	["snow_source_tos"] = {"snow_source", "snow_source_shared"},
+
 	["wtt"] = {"forest_source_shared_wtt"},
 	["snow_bridge"] = {"snow_bridge_south"},
 	["snow_bridge_south"] = {"snow_bridge"},
+
+	["ocean_glyph"] = {"ocean_glyph_upper", "ocean_glyph_tp", "ocean_glyph_n"},
+	["ocean_glyph_upper"] = {"ocean_glyph", "ocean_glyph_tp", "ocean_glyph_n"},
+	["ocean_glyph_tp"] = {"ocean_glyph", "ocean_glyph_upper", "ocean_glyph_n"},
+	["ocean_glyph_n"] = {"ocean_glyph", "ocean_glyph_upper", "ocean_glyph_tp"},
+
+	["n_castle"] = {"n_castle_w"},
+	["n_castle_w"] = {"n_castle"},
 
 	["portal_d_sr"] = {"portal_d_mr"},
 	["portal_b_sr"] = {"portal_b_fr"},
@@ -53,10 +73,11 @@ local reverseRailDict = {
 	["forest_source_shared_wtt"] = {"forest_source", "wtt"},
 	["ocean_source_shared_oct"] = {"ocean_source", "oct"},
 	["ocean_source_shared_sand"] = {"ocean_source", "desert"},
-	["snow_source_shared"] = {"snow_source", "btt"}
+	["snow_source_shared"] = {"snow_source", "btt"},
+	["forest_source_shared_e"] = {"forest_source", "ocean_shortcut"}
 }
 
--- check on key, and only active blocker if all of it's values and initail key are true
+-- check on key, and only active blocker if all of it's values and initial key are true
 local andRailDict = {
 	["fire_glyph"] = {
 		["sand_sc_blocker"] = {"sand_shortcut"},
@@ -74,10 +95,20 @@ local andRailDict = {
 		["w_wt_blocker"] = {"w_wt"},
 		["snow_bridge_blocker"] = {"snow_bridge"},
 		["w_castle_blocker"] = {"w_castle"},
-	},
+		["wtt_blocker_fg"] = {"forest_glyph"}},
 	["w_wt"] = {["w_wt_blocker"] = {"wtt"}},
 	["snow_bridge"] = {["snow_bridge_blocker"] = {"wtt"}},
-	["w_castle"] = {["w_castle_blocker"] = {"wtt"}}
+	["w_castle"] = {["w_castle_blocker"] = {"wtt"}},
+	["forest_glyph"] = {
+		["wtt_blocker_fg"] = {"wtt"},
+		["ocean_shortcut_blocker"] = {"ocean_shortcut"}},
+	["ocean_shortcut"] = {["ocean_shortcut_blocker"] = {"forest_glyph"}},
+
+	["compass"] = {["compass_blocker"] = {"cave"}},
+	["cave"] = {["compass_blocker"] = {"compass"}},
+
+	["tp_portal"] = {["tp_portal_blocker"] = {"ocean_glyph"}},
+	["ocean_glyph"] = {["tp_portal_blocker"] = {"tp_portal"}}
 }
 
 -- Special case that needed hard coding
@@ -86,6 +117,12 @@ local oceanSquish = {
 	"ocean_source",
 	"ocean_source_tos",
 	"ocean_portal"
+}
+
+local westForestSquish = {
+	"forest_glyph",
+	"w_forest",
+	"wtt"
 }
 
 function AnyRail(railList)
@@ -142,9 +179,14 @@ function RailWatch(item)
 		end
 	end
 
+	-- Hard Coded Cases
 	if InList(oceanSquish, item) then
 		Tracker:FindObjectForCode("desert_blocker").Active = Tracker:FindObjectForCode("desert").Active and (Tracker:FindObjectForCode("ocean_source").Active or Tracker:FindObjectForCode("ocean_portal").Active)
 		Tracker:FindObjectForCode("ocean_source_shared_sand").Active = Tracker:FindObjectForCode("ocean_source").Active or (Tracker:FindObjectForCode("desert").Active and Tracker:FindObjectForCode("ocean_portal").Active)
+	end
+
+	if InList(westForestSquish, item) then
+		Tracker:FindObjectForCode("w_forest_blocker").Active = Tracker:FindObjectForCode("wtt").Active and (Tracker:FindObjectForCode("forest_glyph").Active or Tracker:FindObjectForCode("w_forest").Active)
 	end
 end
 
