@@ -1,7 +1,7 @@
 ﻿{
   "name": "SpiritTracksTester",
   "game_name": "Spirit Tracks",
-  "package_version": "2.0",
+  "package_version": "3.0",
   "min_poptracker_version": "0.28.0",
   "package_uid": "carrot_st",
   "author": "Carrotinator",
