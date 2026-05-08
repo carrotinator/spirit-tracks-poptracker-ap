@@ -258,30 +258,30 @@ ITEM_MAPPING = {
 	[223] = {{"cargo:darkore", "toggle"}},
 
 	
-	[224] = {{"stamps", "toggle"}}, -- Castle Town
-	[225] = {{"stamps", "toggle"}}, -- Outset Village
-	[226] = {{"stamps", "toggle"}}, -- Mayscore
-	[227] = {{"stamps", "toggle"}}, -- Woodland Sanctuary
-	[228] = {{"stamps", "toggle"}}, -- Anouki Village
-	[229] = {{"stamps", "toggle"}}, -- Snowfall Sanctuary
-	[230] = {{"stamps", "toggle"}}, -- Papuzia Village
-	[231] = {{"stamps", "toggle"}}, -- Island Sanctuary
-	[232] = {{"stamps", "toggle"}}, -- Goron Village
-	[233] = {{"stamps", "toggle"}}, -- Valley Sanctuary
-	[234] = {{"stamps", "toggle"}}, -- Dune Sanctuary
-	[235] = {{"stamps", "toggle"}}, -- Wooded Temple
-	[236] = {{"stamps", "toggle"}}, -- Blizzard Temple
-	[237] = {{"stamps", "toggle"}}, -- Marine Temple
-	[238] = {{"stamps", "toggle"}}, -- Mountain Temple
-	[239] = {{"stamps", "toggle"}}, -- Desert Temple
-	[240] = {{"stamps", "toggle"}}, -- Pirate Hideout
-	[241] = {{"stamps", "toggle"}}, -- Trading Post
-	[242] = {{"stamps", "toggle"}}, -- Icy Spring
-	[243] = {{"stamps", "toggle"}}, -- Tower of Spirits
-	[244] = {{"stamps", "toggle"}}, -- Stamp Pack 2
-	[245] = {{"stamps", "toggle"}}, -- Stamp Pack 3
-	[246] = {{"stamps", "toggle"}}, -- Stamp Pack 4
-	[247] = {{"stamps", "toggle"}}, -- Stamp Pack 5
+	[224] = {{"Stamp: Castle Town", "toggle"}},
+	[225] = {{"Stamp: Outset Village", "toggle"}},
+	[226] = {{"Stamp: Mayscore", "toggle"}},
+	[227] = {{"Stamp: Woodland Sanctuary", "toggle"}},
+	[228] = {{"Stamp: Anouki Village", "toggle"}},
+	[229] = {{"Stamp: Snowfall Sanctuary", "toggle"}},
+	[230] = {{"Stamp: Papuzia Village", "toggle"}},
+	[231] = {{"Stamp: Island Sanctuary", "toggle"}},
+	[232] = {{"Stamp: Goron Village", "toggle"}},
+	[233] = {{"Stamp: Valley Sanctuary", "toggle"}},
+	[234] = {{"Stamp: Dune Sanctuary", "toggle"}},
+	[235] = {{"Stamp: Wooded Temple", "toggle"}},
+	[236] = {{"Stamp: Blizzard Temple", "toggle"}},
+	[237] = {{"Stamp: Marine Temple", "toggle"}},
+	[238] = {{"Stamp: Mountain Temple", "toggle"}},
+	[239] = {{"Stamp: Desert Temple", "toggle"}},
+	[240] = {{"Stamp: Pirate Hideout", "toggle"}},
+	[241] = {{"Stamp: Trading Post", "toggle"}},
+	[242] = {{"Stamp: Icy Spring", "toggle"}},
+	[243] = {{"Stamp: Tower of Spirits", "toggle"}},
+	[244] = {{"stamp_pack_2", "consumable"}}, -- Stamp Pack 2
+	[245] = {{"stamp_pack_3", "consumable"}}, -- Stamp Pack 3
+	[246] = {{"stamp_pack_4", "consumable"}}, -- Stamp Pack 4
+	[247] = {{"stamp_pack_5", "consumable"}}, -- Stamp Pack 5
 
 
 

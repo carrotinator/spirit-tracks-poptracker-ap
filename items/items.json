@@ -140,6 +140,42 @@
         "codes": "stamps",
         "max_quantity": 20
     },
+    {
+        "name": "Stamp Pack 2",
+        "type": "consumable",
+        "img": "images/items/Stamps/Small Stamp Goron Village.png",
+        "overlay_align": "right",
+        "codes": "stamp_pack_2",
+        "increment": 2,
+        "max_quantity": 20
+    },
+    {
+        "name": "Stamp Pack 3",
+        "type": "consumable",
+        "img": "images/items/Stamps/Small Stamp Marine Temple.png",
+        "overlay_align": "right",
+        "codes": "stamp_pack_3",
+        "increment": 3,
+        "max_quantity": 20
+    },
+    {
+        "name": "Stamp Pack 4",
+        "type": "consumable",
+        "img": "images/items/Stamps/Small Stamp Snowfall Sanctuary.png",
+        "overlay_align": "right",
+        "codes": "stamp_pack_4",
+        "increment": 4,
+        "max_quantity": 20
+    },
+    {
+        "name": "Stamp Pack 5",
+        "type": "consumable",
+        "img": "images/items/Stamps/Small Stamp Pirate Hideout.png",
+        "overlay_align": "right",
+        "codes": "stamp_pack_5",
+        "increment": 5,
+        "max_quantity": 20
+    },
 
 
 
@@ -202,9 +238,6 @@
     },
 
 
-
-
-
     {
         "name": "Cannon",
         "type": "toggle",
@@ -221,46 +254,6 @@
         "overlay_align": "right",
         "codes": "wagon"
     },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     {
@@ -328,7 +321,7 @@
         "codes": "Stamp: Island Sanctuary"
     },
     {
-        "name": "Stamp: goronvillage",
+        "name": "Stamp: Goron Village",
         "type": "toggle",
         "img": "images/items/Stamps/Big Stamp Goron Village.png",
         "initial_active_state": false,
@@ -336,7 +329,7 @@
         "codes": "Stamp: Goron Village"
     },
     {
-        "name": "Stamp: valleysanctuary",
+        "name": "Stamp: Valley Sanctuary",
         "type": "toggle",
         "img": "images/items/Stamps/Big Stamp Valley Sanctuary.png",
         "initial_active_state": false,
@@ -344,7 +337,7 @@
         "codes": "Stamp: Valley Sanctuary"
     },
     {
-        "name": "Stamp: dunesanctuary",
+        "name": "Stamp: Dune Sanctuary",
         "type": "toggle",
         "img": "images/items/Stamps/Big Stamp Dune Sanctuary.png",
         "initial_active_state": false,
@@ -352,7 +345,7 @@
         "codes": "Stamp: Dune Sanctuary"
     },
     {
-        "name": "Stamp: woodedtemple",
+        "name": "Stamp: Wooded Temple",
         "type": "toggle",
         "img": "images/items/Stamps/Big Stamp Wooded Temple.png",
         "initial_active_state": false,
@@ -360,7 +353,7 @@
         "codes": "Stamp: Wooded Temple"
     },
     {
-        "name": "Stamp: blizzardtemple",
+        "name": "Stamp: Blizzard Temple",
         "type": "toggle",
         "img": "images/items/Stamps/Big Stamp Blizzard Temple.png",
         "initial_active_state": false,
@@ -368,7 +361,7 @@
         "codes": "Stamp: Blizzard Temple"
     },
     {
-        "name": "Stamp: marinetemple",
+        "name": "Stamp: Marine Temple",
         "type": "toggle",
         "img": "images/items/Stamps/Big Stamp Marine Temple.png",
         "initial_active_state": false,
@@ -376,7 +369,7 @@
         "codes": "Stamp: Marine Temple"
     },
     {
-        "name": "Stamp: mountaintemple",
+        "name": "Stamp: Mountain Temple",
         "type": "toggle",
         "img": "images/items/Stamps/Big Stamp Mountain Temple.png",
         "initial_active_state": false,
@@ -384,7 +377,7 @@
         "codes": "Stamp: Mountain Temple"
     },
     {
-        "name": "Stamp: desert temple",
+        "name": "Stamp: Desert Temple",
         "type": "toggle",
         "img": "images/items/Stamps/Big Stamp desert temple.png",
         "initial_active_state": false,
@@ -392,7 +385,7 @@
         "codes": "Stamp: Desert Temple"
     },
     {
-        "name": "Stamp: pirate hideout",
+        "name": "Stamp: Pirate Hideout",
         "type": "toggle",
         "img": "images/items/Stamps/Big Stamp pirate hideout.png",
         "initial_active_state": false,
@@ -400,7 +393,7 @@
         "codes": "Stamp: Pirate Hideout"
     },
     {
-        "name": "Stamp: trading post",
+        "name": "Stamp: Trading Post",
         "type": "toggle",
         "img": "images/items/Stamps/Big Stamp trading post.png",
         "initial_active_state": false,
@@ -423,35 +416,6 @@
         "overlay_align": "right",
         "codes": "Stamp: Tower of Spirits"
     },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

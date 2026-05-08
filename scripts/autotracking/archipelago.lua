@@ -7,6 +7,7 @@ CUR_INDEX = -1
 
 ALL_LOCATIONS = {}
 SLOT_DATA = {}
+STAMP_PACK_ORDER = {}
 
 MANUAL_CHECKED = true
 ROOM_SEED = "default"
@@ -360,6 +361,11 @@ function UpdateSettings()
             end
         end
     end
+
+    -- Other settings
+    STAMP_PACK_ORDER = SLOT_DATA["stamp_pack_order"]
+    print("stamp pack order:", STAMP_PACK_ORDER)
+
 end
 
 function OnNotify(key, value, old_value)
