@@ -45,10 +45,6 @@ ITEM_MAPPING = {
 	[36] = {{"portalunlock:mayscoretooceanportaltracks", "toggle"}},
 	[37] = {{"portalunlock:snowbridgetoislandsanctuary", "toggle"}},
 
-
-
-
-
 	[38] = {{"forest_glyph", "toggle"}},
 	[39] = {{"snow_glyph", "toggle"}},
 	[40] = {{"ocean_glyph", "toggle"}},
@@ -74,13 +70,13 @@ ITEM_MAPPING = {
 	[60] = {{"nicyspring", "toggle"}},
 	[61] = {{"ocean_portal", "toggle"}},
 
-	[62] = {{"sandrealmtracks", "toggle"}},
-
-	[63] = {{"firerealmsandportaltracks", "toggle"}},
-	[64] = {{"darkoreminetracks", "toggle"}},
-	[65] = {{"endsoftheearthtracks", "toggle"}},
-	[66] = {{"disorientationstationtracks", "toggle"}},
-	[67] = {{"snowrealmgorgetracks", "toggle"}},
+	[62] = {{"desert", "toggle"}},
+	
+	[63] = {{"sand_shortcut", "toggle"}},
+	[64] = {{"dom", "toggle"}},
+	[65] = {{"eote", "toggle"}},
+	[66] = {{"disorientation", "toggle"}},
+	[67] = {{"gorge", "toggle"}},
 
 	[68] = {{"forest_source", "toggle"}},
 	[69] = {{"snow_source", "toggle"}},

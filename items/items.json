@@ -1752,5 +1752,230 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "cargo:vessel"
+    },
+
+    {
+        "name": "westernforesttracks",
+        "type": "toggle",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "westernforesttracks"
+    },
+        {
+        "name": "anoukivillagetracks",
+        "type": "toggle",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "anoukivillagetracks"
+    },
+        {
+        "name": "thawlandtracks",
+        "type": "toggle",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "thawlandtracks"
+    },
+        {
+        "name": "blizzardtracks",
+        "type": "toggle",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "blizzardtracks"
+    },
+        {
+        "name": "castletracks",
+        "type": "toggle",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "castletracks"
+    },
+        {
+        "name": "woodlandtracks",
+        "type": "toggle",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "woodlandtracks"
+    },
+        {
+        "name": "borderlandstracks",
+        "type": "toggle",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "borderlandstracks"
+    },
+        {
+        "name": "coastaltracks",
+        "type": "toggle",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "coastaltracks"
+    },
+        {
+        "name": "piratetracks",
+        "type": "toggle",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "piratetracks"
+    },
+        {
+        "name": "oceantracks",
+        "type": "toggle",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "oceantracks"
+    },
+        {
+        "name": "islandtracks",
+        "type": "toggle",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "islandtracks"
+    },
+        {
+        "name": "valleytracks",
+        "type": "toggle",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "valleytracks"
+    },
+        {
+        "name": "valleytracks",
+        "type": "toggle",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "valleytracks"
+    },
+        {
+        "name": "mountaintracks",
+        "type": "toggle",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "mountaintracks"
+    },
+        {
+        "name": "aridtracks",
+        "type": "toggle",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "aridtracks"
+    },
+        {
+        "name": "dunetracks",
+        "type": "toggle",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "dunetracks"
+    },
+        {
+        "name": "towertracks",
+        "type": "toggle",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "towertracks"
+    },
+        {
+        "name": "completedforestglyph",
+        "type": "toggle",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "completedforestglyph"
+    },
+        {
+        "name": "majorforesttracks",
+        "type": "toggle",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "majorforesttracks"
+    },
+        {
+        "name": "minorforesttracks",
+        "type": "toggle",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "minorforesttracks"
+    },
+            {
+        "name": "completedsnowglyph",
+        "type": "toggle",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "completedsnowglyph"
+    },
+            {
+        "name": "majorsnowtracks",
+        "type": "toggle",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "majorsnowtracks"
+    },
+            {
+        "name": "minorsnowtracks",
+        "type": "toggle",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "minorsnowtracks"
+    },
+            {
+        "name": "completedoceanglyph",
+        "type": "toggle",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "completedoceanglyph"
+    },
+            {
+        "name": "majoroceantracks",
+        "type": "toggle",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "majoroceantracks"
+    },
+            {
+        "name": "minoroceantracks",
+        "type": "toggle",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "minoroceantracks"
+    },
+            {
+        "name": "completedfireglyph",
+        "type": "toggle",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "completedfireglyph"
+    },
+            {
+        "name": "majorfiretracks",
+        "type": "toggle",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "majorfiretracks"
+    },
+            {
+        "name": "minorfiretracks",
+        "type": "toggle",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "minorfiretracks"
+    },
+            {
+        "name": "completeddeserttracks",
+        "type": "toggle",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "completeddeserttracks"
+    },
+            {
+        "name": "majordeserttracks",
+        "type": "toggle",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "majordeserttracks"
+    },
+            {
+        "name": "minordeserttracks",
+        "type": "toggle",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "minordeserttracks"
     }
 ]

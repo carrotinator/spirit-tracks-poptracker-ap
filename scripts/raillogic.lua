@@ -62,7 +62,39 @@ local railDict = {
 	["portal_h_w"] = {"portal_h_e"},
 	["portal_g_or"] = {"portal_g_fr"},
 	["portal_f_or"] = {"portal_f_mr"},
-	["portal_c_or"] = {"portal_c_sr"}
+	["portal_c_or"] = {"portal_c_sr"},
+
+	["islandtracks"] = {"ocean_glyph", "pirate", "las"},
+	["coastaltracks"] = {"ocean_glyph", "ocean_shortcut", "mayscore_bridge", "tp_portal"},
+	["completedoceanglyph"] = {"ocean_glyph", "oct", "pirate", "las", "ocean_shortcut", "ocean_portal", "ocean_source"},
+	["majoroceantracks"] = {"ocean_glyph", "oct", "ocean_source"},
+	["valleytracks"] = {"fire_glyph", "disorientation", "gorge"},
+	["majorfiretracks"] = {"fire_glyph", "mtt", "fire_source"},
+	["completedfireglyph"] = {"fire_glyph", "mtt", "sand_shortcut", "dom", "eote", "disorientation", "gorge", "fire_source"},
+	["woodlandtracks"] = {"wtt", "w_castle", "w_wt"},
+	["majorforesttracks"] = {"wtt", "forest_source"},
+	["completedforestglyph"] = {"wtt", "ocean_shortcut", "mayscore_bridge", "tp_portal", "w_castle", "w_forest", "cave", "w_wt", "n_castle", "snow_bridge", "forest_source"},
+	["blizzardtracks"] = {"btt", "snowdrift", "slippery", "snow_source"},
+	["majorsnowtracks"] = {"btt", "snow_source"},
+	["completedsnowglyph"] = {"btt", "snowdrift", "slippery", "w_wt", "n_castle", "snow_bridge", "nicyspring", "gorge", "snow_source"},
+	["thawlandtracks"] = {"btt", "n_castle", "nicyspring", "gorge", "snow_source"},
+	["oceantracks"] = {"oct", "las", "ocean_portal", "ocean_source"},
+	["mountaintracks"] = {"mtt", "dtt", "dom", "eote"},
+	["majordeserttracks"] = {"dtt", "desert", "sandsource"},
+	["completeddeserttracks"] = {"dtt", "desert", "sand_shortcut", "dom", "sandsource"},
+	["dunetracks"] = {"dtt", "desert", "sand_shortcut", "sandsource"},
+	["minorsnowtracks"] = {"snowdrift", "slippery", "w_wt", "n_castle", "snow_bridge", "nicyspring", "gorge"},
+	["piratetracks"] = {"pirate", "ocean_shortcut", "ocean_portal"},
+	["minoroceantracks"] = {"pirate", "las", "ocean_shortcut", "ocean_portal"},
+	["minorforesttracks"] = {"ocean_shortcut", "mayscore_bridge", "tp_portal", "w_castle", "w_forest", "cave", "w_wt", "n_castle", "snow_bridge"},
+	["westernforesttracks"] = {"w_forest", "cave", "w_wt"},
+	["borderlandstracks"] = {"w_wt", "n_castle", "snow_bridge"},
+	["anoukivillagetracks"] = {"w_wt", "snow_bridge"},
+	["castletracks"] = {"n_castle", "forest_source"},
+	["aridtracks"] = {"ocean_portal", "desert", "sand_shortcut", "fire_source", "sandsource"},
+	["minorfiretracks"] = {"sand_shortcut", "dom", "eote", "disorientation", "gorge"},
+	["minordeserttracks"] = {"sand_shortcut", "dom"},
+	["towertracks"] = {"forest_source", "snow_source", "ocean_source", "fire_source"},
 }
 
 -- block switching off the key if any values are still active
@@ -77,7 +109,7 @@ local reverseRailDict = {
 	["forest_source_shared_e"] = {"forest_source", "ocean_shortcut"}
 }
 
--- check on key, and only active blocker if all of it's values and initial key are true
+-- check on key, and only active blocker if all of it"s values and initial key are true
 local andRailDict = {
 	["fire_glyph"] = {
 		["sand_sc_blocker"] = {"sand_shortcut"},
@@ -125,6 +157,7 @@ local westForestSquish = {
 	"wtt"
 }
 
+
 function AnyRail(railList)
 	if not railList then
 		return false
@@ -159,7 +192,6 @@ function InList(l, x)
 	end
 	return false
 end
-
 
 function RailWatch(item)
 	print(item)

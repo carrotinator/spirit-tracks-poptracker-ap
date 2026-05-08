@@ -3,7 +3,7 @@
         "name": "Autofill Tracker",
         "type": "toggle",
         "img": "images/items/cargo/Vessel.png",
-        "initial_active_state": false,
+        "initial_active_state": true,
         "codes": "autofill_tracker"
     },
     {
