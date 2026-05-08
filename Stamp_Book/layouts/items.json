@@ -1,0 +1,55 @@
+{
+    "shared_item_grid_vertical": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 100,
+                        "item_width": 100,
+                        "rows": [
+                            [
+                                "Stamp: Castle Town",
+                                "Stamp: Outset Village",
+                                "Stamp: Mayscore",
+                                "Stamp: Woodland Sanctuary",
+                                "Stamp: Anouki Village"
+                            ],
+                            [
+                                "Stamp: Snowfall Sanctuary",
+                                "Stamp: Papuzia Village",
+                                "Stamp: Island Sanctuary",
+                                "Stamp: Goron Village",
+                                "Stamp: Valley Sanctuary"
+                            ],
+                            [
+                                "Stamp: Dune Sanctuary",
+                                "Stamp: Wooded Temple",
+                                "Stamp: Blizzard Temple",
+                                "Stamp: Marine Temple",
+                                "Stamp: Mountain Temple"
+                            ],
+                            [
+                                "Stamp: Desert Temple",
+                                "Stamp: Pirate Hideout",
+                                "Stamp: Trading Post",
+                                "Stamp: Icy Spring",
+                                "Stamp: Tower of Spirits"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

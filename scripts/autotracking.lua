@@ -1,3 +1,4 @@
+
 -- Configuration --------------------------------------
 AUTOTRACKER_ENABLE_DEBUG_LOGGING = true and ENABLE_DEBUG_LOG
 AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP = true and AUTOTRACKER_ENABLE_DEBUG_LOGGING
@@ -16,5 +17,9 @@ end
 print("---------------------------------------------------------------------")
 print("")
 
+require("scripts/settings")
 -- loads the AP autotracking code
-ScriptHost:LoadScript("scripts/autotracking/archipelago.lua")
+require("scripts/autotracking/archipelago")
+
+
+        
