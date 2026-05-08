@@ -106,9 +106,9 @@
 
     {
         "name": "Compass of Light",
-        "type": "toggle",
+        "type": "consumable",
         "img": "images/items/Compass of Light.png",
-        "initial_active_state": false,
+        "max_quantity": 30,
         "overlay_align": "right",
         "codes": "Compass"
     },
@@ -208,7 +208,7 @@
     {
         "name": "Cannon",
         "type": "toggle",
-        "img": "images/items/Cannon2.png",
+        "img": "images/items/Cannon3.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "Cannon"
@@ -216,7 +216,7 @@
     {
         "name": "Wagon",
         "type": "toggle",
-        "img": "images/items/wagon.png",
+        "img": "images/items/wagon2.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "wagon"
@@ -1549,5 +1549,4 @@
         "overlay_align": "right",
         "codes": "cargo:vessel"
     }
-
 ]
