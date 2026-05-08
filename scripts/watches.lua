@@ -63,6 +63,14 @@ local stampPacks = {
     ["stamp_pack_5"] = {"stamps"}
 }
 
+local rabbitTypes = {
+    "grass",
+    "snow",
+    "ocean",
+    "mountain",
+    "sand"
+}
+
 function MultiItems(item)
     print("multiItems:", item)
     
@@ -97,6 +105,23 @@ function MultiItems(item)
             else
                 Tracker:FindObjectForCode(stamp).Active = false
             end
+        end
+    end
+
+-- calculate total rabbits
+    for _, rabbitType in ipairs(rabbitTypes) do
+        if string.find(item, rabbitType.."rabbit_") then
+            print("  "..rabbitType)
+            local rabbit_count = 0
+            local countList = {
+                1, 2, 3, 4, 5, 10
+            }
+            for _, count in ipairs(countList) do
+                rabbit_count = rabbit_count + Tracker:FindObjectForCode(rabbitType.."rabbit_"..count).AcquiredCount
+            end
+            print("  "..rabbitType.."rabbit has total count: "..rabbit_count)
+            Tracker:FindObjectForCode(rabbitType.."rabbit").AcquiredCount = math.min(rabbit_count, 10)
+            break
         end
     end
 end
