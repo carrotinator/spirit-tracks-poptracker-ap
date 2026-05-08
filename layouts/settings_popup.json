@@ -1,0 +1,31 @@
+{
+    "settings_popup": {
+        "type": "array",
+        "margin": 5,
+        "content": [
+            {
+                "type": "group",
+                "header": "Settings",
+                "orientation": "horizontal",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "h_alignment": "left",
+                        "margin": "5, 15, 0, -35",
+                        "item_size": 90,
+                        "item_margin": "-4,-18",
+                        "rows": [
+                            ["autofill_tracker", "goal", "compass_shard_count", "logic"],
+                            ["exclude_dungeons", "exclude_sections", "require_specific_dungeons"],
+                            ["keysanity", "randomize_boss_keys", "big_keyrings", "portal_behavior"],
+                            ["rabbitsanity", "ranomize_passengers", "randomize_cargo"],
+                            ["randomize_tears", "spirit_weapons", "tear_sections"],
+                            ["dark_realm_access", "randomize_stamps"],
+                            ["tos_section_unlocks", "tos_unlock_base_item", "shuffle_tos_sections"]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

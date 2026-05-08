@@ -1,37 +1,44 @@
--- Utility Script for helper functions etc.
-ScriptHost:LoadScript("scripts/utils.lua")
-ScriptHost:LoadScript("scripts/logic.lua")
 
-Tracker:AddItems("items/items.json")
-Tracker:AddItems("items/broadcast.json")
-Tracker:AddItems("items/settings.json")
-Tracker:AddMaps("maps/maps.json")
+local variant = Tracker.ActiveVariantUID
 
-Tracker:AddLocations("locations/logic/general_logic.json")
+-- Items
+require("scripts/items_import")
 
-Tracker:AddLocations("locations/planets/corneria.json")
-Tracker:AddLocations("locations/planets/meteo.json")
-Tracker:AddLocations("locations/planets/sectory.json")
-Tracker:AddLocations("locations/planets/katina.json")
-Tracker:AddLocations("locations/planets/fortuna.json")
-Tracker:AddLocations("locations/planets/aquas.json")
-Tracker:AddLocations("locations/planets/solar.json")
-Tracker:AddLocations("locations/planets/sectorx.json")
-Tracker:AddLocations("locations/planets/zoness.json")
-Tracker:AddLocations("locations/planets/sectorz.json")
-Tracker:AddLocations("locations/planets/macbeth.json")
-Tracker:AddLocations("locations/planets/titania.json")
-Tracker:AddLocations("locations/planets/area6.json")
-Tracker:AddLocations("locations/planets/bolse.json")
-Tracker:AddLocations("locations/planets/venom.json")
-Tracker:AddLocations("locations/planets/goals.json")
+-- Logic
+require("scripts/logic/logic_helper")
+require("scripts/logic/base_logic")
+require("scripts/logic/graph_logic/logic_main")
 
-Tracker:AddLayouts("layouts/items.json")
-Tracker:AddLayouts("layouts/tracker.json")
-Tracker:AddLayouts("layouts/broadcast.json")
-Tracker:AddLayouts("layouts/settings.json")
+-- Maps
+if Tracker.ActiveVariantUID == "maps-u" then
+    Tracker:AddMaps("maps/maps-u.json")  
+else
+    Tracker:AddMaps("maps/maps.json")  
+end  
 
-ScriptHost:LoadScript("scripts/broadcast-logic.lua")
-if PopVersion and PopVersion >= "0.18.0" then
-    ScriptHost:LoadScript("scripts/autotracking.lua")
+if PopVersion and PopVersion >= "0.23.0" then
+    Tracker:AddLocations("locations/dungeons.json")
 end
+
+-- Layout
+require("scripts/layouts_import")
+
+-- Locations
+require("scripts/locations_import")
+
+-- AutoTracking for Poptracker
+if PopVersion and PopVersion >= "0.26.0" then
+    require("scripts/autotracking")
+end
+
+function OnFrameHandler()
+    ScriptHost:RemoveOnFrameHandler("load handler")
+    -- stuff
+    ScriptHost:AddWatchForCode("StateChanged", "*", StateChanged)
+    ScriptHost:AddOnLocationSectionChangedHandler("location_section_change_handler", LocationHandler)
+    CreateLuaManualStorageItem("manual_location_storage")
+    ForceUpdate()
+end
+require("scripts/luaitems")
+require("scripts/watches")
+ScriptHost:AddOnFrameHandler("load handler", OnFrameHandler)

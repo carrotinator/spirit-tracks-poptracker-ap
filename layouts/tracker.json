@@ -1,5 +1,5 @@
-﻿{
-    "tracker_horizontal": {
+{
+    "tracker_default": {
         "type": "container",
         "background": "#00000000",
         "content": {
@@ -8,18 +8,34 @@
             "content": [
                 {
                     "type": "dock",
-                    "dock": "bottom",
+                    "dock": "left",
+                    "v_alignment": "stretch",
                     "content": [
                         {
                             "type": "group",
-                            "header": "Rails",
-                            "dock": "left",
-                            "margin": "0,0,3,0",
+                            "header": "Items",
+                            "dock": "top",
                             "content": {
                                 "type": "layout",
-                                "h_alignment": "center",
-                                "v_alignment": "center",
-                                "key": "rail_grid"
+                                "key": "shared_item_grid_vertical"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Cargo",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "Cargo_item_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Passengers",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "Passenger_item_grid"
                             }
                         }
                     ]

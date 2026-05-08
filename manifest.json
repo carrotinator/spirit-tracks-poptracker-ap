@@ -1,15 +1,34 @@
-﻿{
-  "name": "SpiritTracksTester",
-  "game_name": "Spirit Tracks",
-  "package_version": "3.0",
-  "min_poptracker_version": "0.28.0",
-  "package_uid": "carrot_st",
-  "author": "Carrotinator",
-  "variants": {
-    "classic": {
-      "display_name": "Main Tracker",
-      "flags": ["ap"]
-    }
-  },
-  "versions_url": ""
+{
+    "name": "Spirit Tracks AP Tracker",
+    "game_name": "Spirit Tracks",
+    "package_version": "0.4.0",
+    "package_uid": "spirit tracks_ap",
+    "author": "ZobeePlays & Carrotinator",
+    "variants": {
+        "Items Tracker": {
+            "display_name": "Item Tracker",
+            "flags": [
+                "ap"
+            ]
+        },
+        "Tracks_Tracker": {
+            "display_name": "Tracks Tracker",
+            "flags": [
+                "ap"
+            ]
+        },
+        "Stamp_Book": {
+            "display_name": "Stamp Book",
+            "flags": [
+                "ap"
+            ]
+        },
+        "Treasures_Tracker": {
+            "display_name": "Treasure Tracker",
+            "flags": [
+                "ap"
+            ]
+        }
+    },
+    "min_poptracker_version": "0.31.0"
 }

@@ -1,108 +1,172 @@
 {
-	"rail_grid": {
-		"type": "array",
-		"orientation": "horizontal",
-		"margin": 0,
-		"content": [
-			{
-				"type": "array",
-				"orientation": "vertical",
-				"margin": 0,
-				"content": [
-{"type": "item", "item": "snow_source_shared", "margin": "19, 0"},
-{"type": "item", "item": "snow_source_tos", "margin": "188, 6"},
-{"type": "item", "item": "forest_source_shared_fg", "margin": "127, -6"},
-{"type": "item", "item": "btt", "margin": "31, -280"},
-{"type": "item", "item": "sand_sc_blocker", "margin": "295, 274"},
-{"type": "item", "item": "fire_snow_blocker", "margin": "211, -280"},
-{"type": "item", "item": "forest_glyph", "margin": "77, 338"},
-{"type": "item", "item": "w_wt_blocker", "margin": "73, -493"},
-{"type": "item", "item": "snow_bridge_blocker", "margin": "85, 499"},
-{"type": "item", "item": "w_castle_blocker", "margin": "109, -481"},
-{"type": "item", "item": "wtt_blocker_fg", "margin": "67, 505"},
-{"type": "item", "item": "w_forest_blocker", "margin": "67, -517"},
-{"type": "item", "item": "fire_source_shared_mtt", "margin": "347, 278"},
-{"type": "item", "item": "fire_source_shared_glyph", "margin": "271, -303"},
-{"type": "item", "item": "snow_glyph", "margin": "0, 273"},
-{"type": "item", "item": "fire_source_tos", "margin": "232, -387"},
-{"type": "item", "item": "n_castle", "margin": "133, 352"},
-{"type": "item", "item": "forest_source_shared_wtt", "margin": "67, -394"},
-{"type": "item", "item": "mtt", "margin": "331, 108"},
-{"type": "item", "item": "btt_snowfall", "margin": "59, -140"},
-{"type": "item", "item": "btt_anouki", "margin": "75, 140"},
-{"type": "item", "item": "snow_bridge", "margin": "85, -140"},
-{"type": "item", "item": "w_wt", "margin": "25, 80"},
-{"type": "item", "item": "dom", "margin": "427, -272"},
-{"type": "item", "item": "fire_glyph", "margin": "205, 140"},
-{"type": "item", "item": "wtt", "margin": "67, -98"},
-{"type": "item", "item": "n_castle_w", "margin": "133, 1"},
-{"type": "item", "item": "ocean_source_shared_oct", "margin": "355, 26"},
-{"type": "item", "item": "ocean_source_shared_sand", "margin": "283, -86"},
-{"type": "item", "item": "mtt_e", "margin": "427, -100"},
-{"type": "item", "item": "dtt", "margin": "314, 111"},
-{"type": "item", "item": "ocean_source_tos", "margin": "232, -163"},
-{"type": "item", "item": "oct", "margin": "341, 130"},
-{"type": "item", "item": "desert_blocker", "margin": "283, -243"},
-{"type": "item", "item": "sand_shortcut_shared", "margin": "271, 167"},
-{"type": "item", "item": "desert", "margin": "271, -167"},
-{"type": "item", "item": "forest_source_shared_e", "margin": "193, 143"},
-{"type": "item", "item": "ocean_glyph", "margin": "146, -95"},
-{"type": "item", "item": "compass_blocker", "margin": "67, 54"},
-{"type": "item", "item": "sand_shortcut", "margin": "271, -250"},
-{"type": "item", "item": "forest_source", "margin": "188, 231"},
-{"type": "item", "item": "snow_bridge_south", "margin": "93, -303"},
-{"type": "item", "item": "w_forest", "margin": "0, 297"},
-{"type": "item", "item": "pirate", "margin": "246, -324"},
-{"type": "item", "item": "ocean_shortcut_blocker", "margin": "181, 264"},
-{"type": "item", "item": "mayscore_bridge", "margin": "169, -264"},
-{"type": "item", "item": "compass", "margin": "0, 258"},
-{"type": "item", "item": "tp_portal_blocker", "margin": "151, -287"},
-{"type": "item", "item": "disorientation", "margin": "205, -65"},
-{"type": "item", "item": "eote", "margin": "369, 13"},
-{"type": "item", "item": "slippery", "margin": "109, -53"},
-{"type": "item", "item": "snowdrift", "margin": "0, 8"},
-{"type": "item", "item": "nicyspring", "margin": "121, -75"},
-{"type": "item", "item": "gorge", "margin": "205, 15"},
-{"type": "item", "item": "snow_source", "margin": "145, 13"},
-{"type": "item", "item": "fire_source", "margin": "240, -37"},
-{"type": "item", "item": "tos", "margin": "216, 47"},
-{"type": "item", "item": "w_castle", "margin": "109, -30"},
-{"type": "item", "item": "snow_glyph_rabbit", "margin": "25, 0"},
-{"type": "item", "item": "ocean_shortcut", "margin": "181, -5"},
-{"type": "item", "item": "ocean_portal", "margin": "280, -26"},
-{"type": "item", "item": "cave", "margin": "0, -16"},
-{"type": "item", "item": "las", "margin": "397, 22"},
-{"type": "item", "item": "tp_portal", "margin": "133, -51"},
-{"type": "item", "item": "forest_glyph_outset", "margin": "75, 28"},
-{"type": "item", "item": "fire_glyph_n", "margin": "277, -366"},
-{"type": "item", "item": "mtt_w", "margin": "328, 351"},
-{"type": "item", "item": "fire_glyph_w", "margin": "241, -342"},
-{"type": "item", "item": "ocean_source", "margin": "280, 520"},
-{"type": "item", "item": "ocean_shortcut_s", "margin": "18, -556"},
-{"type": "item", "item": "ocean_glyph_tp", "margin": "169, 579"},
-{"type": "item", "item": "ocean_glyph_upper", "margin": "169, -601"},
-{"type": "item", "item": "ocean_glyph_n", "margin": "265, 577"},
-{"type": "item", "item": "portal_d_sr", "margin": "131, -847"},
-{"type": "item", "item": "lock_mtt", "margin": "374, 841"},
-{"type": "item", "item": "portal_e_mr", "margin": "312, -837"},
-{"type": "item", "item": "portal_b_sr", "margin": "191, 840"},
-{"type": "item", "item": "portal_d_mr", "margin": "401, -845"},
-{"type": "item", "item": "lock_sr", "margin": "4, 856"},
-{"type": "item", "item": "portal_c_sr", "margin": "100, -861"},
-{"type": "item", "item": "portal_a_sr", "margin": "28, 858"},
-{"type": "item", "item": "portal_f_mr", "margin": "276, -873"},
-{"type": "item", "item": "portal_h_e", "margin": "454, 894"},
-{"type": "item", "item": "portal_h_w", "margin": "293, -861"},
-{"type": "item", "item": "portal_a_fr", "margin": "131, 859"},
-{"type": "item", "item": "portal_f_or", "margin": "395, -870"},
-{"type": "item", "item": "portal_g_or", "margin": "320, 862"},
-{"type": "item", "item": "portal_g_fr", "margin": "143, -838"},
-{"type": "item", "item": "portal_e_fr", "margin": "44, 832"},
-{"type": "item", "item": "portal_c_or", "margin": "360, -835"},
-{"type": "item", "item": "lock_bridge", "margin": "185, 820"},
-{"type": "item", "item": "portal_b_fr", "margin": "177, -811"}
-				]
-			}
-		]
-	}
+    "shared_item_grid_vertical": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "center",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 58,
+                        "item_width": 62,
+                        "rows": [
+                            [
+                                "Whirlwind",
+                                "Boomerang",
+                                "Whip",
+                                "Bow",
+                                "Bombs",
+                                "SandWand",
+                                "Flute"
+                            ],
+                            [
+                                "ProgSword",
+                                "Shield",
+                                "Compass",
+                                "BowofLight",
+                                "Rabbit Net",
+                                "swordbeamscroll",
+                                "greatspinscroll"
+                            ],
+                            [
+                                "Cannon",
+                                "wagon",
+                                "Song of awakening",
+                                "Song of healing",
+                                "Song of birds",
+                                "Song of light",
+                                "Song of discovery"
+                            ],
+                            [
+                                "stampbook",
+                                "stamps",
+                                "grassrabbit",
+                                "snowrabbit",
+                                "oceanrabbit",
+                                "mountainrabbit",
+                                "sandrabbit"
+                            ],
+                            [
+                                "WoodSmall",
+                                "BlizzSmall",
+                                "Marinemall",
+                                "MountSmall",
+                                "DesSmall",
+                                "TunnelSmall",
+                                "SnurglarKeys"
+                            ],
+                            [
+                                "ToS2Small",
+                                "Tos4Small",
+                                "ToS5Small",
+                                "ToS6Small"
+                            ],
+                            [
+                                "WoodBig",
+                                "BlizzBig",
+                                "MarinBig",
+                                "MountBig",
+                                "DesBig",
+                                "ToS3Big",
+                                "Tos5Big"
+                            ],
+                            [
+                                "TearToS1",
+                                "TearToS2",
+                                "TearToS3",
+                                "TearToS4",
+                                "TearToS5",
+                                "TearToS6"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Passenger_item_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "1, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 80,
+                        "item_width": 63,
+                        "rows": [
+                            [
+                                "Passenger Alfonzo",
+                                "Passenger Kenzo",
+                                "Passenger Ferrus",
+                                "Passenger Joe",
+                                "Passenger Mona",
+                                "Passenger Dovok",
+                                "Passenger Carben"
+                            ],
+                            [
+                                "FF",
+                                "Passenger Kofu",
+                                "Passenger Noko",
+                                "Passenger Wadatsumi",
+                                "Passenger City Goron",
+                                "Passenger Snow Goron",
+                                "FF"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "Cargo_item_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 58,
+                        "item_width": 62,
+                        "rows": [
+                            [
+                                "Cargo: Cuccos",
+                                "cargo:megaice",
+                                "cargo:lumber",
+                                "cargo:goronsteel",
+                                "cargo:fish",
+                                "cargo:darkore",
+                                "cargo:vessel"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
 }
