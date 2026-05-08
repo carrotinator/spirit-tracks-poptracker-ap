@@ -1,0 +1,104 @@
+[
+    {
+        "name": "Autofill Tracker",
+        "type": "toggle",
+        "img": "images/items/cargo/Vessel.png",
+        "initial_active_state": false,
+        "codes": "autofill_tracker"
+    },
+    {
+		"name": "Logic",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/items/cargo/Vessel.png",
+				"codes": "logic, normal",
+				"inherit_codes": false,
+                "name": "Normal Logic"
+			},
+			{
+				"img": "images/items/cargo/Lumber.png",
+				"codes": "logic, hard",
+				"inherit_codes": false,
+                "name": "Hard Logic"
+			},
+			{
+				"img": "images/items/cargo/Fish.png",
+				"codes": "logic, glitched",
+				"inherit_codes": false,
+                "name": "Glitched Logic"
+			}
+		]
+	},
+    {
+		"name": "Rabbitsanity",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/settings/rabbit_no.png",
+				"codes": "rabbitsanity, no_rabbits",
+				"inherit_codes": false,
+                "name": "No Rabbitsantity"
+			},
+			{
+				"img": "images/settings/rabbit_vanilla.png",
+				"codes": "rabbitsanity, vanilla",
+				"inherit_codes": false,
+                "name": "Vanilla Rabbitsanity"
+			},
+            {
+				"img": "images/settings/rabbit_unique.png",
+				"codes": "rabbitsanity, unique_checks",
+				"inherit_codes": false,
+                "name": "Unique Checks Rabbitsanity"
+			},
+            {
+				"img": "images/settings/rabbit_total.png",
+				"codes": "rabbitsanity, on_total",
+				"inherit_codes": false,
+                "name": "No Rabbitsantity"
+			},
+            {
+				"img": "images/settings/rabbit_both.png",
+				"codes": "rabbitsanity, both",
+				"inherit_codes": false,
+                "name": "Both Rabbitsanity"
+			}
+		]
+	},
+    {
+		"name": "Keysanity",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/items/keys/Small Key BLANK.png",
+				"codes": "keysanity, vanilla",
+				"inherit_codes": false
+			},
+            {
+				"img": "images/items/keys/Small Key BLANK.png",
+				"codes": "keysanity, own_dungeon",
+				"inherit_codes": false
+			},
+            {
+				"img": "images/items/keys/Snurglar Keys.png",
+				"codes": "keysanity, anywhere",
+				"inherit_codes": false
+			},
+            {
+				"img": "images/items/keys/Small Key BLANK.png",
+				"codes": "keysanity, own_section",
+				"inherit_codes": false
+			}
+		]
+	}
+]

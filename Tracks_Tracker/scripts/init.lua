@@ -9,6 +9,7 @@ Tracker:AddMaps("maps/maps.json")
 
 Tracker:AddLocations("locations/logic/general_logic.json")
 
+<<<<<<< HEAD
 Tracker:AddLocations("locations/planets/corneria.json")
 Tracker:AddLocations("locations/planets/meteo.json")
 Tracker:AddLocations("locations/planets/sectory.json")
@@ -26,6 +27,8 @@ Tracker:AddLocations("locations/planets/bolse.json")
 Tracker:AddLocations("locations/planets/venom.json")
 Tracker:AddLocations("locations/planets/goals.json")
 
+=======
+>>>>>>> carrot-map-tweaks
 Tracker:AddLayouts("layouts/items.json")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")
