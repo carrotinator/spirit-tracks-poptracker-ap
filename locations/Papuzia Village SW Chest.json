@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 [
     {
         "name": "Papuzia Village SW Chest",
@@ -9,16 +8,4 @@
             " "
         ]
     }
-=======
-[
-    {
-        "name": "Papuzia Village SW Chest",
-        "chest_unopened_img": "/images/items/close.png",
-        "chest_opened_img": "/images/items/open.png",
-        "overlay_background": "#000000",
-        "access_rules": [
-            " "
-        ]
-    }
->>>>>>> carrot-map-tweaks
 ]
