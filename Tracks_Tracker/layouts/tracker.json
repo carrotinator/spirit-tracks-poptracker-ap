@@ -15,14 +15,10 @@
                             "header": "Rails",
                             "dock": "left",
                             "margin": "0,0,3,0",
-                            "max_width": 481,
-                            "max_height": 375,
                             "content": {
                                 "type": "layout",
                                 "h_alignment": "center",
                                 "v_alignment": "center",
-                                "max_width": 481,
-                                "max_height": 375,
                                 "key": "rail_grid"
                             }
                         }
