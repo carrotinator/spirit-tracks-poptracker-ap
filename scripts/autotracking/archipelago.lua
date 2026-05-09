@@ -347,6 +347,7 @@ function UpdateSettings()
         logic = {code="logic"},
         rabbitsanity = {code="rabbitsanity"},
         keysanity = {code="keysanity"},
+        big_keyrings = {code="big_keyrings"}
     }
 
     for settings_name , settings_value in pairs(SLOT_DATA) do

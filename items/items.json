@@ -1977,5 +1977,17 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "minordeserttracks"
-    }
+    },
+    {"name": "keyring_snurglar", "type": "toggle", "codes": "keyring_snurglar"},
+    {"name": "keyring_wood", "type": "toggle", "codes": "keyring_wood"},
+    {"name": "keyring_tos2", "type": "toggle", "codes": "keyring_tos2"},
+    {"name": "keyring_tos4", "type": "toggle", "codes": "keyring_tos4"},
+    {"name": "keyring_tos5", "type": "toggle", "codes": "keyring_tos5"},
+    {"name": "keyring_tos6", "type": "toggle", "codes": "keyring_tos6"},
+    {"name": "keyring_bliz", "type": "toggle", "codes": "keyring_bliz"},
+    {"name": "keyring_marine", "type": "toggle", "codes": "keyring_marine"},
+    {"name": "keyring_mount", "type": "toggle", "codes": "keyring_mount"},
+    {"name": "keyring_desert", "type": "toggle", "codes": "keyring_desert"},
+    {"name": "keyring_tos3", "type": "toggle", "codes": "keyring_tos3"}
+
 ]

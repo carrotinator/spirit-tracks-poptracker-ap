@@ -71,6 +71,30 @@ local rabbitTypes = {
     "sand"
 }
 
+local keyringLookup = {
+    ["keyring_snurglar"] = {small="SnurglarKeys"},
+    ["keyring_wood"] = {small="WoodSmall", big="WoodBig"},
+    ["keyring_tos2"] = {small="ToS2Small"},
+    ["keyring_tos4"] = {small="Tos4Small"},
+    ["keyring_tos5"] = {small="ToS5Small", big="Tos5Big"},
+    ["keyring_tos6"] = {small="ToS6Small"},
+    ["keyring_bliz"] = {small="BlizzSmall", big="BlizzBig"},
+    ["keyring_marine"] = {small="Marinemall", big="MarinBig"},
+    ["keyring_mount"] = {small="MountSmall", big="MountBig"},
+    ["keyring_desert"] = {small="DesSmall", big="DesBig"},
+    ["keyring_tos3"] = {big="ToS3Big"},
+}
+
+local allBigKeys = {
+    "WoodBig",
+    "BlizzBig",
+    "MarinBig",
+    "MountBig",
+    "DesBig",
+    "ToS3Big",
+    "Tos5Big"
+}
+
 function MultiItems(item)
     print("multiItems:", item)
     
@@ -108,7 +132,7 @@ function MultiItems(item)
         end
     end
 
--- calculate total rabbits
+    -- calculate total rabbits
     for _, rabbitType in ipairs(rabbitTypes) do
         if string.find(item, rabbitType.."rabbit_") then
             print("  "..rabbitType)
@@ -124,6 +148,17 @@ function MultiItems(item)
             break
         end
     end
+
+    -- set keyrings
+    if keyringLookup[item] and Tracker:FindObjectForCode(item).Active then
+        if keyringLookup[item].small then
+            Tracker:FindObjectForCode(keyringLookup[item].small).AcquiredCount = Tracker:FindObjectForCode(keyringLookup[item].small).MaxCount
+        end
+        if keyringLookup[item].big and Tracker:FindObjectForCode("big_keyrings").Active then
+            Tracker:FindObjectForCode(keyringLookup[item].big).Active = true
+        end
+    end
+
 end
 
 

@@ -1,6 +1,6 @@
 [
     {
-        "name": "Autofill Tracker",
+        "name": "Autofill Settings",
         "type": "toggle",
         "img": "images/items/cargo/Vessel.png",
         "initial_active_state": true,
@@ -62,7 +62,7 @@
 				"img": "images/settings/rabbit_total.png",
 				"codes": "rabbitsanity, on_total",
 				"inherit_codes": false,
-                "name": "No Rabbitsantity"
+                "name": "On Total Rabbitsanity"
 			},
             {
 				"img": "images/settings/rabbit_both.png",
@@ -100,5 +100,12 @@
 				"inherit_codes": false
 			}
 		]
-	}
+	},
+    {
+        "name": "Big Keys in Keyrings",
+        "type": "toggle",
+        "img": "images/items/keys/Boss Key BLANK.png",
+        "initial_active_state": false,
+        "codes": "big_keyrings"
+    }
 ]

@@ -165,18 +165,19 @@ ITEM_MAPPING = {
 	[160] = {{"Tos5Big", "toggle"}},
 
 	[161] = {{"SnurglarKeys", "toggle"}},
-	[165] = {{"SnurglarKeys", "toggle"}},
+	[165] = {{"keyring_snurglar", "toggle"}},
 
     --Key Rings
-	[136] = {{"WoodSmall", "toggle"}},
-	[139] = {{"ToS2Small", "toggle"}},
-	[141] = {{"Tos4Small", "toggle"}},
-	[143] = {{"ToS5Small", "toggle"}},
-	[145] = {{"ToS6Small", "toggle"}},
-	[147] = {{"BlizzSmall", "toggle"}},
-	[149] = {{"Marinemall", "toggle"}},
-	[151] = {{"MountSmall", "toggle"}},
-	[153] = {{"DesSmall", "toggle"}},
+	[136] = {{"keyring_wood", "toggle"}},
+	[139] = {{"keyring_tos2", "toggle"}},
+	[141] = {{"keyring_tos4", "toggle"}},
+	[143] = {{"keyring_tos5", "toggle"}},
+	[145] = {{"keyring_tos6", "toggle"}},
+	[147] = {{"keyring_bliz", "toggle"}},
+	[149] = {{"keyring_marine", "toggle"}},
+	[151] = {{"keyring_mount", "toggle"}},
+	[153] = {{"keyring_desert", "toggle"}},
+	[279] = {{"keyring_tos3", "toggle"}},
 
 
 
