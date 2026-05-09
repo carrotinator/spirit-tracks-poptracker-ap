@@ -1,17 +1,15 @@
 {
 	"rail_grid": {
-		"type": "array",
-		"orientation": "horizontal",
+		"type": "canvas",
+		"orientation": "vertical",
 		"margin": 0,
-		"max_height": 345,
-		"max_width": 481,
+		"height": 375,
+		"width": 481,
 		"content": [
 			{
 				"type": "array",
 				"orientation": "vertical",
 				"margin": 0,
-				"max_height": 345,
-				"max_width": 481,
 				"content": [
 {"type": "item", "item": "snow_source_shared", "margin": "19, 0"},
 {"type": "item", "item": "snow_source_tos", "margin": "188, 6"},
