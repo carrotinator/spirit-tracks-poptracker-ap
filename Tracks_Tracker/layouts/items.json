@@ -57,7 +57,7 @@
 {"type": "item", "item": "pirate", "margin": "246, -324"},
 {"type": "item", "item": "ocean_shortcut_blocker", "margin": "181, 264"},
 {"type": "item", "item": "mayscore_bridge", "margin": "169, -264"},
-{"type": "item", "item": "compass", "margin": "0, 258"},
+{"type": "item", "item": "compass_rail", "margin": "0, 258"},
 {"type": "item", "item": "tp_portal_blocker", "margin": "151, -287"},
 {"type": "item", "item": "disorientation", "margin": "205, -65"},
 {"type": "item", "item": "eote", "margin": "369, 13"},

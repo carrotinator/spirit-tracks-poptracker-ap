@@ -40,7 +40,7 @@ function OnFrameHandler()
     ForceUpdate()
 end
 require("scripts/luaitems")
-require("scripts/watches")
 require("scripts/utils")
+require("scripts/watches")
 require("scripts/raillogic")
 ScriptHost:AddOnFrameHandler("load handler", OnFrameHandler)

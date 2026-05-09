@@ -1,0 +1,50 @@
+[
+        {
+        "name": "tearoflight(tos1)",
+        "type": "consumable",
+        "max_quantity": 3,
+        "img": "images/items/TearToS1.png",
+        "overlay_align": "right",
+        "codes": "TearToS1"
+    },
+    {
+        "name": "tearoflight(tos2)",
+        "type": "consumable",
+        "max_quantity": 3,
+        "img": "images/items/TearToS2.png",
+        "overlay_align": "right",
+        "codes": "TearToS2"
+    },
+    {
+        "name": "tearoflight(tos3)",
+        "type": "consumable",
+        "max_quantity": 3,
+        "img": "images/items/TearToS3.png",
+        "overlay_align": "right",
+        "codes": "TearToS3"
+    },
+    {
+        "name": "tearoflight(tos4)",
+        "type": "consumable",
+        "max_quantity": 3,
+        "img": "images/items/TearToS4.png",
+        "overlay_align": "right",
+        "codes": "TearToS4"
+    },
+    {
+        "name": "tearoflight(tos5)",
+        "type": "consumable",
+        "max_quantity": 3,
+        "img": "images/items/TearToS5.png",
+        "overlay_align": "right",
+        "codes": "TearToS5"
+    },
+    {
+        "name": "tearoflight(tos6)",
+        "type": "consumable",
+        "max_quantity": 3,
+        "img": "images/items/TearToS6.png",
+        "overlay_align": "right",
+        "codes": "TearToS6"
+    }
+]

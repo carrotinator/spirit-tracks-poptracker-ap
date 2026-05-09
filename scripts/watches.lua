@@ -63,14 +63,6 @@ local stampPacks = {
     ["stamp_pack_5"] = {"stamps"}
 }
 
-local rabbitTypes = {
-    "grass",
-    "snow",
-    "ocean",
-    "mountain",
-    "sand"
-}
-
 local keyringLookup = {
     ["keyring_snurglar"] = {small="SnurglarKeys"},
     ["keyring_wood"] = {small="WoodSmall", big="WoodBig"},
@@ -95,52 +87,68 @@ local allBigKeys = {
     "Tos5Big"
 }
 
-function MultiItems(item)
-    print("multiItems:", item)
-    
-    -- Receieved item is a toggle, connected is a consumable
-    if multiToggles[item] then
-        for _, target in ipairs(multiToggles[item]) do
-            target = Tracker:FindObjectForCode(target)
-            incoming = Tracker:FindObjectForCode(item)
-            -- print(incoming.Type)
-            if incoming.Type == "toggle" then
-                if incoming.Active then
-                    target.AcquiredCount = target.AcquiredCount + 1
-                else
-                    target.AcquiredCount = target.AcquiredCount - 1
-                end
-            end
-        end
-    end
-
-    -- Stamp packs count how many you've got, and add the needed stamps based on slot data
-    if stampPacks[item] then
-        local total_stamps = 0
-        for stamp_pack, _ in pairs(stampPacks) do
-            total_stamps = total_stamps + Tracker:FindObjectForCode(stamp_pack).AcquiredCount
-        end
-        print("total stamps:", total_stamps)
-        for i, stamp_id in ipairs(STAMP_PACK_ORDER) do
-            stamp = stamps[stamp_id+1]
-            print(i, stamp_id, stamp)
-            if i <= total_stamps then
-                Tracker:FindObjectForCode(stamp).Active = true
+-- Receieved item is a toggle, connected is a consumable
+function MultiToggles(item)
+    print("MultiToggles: "..item)
+    for _, target in ipairs(multiToggles[item]) do
+        target = Tracker:FindObjectForCode(target)
+        incoming = Tracker:FindObjectForCode(item)
+        -- print(incoming.Type)
+        if incoming.Type == "toggle" then
+            if incoming.Active then
+                target.AcquiredCount = target.AcquiredCount + 1
             else
-                Tracker:FindObjectForCode(stamp).Active = false
+                target.AcquiredCount = target.AcquiredCount - 1
             end
         end
     end
+end
+DictItemWatches(MultiToggles, multiToggles)
 
-    -- calculate total rabbits
+-- Stamp packs count how many you've got, and add the needed stamps based on slot data
+function StampPacks(item)
+    local total_stamps = 0
+    for stamp_pack, _ in pairs(stampPacks) do
+        total_stamps = total_stamps + Tracker:FindObjectForCode(stamp_pack).AcquiredCount
+    end
+    print("total stamps:", total_stamps)
+    for i, stamp_id in ipairs(STAMP_PACK_ORDER) do
+        stamp = stamps[stamp_id+1]
+        print(i, stamp_id, stamp)
+        if i <= total_stamps then
+            Tracker:FindObjectForCode(stamp).Active = true
+        else
+            Tracker:FindObjectForCode(stamp).Active = false
+        end
+    end
+end
+DictItemWatches(StampPacks, stampPacks)
+
+-- Rabbit stuff
+local rabbitList = {}
+local rabbitCounts = {1, 2, 3, 4, 5, 10}
+local rabbitTypes = {
+    "grass",
+    "snow",
+    "ocean",
+    "mountain",
+    "sand"
+}
+for _, rabbitType in ipairs(rabbitTypes) do
+    for _, count in ipairs(rabbitCounts) do
+        table.insert(rabbitList, rabbitType.."rabbit_"..count)
+    end
+end
+
+dump_table(rabbitList)
+
+-- calculate total rabbits
+function RabbitPacks(item)
     for _, rabbitType in ipairs(rabbitTypes) do
         if string.find(item, rabbitType.."rabbit_") then
             print("  "..rabbitType)
             local rabbit_count = 0
-            local countList = {
-                1, 2, 3, 4, 5, 10
-            }
-            for _, count in ipairs(countList) do
+            for _, count in ipairs(rabbitCounts) do
                 rabbit_count = rabbit_count + Tracker:FindObjectForCode(rabbitType.."rabbit_"..count).AcquiredCount
             end
             print("  "..rabbitType.."rabbit has total count: "..rabbit_count)
@@ -148,9 +156,12 @@ function MultiItems(item)
             break
         end
     end
+end
+ListItemWatches(RabbitPacks, rabbitList)
 
-    -- set keyrings
-    if keyringLookup[item] and Tracker:FindObjectForCode(item).Active then
+-- set keyrings
+function Keyrings(item)
+    if Tracker:FindObjectForCode(item).Active then
         if keyringLookup[item].small then
             Tracker:FindObjectForCode(keyringLookup[item].small).AcquiredCount = Tracker:FindObjectForCode(keyringLookup[item].small).MaxCount
         end
@@ -158,8 +169,5 @@ function MultiItems(item)
             Tracker:FindObjectForCode(keyringLookup[item].big).Active = true
         end
     end
-
 end
-
-
-ScriptHost:AddWatchForCode("multi items", "*", MultiItems)
+DictItemWatches(Keyrings, keyringLookup)

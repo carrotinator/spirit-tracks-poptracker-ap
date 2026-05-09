@@ -15,7 +15,7 @@
                         "item_size": 90,
                         "item_margin": "5,5",
                         "rows": [
-                            ["autofill_tracker", "goal", "compass_shard_count", "logic"],
+                            ["autofill_tracker", "dark_realm_unlock", "compass_shard_count", "logic"],
                             ["exclude_dungeons", "exclude_sections", "require_specific_dungeons"],
                             ["keysanity", "randomize_boss_keys", "big_keyrings", "portal_behavior"],
                             ["rabbitsanity", "ranomize_passengers", "randomize_cargo"],

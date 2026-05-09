@@ -1,0 +1,130 @@
+[
+        {
+        "name": "Treasure: demonfossil",
+        "type": "consumable",
+        "img": "images/items/treasures/demon fossil.png",
+        "max_quantity": 99,
+        "overlay_align": "right",
+        "codes": "demonfossil"
+    },
+    {
+        "name": "Treasure: stalfosskull",
+        "type": "consumable",
+        "img": "images/items/treasures/stalfos skull.png",
+        "max_quantity": 99,
+        "overlay_align": "right",
+        "codes": "stalfosskull"
+    },
+    {
+        "name": "Treasure: starfragment",
+        "type": "consumable",
+        "img": "images/items/treasures/star fragment.png",
+        "max_quantity": 99,
+        "overlay_align": "right",
+        "codes": "starfragment"
+    },
+    {
+        "name": "Treasure: beelarvae",
+        "type": "consumable",
+        "img": "images/items/treasures/bee larvae.png",
+        "max_quantity": 99,
+        "overlay_align": "right",
+        "codes": "beelarvae"
+    },
+    {
+        "name": "Treasure: woodheart",
+        "type": "consumable",
+        "img": "images/items/treasures/wood heart.png",
+        "max_quantity": 99,
+        "overlay_align": "right",
+        "codes": "woodheart"
+    },
+    {
+        "name": "Treasure: darkpearlloop",
+        "type": "consumable",
+        "img": "images/items/treasures/dark pearl loop.png",
+        "max_quantity": 99,
+        "overlay_align": "right",
+        "codes": "darkpearlloop"
+    },
+    {
+        "name": "Treasure: whitepearlloop",
+        "type": "consumable",
+        "img": "images/items/treasures/white pearl loop.png",
+        "max_quantity": 99,
+        "overlay_align": "right",
+        "codes": "whitepearlloop"
+    },
+    {
+        "name": "Treasure: rutocrown",
+        "type": "consumable",
+        "img": "images/items/treasures/ruto crown.png",
+        "max_quantity": 99,
+        "overlay_align": "right",
+        "codes": "rutocrown"
+    },
+    {
+        "name": "Treasure: dragonscale",
+        "type": "consumable",
+        "img": "images/items/treasures/dragon scale.png",
+        "max_quantity": 99,
+        "overlay_align": "right",
+        "codes": "dragonscale"
+    },
+    {
+        "name": "Treasure: piratesnecklace",
+        "type": "consumable",
+        "img": "images/items/treasures/Pirate's Necklace.png",
+        "max_quantity": 99,
+        "overlay_align": "right",
+        "codes": "piratesnecklace"
+    },
+    {
+        "name": "Treasure: palacedish",
+        "type": "consumable",
+        "img": "images/items/treasures/palace dish.png",
+        "max_quantity": 99,
+        "overlay_align": "right",
+        "codes": "palacedish"
+    },
+    {
+        "name": "Treasure: goronamber",
+        "type": "consumable",
+        "img": "images/items/treasures/goron amber.png",
+        "max_quantity": 99,
+        "overlay_align": "right",
+        "codes": "goronamber"
+    },
+    {
+        "name": "Treasure: mysticjade",
+        "type": "consumable",
+        "img": "images/items/treasures/mystic jade.png",
+        "max_quantity": 99,
+        "overlay_align": "right",
+        "codes": "mysticjade"
+    },
+    {
+        "name": "Treasure: ancientcoin",
+        "type": "consumable",
+        "img": "images/items/treasures/ancient gold coin.png",
+        "max_quantity": 99,
+        "overlay_align": "right",
+        "codes": "ancientcoin"
+    },
+    {
+        "name": "Treasure: pricelessstone",
+        "type": "consumable",
+        "img": "images/items/treasures/priceless stone.png",
+        "max_quantity": 99,
+        "overlay_align": "right",
+        "codes": "pricelessstone"
+    },
+    {
+        "name": "Treasure: regalring",
+        "type": "consumable",
+        "img": "images/items/treasures/regal ring.png",
+        "max_quantity": 99,
+        "overlay_align": "right",
+        "codes": "regalring"
+    }
+]

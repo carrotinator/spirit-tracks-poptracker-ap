@@ -107,5 +107,38 @@
         "img": "images/items/keys/Boss Key BLANK.png",
         "initial_active_state": false,
         "codes": "big_keyrings"
-    }
+    },
+    {
+		"name": "Dark Realm Unlock",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"loop": true,
+		"stages": [
+			{
+				"img": "images/items/Compass of Light.png",
+				"codes": "dark_realm_unlock, compass",
+				"name": "Dark Realm Unlock: Compass of Light",
+				"inherit_codes": false
+			},
+            {
+				"img": "images/items/keys/Boss Key BLANK.png",
+				"codes": "dark_realm_unlock, dungeons",
+				"name": "Dark Realm Unlock: Dungeons",
+				"inherit_codes": false
+			},
+            {
+				"img": "images/items/keys/Snurglar Keys.png",
+				"codes": "dark_realm_unlock, compass",
+				"name": "Dark Realm Unlock: Shattered Compass",
+				"inherit_codes": false
+			},
+            {
+				"img": "images/items/keys/Boss Key BLANK.png",
+				"codes": "dark_realm_unlock, both",
+				"name": "Dark Realm Unlock: Dungeons AND Shattered Compass",
+				"inherit_codes": false
+			}
+		]
+	},
 ]

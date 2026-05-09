@@ -103,19 +103,6 @@
         "overlay_align": "right",
         "codes": "SandWand"
     },
-
-    {
-        "name": "Compass of Light",
-        "type": "consumable",
-        "img": "images/items/Compass of Light.png",
-        "max_quantity": 30,
-        "overlay_align": "right",
-        "codes": "Compass"
-    },
-
-
-
-
     {
         "name": "Rabbit Net",
         "type": "toggle",
@@ -132,52 +119,6 @@
         "overlay_align": "right",
         "codes": "stampbook"
     },
-    {
-        "name": "Stamps Total",
-        "type": "consumable",
-        "img": "images/items/Stamps/Small Stamp Outset Village.png",
-        "overlay_align": "right",
-        "codes": "stamps",
-        "max_quantity": 20
-    },
-    {
-        "name": "Stamp Pack 2",
-        "type": "consumable",
-        "img": "images/items/Stamps/Small Stamp Goron Village.png",
-        "overlay_align": "right",
-        "codes": "stamp_pack_2",
-        "increment": 2,
-        "max_quantity": 20
-    },
-    {
-        "name": "Stamp Pack 3",
-        "type": "consumable",
-        "img": "images/items/Stamps/Small Stamp Marine Temple.png",
-        "overlay_align": "right",
-        "codes": "stamp_pack_3",
-        "increment": 3,
-        "max_quantity": 20
-    },
-    {
-        "name": "Stamp Pack 4",
-        "type": "consumable",
-        "img": "images/items/Stamps/Small Stamp Snowfall Sanctuary.png",
-        "overlay_align": "right",
-        "codes": "stamp_pack_4",
-        "increment": 4,
-        "max_quantity": 20
-    },
-    {
-        "name": "Stamp Pack 5",
-        "type": "consumable",
-        "img": "images/items/Stamps/Small Stamp Pirate Hideout.png",
-        "overlay_align": "right",
-        "codes": "stamp_pack_5",
-        "increment": 5,
-        "max_quantity": 20
-    },
-
-
 
     {
         "name": "Song of Awakening",
@@ -254,339 +195,6 @@
         "overlay_align": "right",
         "codes": "wagon"
     },
-
-
-    {
-        "name": "Stamp: Castle Town",
-        "type": "toggle",
-        "img": "images/items/Stamps/Big Stamp Castle Town.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "Stamp: Castle Town"
-    },
-    {
-        "name": "Stamp: Outset Village",
-        "type": "toggle",
-        "img": "images/items/Stamps/Big Stamp Outset Village.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "Stamp: Outset Village"
-    },
-    {
-        "name": "Stamp: Mayscore",
-        "type": "toggle",
-        "img": "images/items/Stamps/Big Stamp Mayscore.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "Stamp: Mayscore"
-    },
-    {
-        "name": "Stamp: Woodland Sanctuary",
-        "type": "toggle",
-        "img": "images/items/Stamps/Big Stamp Woodland Sanctuary.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "Stamp: Woodland Sanctuary"
-    },
-    {
-        "name": "Stamp: Anouki Village",
-        "type": "toggle",
-        "img": "images/items/Stamps/Big Stamp Anouki Village.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "Stamp: Anouki Village"
-    },
-    {
-        "name": "Stamp: Snowfall Sanctuary",
-        "type": "toggle",
-        "img": "images/items/Stamps/Big Stamp Snowfall Sanctuary.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "Stamp: Snowfall Sanctuary"
-    },
-    {
-        "name": "Stamp: Papuzia Village",
-        "type": "toggle",
-        "img": "images/items/Stamps/Big Stamp Papuzia Village.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "Stamp: Papuzia Village"
-    },
-    {
-        "name": "Stamp: Island Sanctuary",
-        "type": "toggle",
-        "img": "images/items/Stamps/Big Stamp Island Sanctuary.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "Stamp: Island Sanctuary"
-    },
-    {
-        "name": "Stamp: Goron Village",
-        "type": "toggle",
-        "img": "images/items/Stamps/Big Stamp Goron Village.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "Stamp: Goron Village"
-    },
-    {
-        "name": "Stamp: Valley Sanctuary",
-        "type": "toggle",
-        "img": "images/items/Stamps/Big Stamp Valley Sanctuary.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "Stamp: Valley Sanctuary"
-    },
-    {
-        "name": "Stamp: Dune Sanctuary",
-        "type": "toggle",
-        "img": "images/items/Stamps/Big Stamp Dune Sanctuary.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "Stamp: Dune Sanctuary"
-    },
-    {
-        "name": "Stamp: Wooded Temple",
-        "type": "toggle",
-        "img": "images/items/Stamps/Big Stamp Wooded Temple.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "Stamp: Wooded Temple"
-    },
-    {
-        "name": "Stamp: Blizzard Temple",
-        "type": "toggle",
-        "img": "images/items/Stamps/Big Stamp Blizzard Temple.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "Stamp: Blizzard Temple"
-    },
-    {
-        "name": "Stamp: Marine Temple",
-        "type": "toggle",
-        "img": "images/items/Stamps/Big Stamp Marine Temple.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "Stamp: Marine Temple"
-    },
-    {
-        "name": "Stamp: Mountain Temple",
-        "type": "toggle",
-        "img": "images/items/Stamps/Big Stamp Mountain Temple.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "Stamp: Mountain Temple"
-    },
-    {
-        "name": "Stamp: Desert Temple",
-        "type": "toggle",
-        "img": "images/items/Stamps/Big Stamp desert temple.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "Stamp: Desert Temple"
-    },
-    {
-        "name": "Stamp: Pirate Hideout",
-        "type": "toggle",
-        "img": "images/items/Stamps/Big Stamp pirate hideout.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "Stamp: Pirate Hideout"
-    },
-    {
-        "name": "Stamp: Trading Post",
-        "type": "toggle",
-        "img": "images/items/Stamps/Big Stamp trading post.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "Stamp: Trading Post"
-    },
-    {
-        "name": "Stamp: Icy Spring",
-        "type": "toggle",
-        "img": "images/items/Stamps/Big Stamp Icy Spring.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "Stamp: Icy Spring"
-    },
-    {
-        "name": "Stamp: Tower of Spirits",
-        "type": "toggle",
-        "img": "images/items/Stamps/Big Stamp tower of Spirits.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "Stamp: Tower of Spirits"
-    },
-
-
-
-    {
-        "name": "Snurglar Keys",
-        "type": "consumable",
-        "img": "images/items/Keys/Snurglar Keys.png",
-        "max_quantity": 3,
-        "overlay_align": "right",
-        "codes": "SnurglarKeys"
-    },
-
-    {
-        "name": "Small Key (tunnel to tos)",
-        "type": "toggle",
-        "img": "images/items/Keys/Small Key Tunnel.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "TunnelSmall"
-    },
-
-    {
-        "name": "Small Key (wooded temple)",
-        "type": "consumable",
-        "img": "images/items/Keys/Small Key Wooded.png",
-        "max_quantity": 2,
-        "overlay_align": "right",
-        "codes": "WoodSmall"
-    },
-    {
-        "name": "Small Key (blizzard temple)",
-        "type": "consumable",
-        "img": "images/items/Keys/Small Key Blizzard.png",
-        "max_quantity": 1,
-        "overlay_align": "right",
-        "codes": "BlizzSmall"
-    },
-    {
-        "name": "Small Key (marine temple)",
-        "type": "consumable",
-        "img": "images/items/Keys/Small Key Marine.png",
-        "max_quantity": 2,
-        "overlay_align": "right",
-        "codes": "Marinemall"
-    },
-    {
-        "name": "Small Key (mountain temple)",
-        "type": "consumable",
-        "img": "images/items/Keys/Small Key Mountain.png",
-        "max_quantity": 3,
-        "overlay_align": "right",
-        "codes": "MountSmall"
-    },
-    {
-        "name": "Small Key (desert temple)",
-        "type": "consumable",
-        "img": "images/items/Keys/Small Key Desert.png",
-        "max_quantity": 2,
-        "overlay_align": "right",
-        "codes": "DesSmall"
-    },
-
-    {
-        "name": "Small Key (tos2)",
-        "type": "consumable",
-        "img": "images/items/Keys/Small Key ToS2.png",
-        "max_quantity": 2,
-        "overlay_align": "right",
-        "codes": "ToS2Small"
-    },
-    {
-        "name": "Small Key (tos4)",
-        "type": "consumable",
-        "img": "images/items/Keys/Small Key ToS4.png",
-        "max_quantity": 3,
-        "overlay_align": "right",
-        "codes": "ToS4Small"
-    },
-    {
-        "name": "Small Key (tos5)",
-        "type": "consumable",
-        "img": "images/items/Keys/Small Key ToS5.png",
-        "max_quantity": 2,
-        "overlay_align": "right",
-        "codes": "ToS5Small"
-    },
-    {
-        "name": "Small Key (tos6)",
-        "type": "consumable",
-        "img": "images/items/Keys/Small Key ToS6.png",
-        "max_quantity": 3,
-        "overlay_align": "right",
-        "codes": "ToS6Small"
-    },
-
-    {
-        "name": "Small Key (tos)",
-        "type": "toggle",
-        "img": "images/items/Keys/Small Key (tos).png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "Small Key (tos)"
-    },
-
-
-
-
-    {
-        "name": "Boss Key (Wooded temple)",
-        "type": "toggle",
-        "img": "images/items/Keys/Boss Key Wooded.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "WoodBig"
-    },
-    {
-        "name": "Boss Key (blizzard temple)",
-        "type": "toggle",
-        "img": "images/items/Keys/Boss Key Blizzard.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "BlizzBig"
-    },
-    {
-        "name": "Boss Key (marine temple)",
-        "type": "toggle",
-        "img": "images/items/Keys/Boss Key Marine.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "MarinBig"
-    },
-    {
-        "name": "Boss Key (mountain temple)",
-        "type": "toggle",
-        "img": "images/items/Keys/Boss Key Mountain.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "MountBig"
-    },
-    {
-        "name": "Boss Key (Desert temple)",
-        "type": "toggle",
-        "img": "images/items/Keys/Boss Key Desert.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "DesBig"
-    },
-    {
-        "name": "Boss Key (tos3)",
-        "type": "toggle",
-        "img": "images/items/Keys/Boss Key ToS3.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "ToS3Big"
-    },
-    {
-        "name": "Boss Key (tos5)",
-        "type": "toggle",
-        "img": "images/items/Keys/Boss Key ToS5.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "Tos5Big"
-    },
-
-
-
-
-
-
-
-
     {
         "name": "Passenger: kenzo",
         "type": "toggle",
@@ -683,13 +291,6 @@
         "overlay_align": "right",
         "codes": "Passenger Alfonzo"
     },
-
-
-
-
-
-
-
     {
         "name": "Passenger: teacher",
         "type": "toggle",
@@ -730,263 +331,6 @@
         "overlay_align": "right",
         "codes": "Passenger Mash"
     },
-
-
-
-
-
-
-
-
-    {
-        "name": "Treasure: demonfossil",
-        "type": "consumable",
-        "img": "images/items/treasures/demon fossil.png",
-        "max_quantity": 99,
-        "overlay_align": "right",
-        "codes": "demonfossil"
-    },
-    {
-        "name": "Treasure: stalfosskull",
-        "type": "consumable",
-        "img": "images/items/treasures/stalfos skull.png",
-        "max_quantity": 99,
-        "overlay_align": "right",
-        "codes": "stalfosskull"
-    },
-    {
-        "name": "Treasure: starfragment",
-        "type": "consumable",
-        "img": "images/items/treasures/star fragment.png",
-        "max_quantity": 99,
-        "overlay_align": "right",
-        "codes": "starfragment"
-    },
-    {
-        "name": "Treasure: beelarvae",
-        "type": "consumable",
-        "img": "images/items/treasures/bee larvae.png",
-        "max_quantity": 99,
-        "overlay_align": "right",
-        "codes": "beelarvae"
-    },
-    {
-        "name": "Treasure: woodheart",
-        "type": "consumable",
-        "img": "images/items/treasures/wood heart.png",
-        "max_quantity": 99,
-        "overlay_align": "right",
-        "codes": "woodheart"
-    },
-    {
-        "name": "Treasure: darkpearlloop",
-        "type": "consumable",
-        "img": "images/items/treasures/dark pearl loop.png",
-        "max_quantity": 99,
-        "overlay_align": "right",
-        "codes": "darkpearlloop"
-    },
-    {
-        "name": "Treasure: whitepearlloop",
-        "type": "consumable",
-        "img": "images/items/treasures/white pearl loop.png",
-        "max_quantity": 99,
-        "overlay_align": "right",
-        "codes": "whitepearlloop"
-    },
-    {
-        "name": "Treasure: rutocrown",
-        "type": "consumable",
-        "img": "images/items/treasures/ruto crown.png",
-        "max_quantity": 99,
-        "overlay_align": "right",
-        "codes": "rutocrown"
-    },
-    {
-        "name": "Treasure: dragonscale",
-        "type": "consumable",
-        "img": "images/items/treasures/dragon scale.png",
-        "max_quantity": 99,
-        "overlay_align": "right",
-        "codes": "dragonscale"
-    },
-    {
-        "name": "Treasure: piratesnecklace",
-        "type": "consumable",
-        "img": "images/items/treasures/Pirate's Necklace.png",
-        "max_quantity": 99,
-        "overlay_align": "right",
-        "codes": "piratesnecklace"
-    },
-    {
-        "name": "Treasure: palacedish",
-        "type": "consumable",
-        "img": "images/items/treasures/palace dish.png",
-        "max_quantity": 99,
-        "overlay_align": "right",
-        "codes": "palacedish"
-    },
-    {
-        "name": "Treasure: goronamber",
-        "type": "consumable",
-        "img": "images/items/treasures/goron amber.png",
-        "max_quantity": 99,
-        "overlay_align": "right",
-        "codes": "goronamber"
-    },
-    {
-        "name": "Treasure: mysticjade",
-        "type": "consumable",
-        "img": "images/items/treasures/mystic jade.png",
-        "max_quantity": 99,
-        "overlay_align": "right",
-        "codes": "mysticjade"
-    },
-    {
-        "name": "Treasure: ancientcoin",
-        "type": "consumable",
-        "img": "images/items/treasures/ancient gold coin.png",
-        "max_quantity": 99,
-        "overlay_align": "right",
-        "codes": "ancientcoin"
-    },
-    {
-        "name": "Treasure: pricelessstone",
-        "type": "consumable",
-        "img": "images/items/treasures/priceless stone.png",
-        "max_quantity": 99,
-        "overlay_align": "right",
-        "codes": "pricelessstone"
-    },
-    {
-        "name": "Treasure: regalring",
-        "type": "consumable",
-        "img": "images/items/treasures/regal ring.png",
-        "max_quantity": 99,
-        "overlay_align": "right",
-        "codes": "regalring"
-    },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    {
-        "name": "tearoflight(tos1)",
-        "type": "consumable",
-        "max_quantity": 3,
-        "img": "images/items/TearToS1.png",
-        "overlay_align": "right",
-        "codes": "TearToS1"
-    },
-    {
-        "name": "tearoflight(tos2)",
-        "type": "consumable",
-        "max_quantity": 3,
-        "img": "images/items/TearToS2.png",
-        "overlay_align": "right",
-        "codes": "TearToS2"
-    },
-    {
-        "name": "tearoflight(tos3)",
-        "type": "consumable",
-        "max_quantity": 3,
-        "img": "images/items/TearToS3.png",
-        "overlay_align": "right",
-        "codes": "TearToS3"
-    },
-    {
-        "name": "tearoflight(tos4)",
-        "type": "consumable",
-        "max_quantity": 3,
-        "img": "images/items/TearToS4.png",
-        "overlay_align": "right",
-        "codes": "TearToS4"
-    },
-    {
-        "name": "tearoflight(tos5)",
-        "type": "consumable",
-        "max_quantity": 3,
-        "img": "images/items/TearToS5.png",
-        "overlay_align": "right",
-        "codes": "TearToS5"
-    },
-    {
-        "name": "tearoflight(tos6)",
-        "type": "consumable",
-        "max_quantity": 3,
-        "img": "images/items/TearToS6.png",
-        "overlay_align": "right",
-        "codes": "TearToS6"
-    },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     {
         "name": "heartcontainer",
         "type": "toggle",
@@ -996,21 +340,12 @@
         "codes": "heartcontainer"
     },
     {
-        "name": "sandsource",
-        "type": "toggle",
-        "img": "images/items/sandsource.png",
-        "initial_active_state": false,
+        "name": "Compass of Light",
+        "type": "consumable",
+        "img": "images/items/Compass of Light.png",
+        "max_quantity": 30,
         "overlay_align": "right",
-        "codes": "sandsource"
-    },
-
-    {
-        "name": "snowglyph",
-        "type": "toggle",
-        "img": "images/items/snowglyph.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "snowglyph"
+        "codes": "Compass"
     },
     {
         "name": "compassoflightshard",
@@ -1019,70 +354,6 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "compassoflightshard"
-    },
-    {
-        "name": "portalunlock:deserttempletosandrealm",
-        "type": "toggle",
-        "img": "images/items/portalunlock:deserttempletosandrealm.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "portalunlock:deserttempletosandrealm"
-    },
-        {
-        "name": "Grass Rabbits",
-        "type": "consumable",
-        "img": "images/items/grass rabbits.png",
-        "overlay_align": "right",
-        "codes": "grassrabbit",
-        "max_quantity": 10
-    },
-    {
-        "name": "Grass Rabbits",
-        "type": "consumable",
-        "img": "images/items/grass rabbits.png",
-        "overlay_align": "right",
-        "codes": "grassrabbit_1",
-        "max_quantity": 10
-    },
-    {
-        "name": "Grass Rabbits",
-        "type": "consumable",
-        "overlay_align": "right",
-        "codes": "grassrabbit_2",
-        "max_quantity": 10,
-        "increment": 2
-    },
-    {
-        "name": "Grass Rabbits",
-        "type": "consumable",
-        "overlay_align": "right",
-        "codes": "grassrabbit_3",
-        "max_quantity": 10,
-        "increment": 3
-    },
-    {
-        "name": "Grass Rabbits",
-        "type": "consumable",
-        "overlay_align": "right",
-        "codes": "grassrabbit_4",
-        "max_quantity": 10,
-        "increment": 4
-    },
-    {
-        "name": "Grass Rabbits",
-        "type": "consumable",
-        "overlay_align": "right",
-        "codes": "grassrabbit_5",
-        "max_quantity": 10,
-        "increment": 5
-    },
-    {
-        "name": "Grass Rabbits",
-        "type": "consumable",
-        "overlay_align": "right",
-        "codes": "grassrabbit_10",
-        "max_quantity": 10,
-        "increment": 10
     },
     {
         "name": "prizepostcards(10)",
@@ -1134,37 +405,12 @@
         "max_quantity": 3
     },
     {
-        "name": "oceanglyph",
-        "type": "toggle",
-        "img": "images/items/oceanglyph.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "oceanglyph"
-    },
-    {
         "name": "redpotion",
         "type": "toggle",
         "img": "images/items/redpotion.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "redpotion"
-    },
-
-    {
-        "name": "completedfireglyph",
-        "type": "toggle",
-        "img": "images/items/completedfireglyph.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "completedfireglyph"
-    },
-    {
-        "name": "completedsnowglyph",
-        "type": "toggle",
-        "img": "images/items/completedsnowglyph.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "completedsnowglyph"
     },
     {
         "name": "cargo: megaice",
@@ -1175,84 +421,12 @@
         "max_quantity": 3
     },
     {
-        "name": "portalunlock:icyspringtomountaintemple",
-        "type": "toggle",
-        "img": "images/items/portalunlock:icyspringtomountaintemple.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "portalunlock:icyspringtomountaintemple"
-    },
-    {
-        "name": "Sand Rabbits",
-        "type": "consumable",
-        "img": "images/items/Sand Rabbits.png",
-        "overlay_align": "right",
-        "codes": "sandrabbit",
-        "max_quantity": 10
-    },
-        {
-        "name": "Sand Rabbits",
-        "type": "consumable",
-        "img": "images/items/Sand Rabbits.png",
-        "overlay_align": "right",
-        "codes": "sandrabbit_1",
-        "max_quantity": 10
-    },
-    {
-        "name": "Sand Rabbits",
-        "type": "consumable",
-        "overlay_align": "right",
-        "codes": "sandrabbit_2",
-        "max_quantity": 10,
-        "increment": 2
-    },
-    {
-        "name": "Sand Rabbits",
-        "type": "consumable",
-        "overlay_align": "right",
-        "codes": "sandrabbit_3",
-        "max_quantity": 10,
-        "increment": 3
-    },
-    {
-        "name": "Sand Rabbits",
-        "type": "consumable",
-        "overlay_align": "right",
-        "codes": "sandrabbit_4",
-        "max_quantity": 10,
-        "increment": 4
-    },
-    {
-        "name": "Sand Rabbits",
-        "type": "consumable",
-        "overlay_align": "right",
-        "codes": "sandrabbit_5",
-        "max_quantity": 10,
-        "increment": 5
-    },
-    {
-        "name": "Sand Rabbits",
-        "type": "consumable",
-        "overlay_align": "right",
-        "codes": "sandrabbit_10",
-        "max_quantity": 10,
-        "increment": 10
-    },
-    {
         "name": "trainpart",
         "type": "toggle",
         "img": "images/items/trainpart.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "trainpart"
-    },
-    {
-        "name": "Snowfall Sanctuarycavekey",
-        "type": "toggle",
-        "img": "images/items/Snowfall Sanctuarycavekey.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "Snowfall Sanctuarycavekey"
     },
     {
         "name": "Mountain Rabbits",
@@ -1269,46 +443,6 @@
         "overlay_align": "right",
         "codes": "mountainrabbit_1",
         "max_quantity": 10
-    },
-    {
-        "name": "Mountain Rabbits",
-        "type": "consumable",
-        "overlay_align": "right",
-        "codes": "mountainrabbit_2",
-        "max_quantity": 10,
-        "increment": 2
-    },
-    {
-        "name": "Mountain Rabbits",
-        "type": "consumable",
-        "overlay_align": "right",
-        "codes": "mountainrabbit_3",
-        "max_quantity": 10,
-        "increment": 3
-    },
-    {
-        "name": "Mountain Rabbits",
-        "type": "consumable",
-        "overlay_align": "right",
-        "codes": "mountainrabbit_4",
-        "max_quantity": 10,
-        "increment": 4
-    },
-    {
-        "name": "Mountain Rabbits",
-        "type": "consumable",
-        "overlay_align": "right",
-        "codes": "mountainrabbit_5",
-        "max_quantity": 10,
-        "increment": 5
-    },
-    {
-        "name": "Mountain Rabbits",
-        "type": "consumable",
-        "overlay_align": "right",
-        "codes": "mountainrabbit_10",
-        "max_quantity": 10,
-        "increment": 10
     },
     {
         "name": "nothing!",
@@ -1342,16 +476,6 @@
         "overlay_align": "right",
         "codes": "pre-alpharupee(5000)"
     },
-
-    {
-        "name": "portalunlock:forestcavetogoronvillage",
-        "type": "toggle",
-        "img": "images/items/portalunlock:forestcavetogoronvillage.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "portalunlock:forestcavetogoronvillage"
-    },
-
     {
         "name": "cargo:lumber",
         "type": "toggle",
@@ -1359,23 +483,6 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "cargo:lumber"
-    },
-
-    {
-        "name": "stamppack(4)",
-        "type": "toggle",
-        "img": "images/items/stamppack(4).png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "stamppack(4)"
-    },
-    {
-        "name": "fireglyph",
-        "type": "toggle",
-        "img": "images/items/fireglyph.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "fireglyph"
     },
     {
         "name": "Progressive Shield",
@@ -1396,14 +503,6 @@
         "codes": "Shield"
     },
     {
-        "name": "portalunlock:snowbridgetoIsland Sanctuary",
-        "type": "toggle",
-        "img": "images/items/portalunlock:snowbridgetoIsland Sanctuary.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "portalunlock:snowbridgetoIsland Sanctuary"
-    },
-    {
         "name": "_ut_glitched_logic",
         "type": "toggle",
         "img": "images/items/_ut_glitched_logic.png",
@@ -1420,14 +519,6 @@
         "codes": "stamppack(3)"
     },
     {
-        "name": "portalunlock:sandvalleytomarinetemple",
-        "type": "toggle",
-        "img": "images/items/portalunlock:sandvalleytomarinetemple.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "portalunlock:sandvalleytomarinetemple"
-    },
-    {
         "name": "bigredrupee(200)",
         "type": "toggle",
         "img": "images/items/bigredrupee(200).png",
@@ -1435,82 +526,6 @@
         "overlay_align": "right",
         "codes": "bigredrupee(200)"
     },
-    {
-        "name": "firesource",
-        "type": "toggle",
-        "img": "images/items/firesource.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "firesource"
-    },
-    {
-        "name": "Snow Rabbits",
-        "type": "consumable",
-        "img": "images/items/snow rabbits.png",
-        "overlay_align": "right",
-        "codes": "snowrabbit",
-        "max_quantity": 10
-    },
-        {
-        "name": "Snow Rabbits",
-        "type": "consumable",
-        "img": "images/items/snow rabbits.png",
-        "overlay_align": "right",
-        "codes": "snowrabbit_1",
-        "max_quantity": 10
-    },
-    
-{
-        "name": "Snow Rabbits",
-        "type": "consumable",
-        "overlay_align": "right",
-        "codes": "snowrabbit_2",
-        "max_quantity": 10,
-        "increment": 2
-    },
-    {
-        "name": "Snow Rabbits",
-        "type": "consumable",
-        "overlay_align": "right",
-        "codes": "snowrabbit_3",
-        "max_quantity": 10,
-        "increment": 3
-    },
-    {
-        "name": "Snow Rabbits",
-        "type": "consumable",
-        "overlay_align": "right",
-        "codes": "snowrabbit_4",
-        "max_quantity": 10,
-        "increment": 4
-    },
-    {
-        "name": "Snow Rabbits",
-        "type": "consumable",
-        "overlay_align": "right",
-        "codes": "snowrabbit_5",
-        "max_quantity": 10,
-        "increment": 5
-    },
-    {
-        "name": "Snow Rabbits",
-        "type": "consumable",
-        "overlay_align": "right",
-        "codes": "snowrabbit_10",
-        "max_quantity": 10,
-        "increment": 10
-    },
-
-    {
-        "name": "stamppack(5)",
-        "type": "toggle",
-        "img": "images/items/stamppack(5).png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "stamppack(5)"
-    },
-
-
     {
         "name": "bowoflight",
         "type": "toggle",
@@ -1528,22 +543,6 @@
         "codes": "recruituniform"
     },
     {
-        "name": "forestglyph",
-        "type": "toggle",
-        "img": "images/items/forestglyph.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "forestglyph"
-    },
-    {
-        "name": "stamppack(2)",
-        "type": "toggle",
-        "img": "images/items/stamppack(2).png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "stamppack(2)"
-    },
-    {
         "name": "cargo:fish",
         "type": "toggle",
         "img": "images/items/cargo/Fish.png",
@@ -1552,36 +551,12 @@
         "codes": "cargo:fish"
     },
     {
-        "name": "completedoceanglyph",
-        "type": "toggle",
-        "img": "images/items/completedoceanglyph.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "completedoceanglyph"
-    },
-    {
         "name": "cargo:darkore",
         "type": "toggle",
         "img": "images/items/cargo/Dark Ore.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "cargo:darkore"
-    },
-    {
-        "name": "forestsource",
-        "type": "toggle",
-        "img": "images/items/forestsource.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "forestsource"
-    },
-    {
-        "name": "oceansource",
-        "type": "toggle",
-        "img": "images/items/oceansource.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "oceansource"
     },
     {
         "name": "biggreenrupee(100)",
@@ -1608,109 +583,12 @@
         "codes": "refill:bombs"
     },
     {
-        "name": "Ocean Rabbits",
-        "type": "consumable",
-        "img": "images/items/ocean rabbits.png",
-        "overlay_align": "right",
-        "codes": "oceanrabbit",
-        "max_quantity": 10
-    },
-        {
-        "name": "Ocean Rabbits",
-        "type": "consumable",
-        "img": "images/items/ocean rabbits.png",
-        "overlay_align": "right",
-        "codes": "oceanrabbit_1",
-        "max_quantity": 10
-    },
-    {
-        "name": "Ocean Rabbits",
-        "type": "consumable",
-        "overlay_align": "right",
-        "codes": "oceanrabbit_2",
-        "max_quantity": 10,
-        "increment": 2
-    },
-    {
-        "name": "Ocean Rabbits",
-        "type": "consumable",
-        "overlay_align": "right",
-        "codes": "oceanrabbit_3",
-        "max_quantity": 10,
-        "increment": 3
-    },
-    {
-        "name": "Ocean Rabbits",
-        "type": "consumable",
-        "overlay_align": "right",
-        "codes": "oceanrabbit_4",
-        "max_quantity": 10,
-        "increment": 4
-    },
-    {
-        "name": "Ocean Rabbits",
-        "type": "consumable",
-        "overlay_align": "right",
-        "codes": "oceanrabbit_5",
-        "max_quantity": 10,
-        "increment": 5
-    },
-    {
-        "name": "Ocean Rabbits",
-        "type": "consumable",
-        "overlay_align": "right",
-        "codes": "oceanrabbit_10",
-        "max_quantity": 10,
-        "increment": 10
-    },
-    {
         "name": "redrupee(20)",
         "type": "toggle",
         "img": "images/items/redrupee(20).png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "redrupee(20)"
-    },
-    {
-        "name": "portalunlock:hyrulecastletoAnouki Village",
-        "type": "toggle",
-        "img": "images/items/portalunlock:hyrulecastletoAnouki Village.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "portalunlock:hyrulecastletoAnouki Village"
-    },
-    {
-        "name": "towerofspiritsbase",
-        "type": "toggle",
-        "img": "images/items/towerofspiritsbase.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "towerofspiritsbase"
-    },
-    {
-        "name": "portalunlock:tradingposttoesnowrealm",
-        "type": "toggle",
-        "img": "images/items/portalunlock:tradingposttoesnowrealm.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "portalunlock:tradingposttoesnowrealm"
-    },
-    {
-        "name": "snowsource",
-        "type": "toggle",
-        "img": "images/items/snowsource.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "snowsource"
-    },
-
-    {
-        "name": "repairtradingpostbridge",
-        "type": "toggle",
-        "img": "images/items/repairtradingpostbridge.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "repairtradingpostbridge"
     },
     {
         "name": "refill:arrows",
@@ -1730,264 +608,12 @@
         "codes": "cargo:goronsteel"
     },
     {
-        "name": "completedforestglyph",
-        "type": "toggle",
-        "img": "images/items/completedforestglyph.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "completedforestglyph"
-    },
-    {
-        "name": "progressivetossection",
-        "type": "toggle",
-        "img": "images/items/progressivetossection.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "progressivetossection"
-    },
-    {
         "name": "cargo:vessel",
         "type": "toggle",
         "img": "images/items/cargo/Vessel.png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "cargo:vessel"
-    },
-
-    {
-        "name": "westernforesttracks",
-        "type": "toggle",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "westernforesttracks"
-    },
-        {
-        "name": "anoukivillagetracks",
-        "type": "toggle",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "anoukivillagetracks"
-    },
-        {
-        "name": "thawlandtracks",
-        "type": "toggle",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "thawlandtracks"
-    },
-        {
-        "name": "blizzardtracks",
-        "type": "toggle",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "blizzardtracks"
-    },
-        {
-        "name": "castletracks",
-        "type": "toggle",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "castletracks"
-    },
-        {
-        "name": "woodlandtracks",
-        "type": "toggle",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "woodlandtracks"
-    },
-        {
-        "name": "borderlandstracks",
-        "type": "toggle",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "borderlandstracks"
-    },
-        {
-        "name": "coastaltracks",
-        "type": "toggle",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "coastaltracks"
-    },
-        {
-        "name": "piratetracks",
-        "type": "toggle",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "piratetracks"
-    },
-        {
-        "name": "oceantracks",
-        "type": "toggle",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "oceantracks"
-    },
-        {
-        "name": "islandtracks",
-        "type": "toggle",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "islandtracks"
-    },
-        {
-        "name": "valleytracks",
-        "type": "toggle",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "valleytracks"
-    },
-        {
-        "name": "valleytracks",
-        "type": "toggle",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "valleytracks"
-    },
-        {
-        "name": "mountaintracks",
-        "type": "toggle",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "mountaintracks"
-    },
-        {
-        "name": "aridtracks",
-        "type": "toggle",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "aridtracks"
-    },
-        {
-        "name": "dunetracks",
-        "type": "toggle",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "dunetracks"
-    },
-        {
-        "name": "towertracks",
-        "type": "toggle",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "towertracks"
-    },
-        {
-        "name": "completedforestglyph",
-        "type": "toggle",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "completedforestglyph"
-    },
-        {
-        "name": "majorforesttracks",
-        "type": "toggle",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "majorforesttracks"
-    },
-        {
-        "name": "minorforesttracks",
-        "type": "toggle",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "minorforesttracks"
-    },
-            {
-        "name": "completedsnowglyph",
-        "type": "toggle",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "completedsnowglyph"
-    },
-            {
-        "name": "majorsnowtracks",
-        "type": "toggle",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "majorsnowtracks"
-    },
-            {
-        "name": "minorsnowtracks",
-        "type": "toggle",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "minorsnowtracks"
-    },
-            {
-        "name": "completedoceanglyph",
-        "type": "toggle",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "completedoceanglyph"
-    },
-            {
-        "name": "majoroceantracks",
-        "type": "toggle",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "majoroceantracks"
-    },
-            {
-        "name": "minoroceantracks",
-        "type": "toggle",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "minoroceantracks"
-    },
-            {
-        "name": "completedfireglyph",
-        "type": "toggle",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "completedfireglyph"
-    },
-            {
-        "name": "majorfiretracks",
-        "type": "toggle",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "majorfiretracks"
-    },
-            {
-        "name": "minorfiretracks",
-        "type": "toggle",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "minorfiretracks"
-    },
-            {
-        "name": "completeddeserttracks",
-        "type": "toggle",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "completeddeserttracks"
-    },
-            {
-        "name": "majordeserttracks",
-        "type": "toggle",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "majordeserttracks"
-    },
-            {
-        "name": "minordeserttracks",
-        "type": "toggle",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "minordeserttracks"
-    },
-    {"name": "keyring_snurglar", "type": "toggle", "codes": "keyring_snurglar"},
-    {"name": "keyring_wood", "type": "toggle", "codes": "keyring_wood"},
-    {"name": "keyring_tos2", "type": "toggle", "codes": "keyring_tos2"},
-    {"name": "keyring_tos4", "type": "toggle", "codes": "keyring_tos4"},
-    {"name": "keyring_tos5", "type": "toggle", "codes": "keyring_tos5"},
-    {"name": "keyring_tos6", "type": "toggle", "codes": "keyring_tos6"},
-    {"name": "keyring_bliz", "type": "toggle", "codes": "keyring_bliz"},
-    {"name": "keyring_marine", "type": "toggle", "codes": "keyring_marine"},
-    {"name": "keyring_mount", "type": "toggle", "codes": "keyring_mount"},
-    {"name": "keyring_desert", "type": "toggle", "codes": "keyring_desert"},
-    {"name": "keyring_tos3", "type": "toggle", "codes": "keyring_tos3"}
+    }
 
 ]

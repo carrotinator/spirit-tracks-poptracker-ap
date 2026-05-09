@@ -20,6 +20,7 @@ function dump_table(o, depth)
     end
 end
 
+-- making lua pythonic lol, equivalent to in
 function containsItem(list, item)
     if list and item then
         for _, value in pairs(list) do
@@ -30,4 +31,31 @@ function containsItem(list, item)
     end
     
     return false
+end
+
+-- making lua pythonic lol, oops a duplicate
+function InList(l, x)
+	for _, i in ipairs(l) do
+		if i == x then
+			return true
+		end
+	end
+	return false
+end
+
+-- These functions make more efficient watches for lists of items, rather than calling watchis on all items
+function ListItemWatches(func, item_list)
+	for _, item in ipairs(item_list) do
+		print("Creating list watch for "..item.." with func "..tostring(func))
+		name = tostring(func).."_"..item
+		ScriptHost:AddWatchForCode(name, item, func)
+	end
+end
+
+function DictItemWatches(func, item_dict)
+	for item, _ in pairs(item_dict) do
+		print("Creating dict watch for "..item.." with func "..tostring(func))
+		name = tostring(func).."_"..item
+		ScriptHost:AddWatchForCode(name, item, func)
+	end
 end

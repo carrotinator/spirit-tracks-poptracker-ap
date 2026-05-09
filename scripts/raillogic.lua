@@ -157,6 +157,11 @@ local westForestSquish = {
 	"wtt"
 }
 
+local snurglarKeys = {
+    "keyring_snurglar",
+    "SnurglarKeys"
+}
+
 
 function AnyRail(railList)
 	if not railList then
@@ -184,42 +189,50 @@ function AllRail(railList)
 	return true
 end
 
-function InList(l, x)
-	for _, i in ipairs(l) do
-		if i == x then
-			return true
-		end
-	end
-	return false
-end
-
+-- Linked rail sections
 function RailWatch(item)
-	print(item)
-	if railDict[item] then
-		for _, rail in ipairs(railDict[item]) do
-			if not AnyRail(reverseRailDict[rail]) then
-				Tracker:FindObjectForCode(rail).Active = Tracker:FindObjectForCode(item).Active
-			else
-				Tracker:FindObjectForCode(rail).Active = true
-			end
+	print("Railwatch: "..item)
+	for _, rail in ipairs(railDict[item]) do
+		if not AnyRail(reverseRailDict[rail]) then
+			Tracker:FindObjectForCode(rail).Active = Tracker:FindObjectForCode(item).Active
+		else
+			Tracker:FindObjectForCode(rail).Active = true
 		end
-	end
-
-	if andRailDict[item] then
-		for blocker, rails in pairs(andRailDict[item]) do
-			Tracker:FindObjectForCode(blocker).Active = AllRail(rails) and Tracker:FindObjectForCode(item).Active
-		end
-	end
-
-	-- Hard Coded Cases
-	if InList(oceanSquish, item) then
-		Tracker:FindObjectForCode("desert_blocker").Active = Tracker:FindObjectForCode("desert").Active and (Tracker:FindObjectForCode("ocean_source").Active or Tracker:FindObjectForCode("ocean_portal").Active)
-		Tracker:FindObjectForCode("ocean_source_shared_sand").Active = Tracker:FindObjectForCode("ocean_source").Active or (Tracker:FindObjectForCode("desert").Active and Tracker:FindObjectForCode("ocean_portal").Active)
-	end
-
-	if InList(westForestSquish, item) then
-		Tracker:FindObjectForCode("w_forest_blocker").Active = Tracker:FindObjectForCode("wtt").Active and (Tracker:FindObjectForCode("forest_glyph").Active or Tracker:FindObjectForCode("w_forest").Active)
 	end
 end
+DictItemWatches(RailWatch, railDict)
+DictItemWatches(RailWatch, reverseRailDict)
 
-ScriptHost:AddWatchForCode("rail watch", "*", RailWatch)
+-- AND rail sections
+function RailWatchAnd(item)
+	print("RailwatchAnd: "..item)
+	for blocker, rails in pairs(andRailDict[item]) do
+		Tracker:FindObjectForCode(blocker).Active = AllRail(rails) and Tracker:FindObjectForCode(item).Active
+	end
+end
+DictItemWatches(RailWatchAnd, andRailDict)
+
+-- Hard coded ocean situation
+function RailWatchOceanSquish(item)
+	print("Ocean Squish: "..item)
+	Tracker:FindObjectForCode("desert_blocker").Active = Tracker:FindObjectForCode("desert").Active and (Tracker:FindObjectForCode("ocean_source").Active or Tracker:FindObjectForCode("ocean_portal").Active)
+	Tracker:FindObjectForCode("ocean_source_shared_sand").Active = Tracker:FindObjectForCode("ocean_source").Active or (Tracker:FindObjectForCode("desert").Active and Tracker:FindObjectForCode("ocean_portal").Active)
+end
+ListItemWatches(RailWatchOceanSquish, oceanSquish)
+
+-- Hard coded forest situation
+function RailWatchForestSquish(item)
+	print("Forest Squish: "..item)
+	Tracker:FindObjectForCode("w_forest_blocker").Active = Tracker:FindObjectForCode("wtt").Active and (Tracker:FindObjectForCode("forest_glyph").Active or Tracker:FindObjectForCode("w_forest").Active)
+end
+ListItemWatches(RailWatchForestSquish, westForestSquish)
+
+
+-- Snurglar door
+function SnurglarDoor(item)
+	print("Snurglar Door: "..item)
+	print(Tracker:FindObjectForCode("SnurglarKeys").AcquiredCount..Tracker:FindObjectForCode("lock_mtt").Active)
+	Tracker:FindObjectForCode("lock_mtt").Active = Tracker:FindObjectForCode("SnurglarKeys").AcquiredCount == 3
+end
+ScriptHost:AddWatchForCode("Snurglar Door", "SnurglarKeys", SnurglarDoor)
+

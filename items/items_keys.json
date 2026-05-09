@@ -1,0 +1,166 @@
+[
+        {
+        "name": "Snurglar Keys",
+        "type": "consumable",
+        "img": "images/items/Keys/Snurglar Keys.png",
+        "max_quantity": 3,
+        "overlay_align": "right",
+        "codes": "SnurglarKeys"
+    },
+    {
+        "name": "Small Key (tunnel to tos)",
+        "type": "toggle",
+        "img": "images/items/Keys/Small Key Tunnel.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "TunnelSmall"
+    },
+    {
+        "name": "Small Key (wooded temple)",
+        "type": "consumable",
+        "img": "images/items/Keys/Small Key Wooded.png",
+        "max_quantity": 2,
+        "overlay_align": "right",
+        "codes": "WoodSmall"
+    },
+    {
+        "name": "Small Key (blizzard temple)",
+        "type": "consumable",
+        "img": "images/items/Keys/Small Key Blizzard.png",
+        "max_quantity": 1,
+        "overlay_align": "right",
+        "codes": "BlizzSmall"
+    },
+    {
+        "name": "Small Key (marine temple)",
+        "type": "consumable",
+        "img": "images/items/Keys/Small Key Marine.png",
+        "max_quantity": 2,
+        "overlay_align": "right",
+        "codes": "Marinemall"
+    },
+    {
+        "name": "Small Key (mountain temple)",
+        "type": "consumable",
+        "img": "images/items/Keys/Small Key Mountain.png",
+        "max_quantity": 3,
+        "overlay_align": "right",
+        "codes": "MountSmall"
+    },
+    {
+        "name": "Small Key (desert temple)",
+        "type": "consumable",
+        "img": "images/items/Keys/Small Key Desert.png",
+        "max_quantity": 2,
+        "overlay_align": "right",
+        "codes": "DesSmall"
+    },
+
+    {
+        "name": "Small Key (tos2)",
+        "type": "consumable",
+        "img": "images/items/Keys/Small Key ToS2.png",
+        "max_quantity": 2,
+        "overlay_align": "right",
+        "codes": "ToS2Small"
+    },
+    {
+        "name": "Small Key (tos4)",
+        "type": "consumable",
+        "img": "images/items/Keys/Small Key ToS4.png",
+        "max_quantity": 3,
+        "overlay_align": "right",
+        "codes": "ToS4Small"
+    },
+    {
+        "name": "Small Key (tos5)",
+        "type": "consumable",
+        "img": "images/items/Keys/Small Key ToS5.png",
+        "max_quantity": 2,
+        "overlay_align": "right",
+        "codes": "ToS5Small"
+    },
+    {
+        "name": "Small Key (tos6)",
+        "type": "consumable",
+        "img": "images/items/Keys/Small Key ToS6.png",
+        "max_quantity": 3,
+        "overlay_align": "right",
+        "codes": "ToS6Small"
+    },
+    {
+        "name": "Small Key (tos)",
+        "type": "toggle",
+        "img": "images/items/Keys/Small Key (tos).png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "Small Key (tos)"
+    },
+    {
+        "name": "Boss Key (Wooded temple)",
+        "type": "toggle",
+        "img": "images/items/Keys/Boss Key Wooded.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "WoodBig"
+    },
+    {
+        "name": "Boss Key (blizzard temple)",
+        "type": "toggle",
+        "img": "images/items/Keys/Boss Key Blizzard.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "BlizzBig"
+    },
+    {
+        "name": "Boss Key (marine temple)",
+        "type": "toggle",
+        "img": "images/items/Keys/Boss Key Marine.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "MarinBig"
+    },
+    {
+        "name": "Boss Key (mountain temple)",
+        "type": "toggle",
+        "img": "images/items/Keys/Boss Key Mountain.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "MountBig"
+    },
+    {
+        "name": "Boss Key (Desert temple)",
+        "type": "toggle",
+        "img": "images/items/Keys/Boss Key Desert.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "DesBig"
+    },
+    {
+        "name": "Boss Key (tos3)",
+        "type": "toggle",
+        "img": "images/items/Keys/Boss Key ToS3.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "ToS3Big"
+    },
+    {
+        "name": "Boss Key (tos5)",
+        "type": "toggle",
+        "img": "images/items/Keys/Boss Key ToS5.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "Tos5Big"
+    },
+    {"name": "keyring_snurglar", "type": "toggle", "codes": "keyring_snurglar"},
+    {"name": "keyring_wood", "type": "toggle", "codes": "keyring_wood"},
+    {"name": "keyring_tos2", "type": "toggle", "codes": "keyring_tos2"},
+    {"name": "keyring_tos4", "type": "toggle", "codes": "keyring_tos4"},
+    {"name": "keyring_tos5", "type": "toggle", "codes": "keyring_tos5"},
+    {"name": "keyring_tos6", "type": "toggle", "codes": "keyring_tos6"},
+    {"name": "keyring_bliz", "type": "toggle", "codes": "keyring_bliz"},
+    {"name": "keyring_marine", "type": "toggle", "codes": "keyring_marine"},
+    {"name": "keyring_mount", "type": "toggle", "codes": "keyring_mount"},
+    {"name": "keyring_desert", "type": "toggle", "codes": "keyring_desert"},
+    {"name": "keyring_tos3", "type": "toggle", "codes": "keyring_tos3"}
+]

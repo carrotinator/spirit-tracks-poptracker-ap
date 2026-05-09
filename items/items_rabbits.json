@@ -1,0 +1,269 @@
+[
+    
+        {
+        "name": "Grass Rabbits",
+        "type": "consumable",
+        "img": "images/items/grass rabbits.png",
+        "overlay_align": "right",
+        "codes": "grassrabbit",
+        "max_quantity": 10
+    },
+    {
+        "name": "Grass Rabbits",
+        "type": "consumable",
+        "img": "images/items/grass rabbits.png",
+        "overlay_align": "right",
+        "codes": "grassrabbit_1",
+        "max_quantity": 10
+    },
+    {
+        "name": "Grass Rabbits",
+        "type": "consumable",
+        "overlay_align": "right",
+        "codes": "grassrabbit_2",
+        "max_quantity": 10,
+        "increment": 2
+    },
+    {
+        "name": "Grass Rabbits",
+        "type": "consumable",
+        "overlay_align": "right",
+        "codes": "grassrabbit_3",
+        "max_quantity": 10,
+        "increment": 3
+    },
+    {
+        "name": "Grass Rabbits",
+        "type": "consumable",
+        "overlay_align": "right",
+        "codes": "grassrabbit_4",
+        "max_quantity": 10,
+        "increment": 4
+    },
+    {
+        "name": "Grass Rabbits",
+        "type": "consumable",
+        "overlay_align": "right",
+        "codes": "grassrabbit_5",
+        "max_quantity": 10,
+        "increment": 5
+    },
+    {
+        "name": "Grass Rabbits",
+        "type": "consumable",
+        "overlay_align": "right",
+        "codes": "grassrabbit_10",
+        "max_quantity": 10,
+        "increment": 10
+    },
+    
+    {
+        "name": "Snow Rabbits",
+        "type": "consumable",
+        "img": "images/items/snow rabbits.png",
+        "overlay_align": "right",
+        "codes": "snowrabbit",
+        "max_quantity": 10
+    },
+        {
+        "name": "Snow Rabbits",
+        "type": "consumable",
+        "img": "images/items/snow rabbits.png",
+        "overlay_align": "right",
+        "codes": "snowrabbit_1",
+        "max_quantity": 10
+    },
+    {
+        "name": "Snow Rabbits",
+        "type": "consumable",
+        "overlay_align": "right",
+        "codes": "snowrabbit_2",
+        "max_quantity": 10,
+        "increment": 2
+    },
+    {
+        "name": "Snow Rabbits",
+        "type": "consumable",
+        "overlay_align": "right",
+        "codes": "snowrabbit_3",
+        "max_quantity": 10,
+        "increment": 3
+    },
+    {
+        "name": "Snow Rabbits",
+        "type": "consumable",
+        "overlay_align": "right",
+        "codes": "snowrabbit_4",
+        "max_quantity": 10,
+        "increment": 4
+    },
+    {
+        "name": "Snow Rabbits",
+        "type": "consumable",
+        "overlay_align": "right",
+        "codes": "snowrabbit_5",
+        "max_quantity": 10,
+        "increment": 5
+    },
+    {
+        "name": "Snow Rabbits",
+        "type": "consumable",
+        "overlay_align": "right",
+        "codes": "snowrabbit_10",
+        "max_quantity": 10,
+        "increment": 10
+    },
+    
+    {
+        "name": "Ocean Rabbits",
+        "type": "consumable",
+        "img": "images/items/ocean rabbits.png",
+        "overlay_align": "right",
+        "codes": "oceanrabbit",
+        "max_quantity": 10
+    },
+        {
+        "name": "Ocean Rabbits",
+        "type": "consumable",
+        "img": "images/items/ocean rabbits.png",
+        "overlay_align": "right",
+        "codes": "oceanrabbit_1",
+        "max_quantity": 10
+    },
+    {
+        "name": "Ocean Rabbits",
+        "type": "consumable",
+        "overlay_align": "right",
+        "codes": "oceanrabbit_2",
+        "max_quantity": 10,
+        "increment": 2
+    },
+    {
+        "name": "Ocean Rabbits",
+        "type": "consumable",
+        "overlay_align": "right",
+        "codes": "oceanrabbit_3",
+        "max_quantity": 10,
+        "increment": 3
+    },
+    {
+        "name": "Ocean Rabbits",
+        "type": "consumable",
+        "overlay_align": "right",
+        "codes": "oceanrabbit_4",
+        "max_quantity": 10,
+        "increment": 4
+    },
+    {
+        "name": "Ocean Rabbits",
+        "type": "consumable",
+        "overlay_align": "right",
+        "codes": "oceanrabbit_5",
+        "max_quantity": 10,
+        "increment": 5
+    },
+    {
+        "name": "Ocean Rabbits",
+        "type": "consumable",
+        "overlay_align": "right",
+        "codes": "oceanrabbit_10",
+        "max_quantity": 10,
+        "increment": 10
+    },
+    {
+        "name": "Mountain Rabbits",
+        "type": "consumable",
+        "overlay_align": "right",
+        "codes": "mountainrabbit_2",
+        "max_quantity": 10,
+        "increment": 2
+    },
+    {
+        "name": "Mountain Rabbits",
+        "type": "consumable",
+        "overlay_align": "right",
+        "codes": "mountainrabbit_3",
+        "max_quantity": 10,
+        "increment": 3
+    },
+    {
+        "name": "Mountain Rabbits",
+        "type": "consumable",
+        "overlay_align": "right",
+        "codes": "mountainrabbit_4",
+        "max_quantity": 10,
+        "increment": 4
+    },
+    {
+        "name": "Mountain Rabbits",
+        "type": "consumable",
+        "overlay_align": "right",
+        "codes": "mountainrabbit_5",
+        "max_quantity": 10,
+        "increment": 5
+    },
+    {
+        "name": "Mountain Rabbits",
+        "type": "consumable",
+        "overlay_align": "right",
+        "codes": "mountainrabbit_10",
+        "max_quantity": 10,
+        "increment": 10
+    },
+    {
+        "name": "Sand Rabbits",
+        "type": "consumable",
+        "img": "images/items/Sand Rabbits.png",
+        "overlay_align": "right",
+        "codes": "sandrabbit",
+        "max_quantity": 10
+    },
+        {
+        "name": "Sand Rabbits",
+        "type": "consumable",
+        "img": "images/items/Sand Rabbits.png",
+        "overlay_align": "right",
+        "codes": "sandrabbit_1",
+        "max_quantity": 10
+    },
+    {
+        "name": "Sand Rabbits",
+        "type": "consumable",
+        "overlay_align": "right",
+        "codes": "sandrabbit_2",
+        "max_quantity": 10,
+        "increment": 2
+    },
+    {
+        "name": "Sand Rabbits",
+        "type": "consumable",
+        "overlay_align": "right",
+        "codes": "sandrabbit_3",
+        "max_quantity": 10,
+        "increment": 3
+    },
+    {
+        "name": "Sand Rabbits",
+        "type": "consumable",
+        "overlay_align": "right",
+        "codes": "sandrabbit_4",
+        "max_quantity": 10,
+        "increment": 4
+    },
+    {
+        "name": "Sand Rabbits",
+        "type": "consumable",
+        "overlay_align": "right",
+        "codes": "sandrabbit_5",
+        "max_quantity": 10,
+        "increment": 5
+    },
+    {
+        "name": "Sand Rabbits",
+        "type": "consumable",
+        "overlay_align": "right",
+        "codes": "sandrabbit_10",
+        "max_quantity": 10,
+        "increment": 10
+    }
+]

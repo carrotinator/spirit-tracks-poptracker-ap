@@ -221,8 +221,8 @@ ITEM_MAPPING = {
 	[191] = {{"_ut_glitched_logic", "toggle"}},
 	[192] = {{"towerofspiritsbase", "toggle"}},
 	[193] = {{"progressivetossection", "toggle"}},
-	[194] = {{"repairtradingpostbridge", "toggle"}},
-	[195] = {{"snowfallsanctuarycavekey", "toggle"}},
+	[194] = {{"lock_bridge", "progressive"}},
+	[195] = {{"lock_sr", "progressive"}},
 	[196] = {{"prizepostcards(10)", "toggle"}},
 	[197] = {{"wagon", "toggle"}},
 

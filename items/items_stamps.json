@@ -1,0 +1,206 @@
+[
+        {
+        "name": "Stamps Total",
+        "type": "consumable",
+        "img": "images/items/Stamps/Small Stamp Outset Village.png",
+        "overlay_align": "right",
+        "codes": "stamps",
+        "max_quantity": 20
+    },
+    {
+        "name": "Stamp Pack 2",
+        "type": "consumable",
+        "img": "images/items/Stamps/Small Stamp Goron Village.png",
+        "overlay_align": "right",
+        "codes": "stamp_pack_2",
+        "increment": 2,
+        "max_quantity": 20
+    },
+    {
+        "name": "Stamp Pack 3",
+        "type": "consumable",
+        "img": "images/items/Stamps/Small Stamp Marine Temple.png",
+        "overlay_align": "right",
+        "codes": "stamp_pack_3",
+        "increment": 3,
+        "max_quantity": 20
+    },
+    {
+        "name": "Stamp Pack 4",
+        "type": "consumable",
+        "img": "images/items/Stamps/Small Stamp Snowfall Sanctuary.png",
+        "overlay_align": "right",
+        "codes": "stamp_pack_4",
+        "increment": 4,
+        "max_quantity": 20
+    },
+    {
+        "name": "Stamp Pack 5",
+        "type": "consumable",
+        "img": "images/items/Stamps/Small Stamp Pirate Hideout.png",
+        "overlay_align": "right",
+        "codes": "stamp_pack_5",
+        "increment": 5,
+        "max_quantity": 20
+    },
+    {
+        "name": "Stamp: Castle Town",
+        "type": "toggle",
+        "img": "images/items/Stamps/Big Stamp Castle Town.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "Stamp: Castle Town"
+    },
+    {
+        "name": "Stamp: Outset Village",
+        "type": "toggle",
+        "img": "images/items/Stamps/Big Stamp Outset Village.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "Stamp: Outset Village"
+    },
+    {
+        "name": "Stamp: Mayscore",
+        "type": "toggle",
+        "img": "images/items/Stamps/Big Stamp Mayscore.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "Stamp: Mayscore"
+    },
+    {
+        "name": "Stamp: Woodland Sanctuary",
+        "type": "toggle",
+        "img": "images/items/Stamps/Big Stamp Woodland Sanctuary.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "Stamp: Woodland Sanctuary"
+    },
+    {
+        "name": "Stamp: Anouki Village",
+        "type": "toggle",
+        "img": "images/items/Stamps/Big Stamp Anouki Village.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "Stamp: Anouki Village"
+    },
+    {
+        "name": "Stamp: Snowfall Sanctuary",
+        "type": "toggle",
+        "img": "images/items/Stamps/Big Stamp Snowfall Sanctuary.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "Stamp: Snowfall Sanctuary"
+    },
+    {
+        "name": "Stamp: Papuzia Village",
+        "type": "toggle",
+        "img": "images/items/Stamps/Big Stamp Papuzia Village.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "Stamp: Papuzia Village"
+    },
+    {
+        "name": "Stamp: Island Sanctuary",
+        "type": "toggle",
+        "img": "images/items/Stamps/Big Stamp Island Sanctuary.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "Stamp: Island Sanctuary"
+    },
+    {
+        "name": "Stamp: Goron Village",
+        "type": "toggle",
+        "img": "images/items/Stamps/Big Stamp Goron Village.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "Stamp: Goron Village"
+    },
+    {
+        "name": "Stamp: Valley Sanctuary",
+        "type": "toggle",
+        "img": "images/items/Stamps/Big Stamp Valley Sanctuary.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "Stamp: Valley Sanctuary"
+    },
+    {
+        "name": "Stamp: Dune Sanctuary",
+        "type": "toggle",
+        "img": "images/items/Stamps/Big Stamp Dune Sanctuary.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "Stamp: Dune Sanctuary"
+    },
+    {
+        "name": "Stamp: Wooded Temple",
+        "type": "toggle",
+        "img": "images/items/Stamps/Big Stamp Wooded Temple.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "Stamp: Wooded Temple"
+    },
+    {
+        "name": "Stamp: Blizzard Temple",
+        "type": "toggle",
+        "img": "images/items/Stamps/Big Stamp Blizzard Temple.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "Stamp: Blizzard Temple"
+    },
+    {
+        "name": "Stamp: Marine Temple",
+        "type": "toggle",
+        "img": "images/items/Stamps/Big Stamp Marine Temple.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "Stamp: Marine Temple"
+    },
+    {
+        "name": "Stamp: Mountain Temple",
+        "type": "toggle",
+        "img": "images/items/Stamps/Big Stamp Mountain Temple.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "Stamp: Mountain Temple"
+    },
+    {
+        "name": "Stamp: Desert Temple",
+        "type": "toggle",
+        "img": "images/items/Stamps/Big Stamp desert temple.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "Stamp: Desert Temple"
+    },
+    {
+        "name": "Stamp: Pirate Hideout",
+        "type": "toggle",
+        "img": "images/items/Stamps/Big Stamp pirate hideout.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "Stamp: Pirate Hideout"
+    },
+    {
+        "name": "Stamp: Trading Post",
+        "type": "toggle",
+        "img": "images/items/Stamps/Big Stamp trading post.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "Stamp: Trading Post"
+    },
+    {
+        "name": "Stamp: Icy Spring",
+        "type": "toggle",
+        "img": "images/items/Stamps/Big Stamp Icy Spring.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "Stamp: Icy Spring"
+    },
+    {
+        "name": "Stamp: Tower of Spirits",
+        "type": "toggle",
+        "img": "images/items/Stamps/Big Stamp tower of Spirits.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "Stamp: Tower of Spirits"
+    }
+]
