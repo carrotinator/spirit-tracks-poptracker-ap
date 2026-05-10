@@ -613,6 +613,55 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "cargo:vessel"
+    },
+
+    {
+        "name": "portalunlock_a",
+        "type": "toggle",
+        "initial_active_state": false,
+        "codes": "portalunlock_a"
+    },
+    {
+        "name": "portalunlock_b",
+        "type": "toggle",
+        "initial_active_state": false,
+        "codes": "portalunlock_b"
+    },
+    {
+        "name": "portalunlock_c",
+        "type": "toggle",
+        "initial_active_state": false,
+        "codes": "portalunlock_c"
+    },
+    {
+        "name": "portalunlock_d",
+        "type": "toggle",
+        "initial_active_state": false,
+        "codes": "portalunlock_d"
+    },
+    {
+        "name": "portalunlock_e",
+        "type": "toggle",
+        "initial_active_state": false,
+        "codes": "portalunlock_e"
+    },
+    {
+        "name": "portalunlock_f",
+        "type": "toggle",
+        "initial_active_state": false,
+        "codes": "portalunlock_f"
+    },
+    {
+        "name": "portalunlock_g",
+        "type": "toggle",
+        "initial_active_state": false,
+        "codes": "portalunlock_g"
+    },
+    {
+        "name": "portalunlock_h",
+        "type": "toggle",
+        "initial_active_state": false,
+        "codes": "portalunlock_h"
     }
 
 ]
