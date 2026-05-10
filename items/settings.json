@@ -162,5 +162,46 @@
 		"overlay_font_size": 20,
 		"overlay_background": "#000000",
 		"min_quantity": 1
+    },
+    {
+		"name": "Portal Behavior",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"loop": true,
+		"stages": [
+			{
+        		"img": "images/track_icons/portal_a.png",
+				"codes": "portal_behavior, one_way",
+				"name": "Portal Behavior: Open One-Way",
+				"inherit_codes": false
+			},
+            {
+        		"img": "images/track_icons/portal_b.png",
+				"codes": "portal_behavior, always_open",
+				"name": "Portal Behavior: Always Open",
+				"inherit_codes": false
+			},
+            {
+        		"img": "images/track_icons/portal_c.png",
+				"codes": "portal_behavior, items",
+				"name": "Portal Behavior: Open with Items",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+        "name": "Portal Locations",
+        "type": "toggle",
+        "img": "images/track_icons/portal_f.png",
+        "initial_active_state": false,
+        "codes": "portal_checks"
+    },
+	{
+        "name": "Rail Map Portals Require Their Rails to Track",
+        "type": "toggle",
+        "img": "images/track_icons/portal_h.png",
+        "initial_active_state": true,
+        "codes": "portal_tracks"
     }
 ]

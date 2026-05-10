@@ -10,11 +10,13 @@ function UpdateCompass(item)
         print(COMPASS_LAYOUT:Get("shards"))
         COMPASS_LAYOUT:Set("mode", "shards")
         COMPASS_LAYOUT:Set("count", Tracker:FindObjectForCode("compass_shards").AcquiredCount)
+        -- COMPASS_LAYOUT.Name = "Compass of Light"
         COMPASS_LAYOUT:ProvidesCodeFunc(COMPASS_LAYOUT, "compass_layout")
     else
         print("  Compass")
         COMPASS_LAYOUT:Set("mode", "default")
         COMPASS_LAYOUT:Set("active", Tracker:FindObjectForCode("Compass").Active)
+        -- COMPASS_LAYOUT.Name = "Compass Shards"
         COMPASS_LAYOUT:ProvidesCodeFunc(COMPASS_LAYOUT, "compass_layout")
     end
 end

@@ -261,3 +261,101 @@ end
 ScriptHost:AddWatchForCode("CompassShards", "compass_shards", CompassShards)
 ScriptHost:AddWatchForCode("Compass", "Compass", Compass)
 ScriptHost:AddWatchForCode("CompassRail", "compass_rail", CompassRail)
+
+local portalRailReqs = {
+	["portalunlock_d"] = {track1="nicyspring", track2="mtt", portal="portal_d_sr"},
+	["portalunlock_b"] = {track1="tp_portal", track2="btt", portal="portal_b_sr"},
+	["portalunlock_c"] = {track1="snow_bridge", track2="oct", portal="portal_c_sr"},
+	["portalunlock_a"] = {track1="snow_glyph", track2="forest_glyph", portal="portal_a_sr"},
+	["portalunlock_e"] = {track1="cave", track2="fire_glyph", portal="portal_d_sr"},
+	["portalunlock_g"] = {track1="ocean_portal", track2="ocean_glyph", portal="portal_e_fr"},
+	["portalunlock_f"] = {track1="sand_shortcut", track2="oct", portal="portal_f_mr"},
+	["portalunlock_h"] = {track1="dtt", track2="desert", portal="portal_h_e"},
+}
+
+local railsWithPortals = {
+	["nicyspring"] = {{track="mtt", portal="portal_d_sr", item="portalunlock_d", gem=true}},
+	["mtt"] = {{track="nicyspring", portal="portal_d_sr", item="portalunlock_d", gem=false}},
+
+	["tp_portal"] = {{track="btt", portal="portal_b_sr", item="portalunlock_b", gem=true}},
+	["btt"] = {{track="tp_portal", portal="portal_b_sr", item="portalunlock_b", gem=false}},
+
+	["snow_bridge"] = {{track="oct", portal="portal_c_sr", item="portalunlock_c", gem=true}},
+	["oct"] = {
+		{track="snow_bridge", portal="portal_c_sr", item="portalunlock_c", gem=false},
+		{track="sand_shortcut", portal="portal_f_mr", item="portalunlock_f", gem=false}
+	},
+	["sand_shortcut"] = {{track="oct", portal="portal_f_mr", item="portalunlock_f", gem=true}},
+
+	["snow_glyph"] = {{track="forest_glyph", portal="portal_a_sr", item="portalunlock_a", gem=true}},
+	["forest_glyph"] = {{track="snow_glyph", portal="portal_a_sr", item="portalunlock_a", gem=false}},
+
+	["cave"] = {{track="fire_glyph", portal="portal_e_fr", item="portalunlock_e", gem=true}},
+	["fire_glyph"] = {{track="cave", portal="portal_e_fr", item="portalunlock_e", gem=false}},
+
+	["ocean_portal"] = {{track="ocean_glyph", portal="portal_g_fr", item="portalunlock_g", gem=true}},
+	["ocean_glyph"] = {{track="ocean_portal", portal="portal_g_fr", item="portalunlock_g", gem=false}},
+
+	["dtt"] = {{track="desert", portal="portal_h_e", item="portalunlock_h", gem=true}},
+	["desert"] = {{track="dtt", portal="portal_h_e", item="portalunlock_h", gem=false}},
+}
+
+-- Portal Unlocks items
+local function PortalItems(item)
+	portal = Tracker:FindObjectForCode(portalRailReqs[item].portal)
+	host_item = Tracker:FindObjectForCode(item)
+
+	if Tracker:FindObjectForCode("portal_tracks").Active then
+		portal.Active = host_item.Active and Tracker:FindObjectForCode(portalRailReqs[item].track1).Active and Tracker:FindObjectForCode(portalRailReqs[item].track2).Active
+	else
+		portal.Active = host_item.Active
+	end
+end
+
+local function RailsThatUnlockPortals(item)
+	host_track = Tracker:FindObjectForCode(item)
+	-- portal_checks = Tracker:FindObjectForCode("portal_checks").Active
+	portal_track_opt = Tracker:FindObjectForCode("portal_tracks").Active
+	has_cannon = Tracker:FindObjectForCode("cannon").Active
+	portal_opt = Tracker:FindObjectForCode("portal_behavior").CurrentStage
+
+	for i, data in ipairs(railsWithPortals[item]) do
+		track = Tracker:FindObjectForCode(data.track)
+		portal = Tracker:FindObjectForCode(data.portal)
+		portal_item = Tracker:FindObjectForCode(data.item)
+		has_tracks = track.Active and host_track.Active
+		
+		-- open portals, no location
+		if portal_opt == 1 then
+			portal.Active = has_tracks
+			-- ignore case of no cannon and portal locs for now
+			-- need a way to block only one portal on the map.
+			-- Map sandwich? clickbox > portal blocker > portal icon
+		
+		-- require item, no location
+		elseif portal_opt == 2 then
+			if not portal_track_opt then
+				portal.Active = portal_item.Active
+			else
+				portal.Active = portal_item.Active and has_tracks
+			end
+			-- ignore case of no cannon and portal locs for now
+
+		-- one-way portals
+		elseif portal_opt == 0 then
+			portal.Active = has_cannon and has_tracks
+		end
+
+	end
+end
+
+-- Cannon Unlocks one-way portals
+local function CannonPortalSweep(item)
+	for key, _ in pairs(railsWithPortals) do
+		RailsThatUnlockPortals(key)
+	end
+end
+
+DictItemWatches(PortalItems, portalRailReqs)
+DictItemWatches(RailsThatUnlockPortals, railsWithPortals)
+ScriptHost:AddWatchForCode("CannonPortalSweep", "cannon", CannonPortalSweep)
