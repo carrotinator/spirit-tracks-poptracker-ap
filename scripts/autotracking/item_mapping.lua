@@ -19,7 +19,7 @@ ITEM_MAPPING = {
 	[14] = {{"engineersclothes", "toggle"}},
 
 	[15] = {{"Compass", "toggle"}},
-	[16] = {{"compassoflightshard", "toggle"}},
+	[16] = {{"compass_shards", "toggle"}},
 
 	[17] = {{"royalengineerscertificate", "toggle"}},
 

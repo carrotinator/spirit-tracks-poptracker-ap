@@ -341,19 +341,18 @@
     },
     {
         "name": "Compass of Light",
-        "type": "consumable",
+        "type": "toggle",
         "img": "images/items/Compass of Light.png",
-        "max_quantity": 30,
         "overlay_align": "right",
         "codes": "Compass"
     },
     {
-        "name": "compassoflightshard",
-        "type": "toggle",
+        "name": "Compass Shards",
+        "type": "consumable",
         "img": "images/items/compassoflightshard.png",
-        "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "compassoflightshard"
+        "max_quantity": 30,
+        "codes": "compass_shards"
     },
     {
         "name": "prizepostcards(10)",

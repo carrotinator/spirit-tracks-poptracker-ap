@@ -201,7 +201,6 @@ function RailWatch(item)
 	end
 end
 DictItemWatches(RailWatch, railDict)
-DictItemWatches(RailWatch, reverseRailDict)
 
 -- AND rail sections
 function RailWatchAnd(item)

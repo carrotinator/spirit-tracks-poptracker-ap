@@ -33,7 +33,7 @@ function containsItem(list, item)
     return false
 end
 
--- making lua pythonic lol, oops a duplicate
+-- making lua pythonic lol, for any values
 function InList(l, x)
 	for _, i in ipairs(l) do
 		if i == x then

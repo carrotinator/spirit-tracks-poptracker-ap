@@ -116,29 +116,51 @@
 		"loop": true,
 		"stages": [
 			{
-				"img": "images/items/Compass of Light.png",
+        		"img": "images/settings/dr_compass.png",
 				"codes": "dark_realm_unlock, compass",
 				"name": "Dark Realm Unlock: Compass of Light",
 				"inherit_codes": false
 			},
             {
-				"img": "images/items/keys/Boss Key BLANK.png",
+        		"img": "images/settings/dr_dung.png",
 				"codes": "dark_realm_unlock, dungeons",
 				"name": "Dark Realm Unlock: Dungeons",
 				"inherit_codes": false
 			},
             {
-				"img": "images/items/keys/Snurglar Keys.png",
-				"codes": "dark_realm_unlock, compass",
+        		"img": "images/settings/dr_shard.png",
+				"codes": "dark_realm_unlock, shards",
 				"name": "Dark Realm Unlock: Shattered Compass",
 				"inherit_codes": false
 			},
             {
-				"img": "images/items/keys/Boss Key BLANK.png",
+        		"img": "images/settings/dr_both.png",
 				"codes": "dark_realm_unlock, both",
 				"name": "Dark Realm Unlock: Dungeons AND Shattered Compass",
 				"inherit_codes": false
 			}
 		]
 	},
+    {
+        "name": "Compass Shards Required",
+        "type": "consumable",
+        "img": "images/settings/compass_want.png",
+        "codes": "compass_shard_count",
+        "max_quantity": 30,
+		"initial_quantity": 5,
+		"overlay_font_size": 20,
+		"overlay_background": "#000000",
+		"min_quantity": 1
+    },
+	{
+        "name": "Compass Shards Total",
+        "type": "consumable",
+        "img": "images/settings/compass_total.png",
+        "codes": "compass_shard_total",
+        "max_quantity": 30,
+		"initial_quantity": 8,
+		"overlay_font_size": 20,
+		"overlay_background": "#000000",
+		"min_quantity": 1
+    }
 ]
