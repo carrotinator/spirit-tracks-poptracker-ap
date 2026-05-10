@@ -235,3 +235,29 @@ function SnurglarDoor(item)
 end
 ScriptHost:AddWatchForCode("Snurglar Door", "SnurglarKeys", SnurglarDoor)
 
+-- Compass and Shards
+local function CompassShards(item)
+    COMPASS_LAYOUT.ItemState["count"] = Tracker:FindObjectForCode(item).AcquiredCount
+    COMPASS_LAYOUT:ProvidesCodeFunc(COMPASS_LAYOUT, "compass_layout")
+	if Tracker:FindObjectForCode("dark_realm_unlock").AcquiredCount > 1 then
+		if Tracker:FindObjectForCode(item).AcquiredCount >= Tracker:FindObjectForCode("compass_shard_count").AcquiredCount then
+			Tracker:FindObjectForCode("Compass").Active = true
+		else
+			Tracker:FindObjectForCode("Compass").Active = false
+		end
+	end
+end
+
+local function Compass(item)
+    COMPASS_LAYOUT.ItemState["active"] = Tracker:FindObjectForCode(item).Active
+    COMPASS_LAYOUT:ProvidesCodeFunc(COMPASS_LAYOUT, "compass_layout")
+	Tracker:FindObjectForCode("compass_rail").Active = Tracker:FindObjectForCode(item).Active
+end
+
+local function CompassRail(item)
+	Tracker:FindObjectForCode("Compass").Active = Tracker:FindObjectForCode(item).Active
+end
+
+ScriptHost:AddWatchForCode("CompassShards", "compass_shards", CompassShards)
+ScriptHost:AddWatchForCode("Compass", "Compass", Compass)
+ScriptHost:AddWatchForCode("CompassRail", "compass_rail", CompassRail)

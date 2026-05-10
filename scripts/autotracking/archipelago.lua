@@ -347,18 +347,26 @@ function UpdateSettings()
         logic = {code="logic"},
         rabbitsanity = {code="rabbitsanity"},
         keysanity = {code="keysanity"},
-        big_keyrings = {code="big_keyrings"}
+        big_keyrings = {code="big_keyrings"},
+        dark_realm_unlock = {code="dark_realm_unlock"},
+        compass_shard_count = {code="compass_shard_count"}
     }
 
     for settings_name , settings_value in pairs(SLOT_DATA) do
-        -- print(k, v)
         if slotCodes[settings_name] then
             item = Tracker:FindObjectForCode(slotCodes[settings_name].code)
+            print(settings_name, settings_value, item)
             if item.Type == "toggle" then
+                print("  Setting toggle "..tostring(boolMap(settings_value)).."  for setting  "..settings_name)
                 item.Active = boolMap(settings_value)
-            else 
-                print("Setting stage", settings_value, "for setting", settings_name)
+            elseif item.Type == "progressive" then
+                print("  Setting stage "..settings_value.." for setting "..settings_name)
                 item.CurrentStage = settings_value
+            elseif item.Type == "consumable" then
+                print("  Setting consumable "..settings_value.." for setting "..settings_name)
+                item.AcquiredCount = settings_value
+            else
+                print("Setting "..settings_name.." was not linked")
             end
         end
     end
