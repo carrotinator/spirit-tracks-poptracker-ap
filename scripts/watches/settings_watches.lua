@@ -35,3 +35,31 @@ end
 ScriptHost:AddWatchForCode("UpdateCompass", "dark_realm_unlock", UpdateCompass)
 ScriptHost:AddWatchForCode("UpdateCompassMax", "compass_shard_total", UpdateCompassMax)
 ScriptHost:AddWatchForCode("UpdateCompassRequired", "compass_shard_count", UpdateCompassRequired)
+
+local layoutLookup = {
+    ["left_key_view"] = {file="small_key_grid", side="left"},
+    ["left_boss_key_view"] = {file="boss_key_grid", side="left"},
+    ["left_passenger_view"] = {file="passenger_group", side="left"},
+    ["left_cargo_view"] = {file="cargo_group", side="left"},
+    ["left_rail_view"] = {file="rail_group", side="left"},
+    ["left_selector_view"] = {file="selector_group", side="left"},
+    ["left_item_view"] = {file="item_group", side="left"}
+}
+
+function UpdateLayout(item)
+    print(item)
+    if Tracker:FindObjectForCode(item).Active then
+        Tracker:AddLayouts("layouts/"..layoutLookup[item].side.."_enable/"..layoutLookup[item].file..".json")
+    else
+        Tracker:AddLayouts("layouts/"..layoutLookup[item].side.."_disable/"..layoutLookup[item].file..".json")
+    end
+end
+
+function SweepLayouts()
+    for layout, _ in pairs(layoutLookup) do
+        UpdateLayout(layout)
+    end
+end
+
+DictItemWatches(UpdateLayout, layoutLookup)
+SweepLayouts()

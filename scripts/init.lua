@@ -41,7 +41,10 @@ function OnFrameHandler()
 end
 require("scripts/custom_items/luaitems")
 require("scripts/utils")
-require("scripts/watches")
-require("scripts/raillogic")
-require("scripts/settings_watches")
+
+-- item watches 
+require("scripts/watches/watches")
+require("scripts/watches/rail_watches")
+require("scripts/watches/settings_watches")
+
 ScriptHost:AddOnFrameHandler("load handler", OnFrameHandler)

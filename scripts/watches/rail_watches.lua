@@ -230,7 +230,7 @@ ListItemWatches(RailWatchForestSquish, westForestSquish)
 -- Snurglar door
 function SnurglarDoor(item)
 	print("Snurglar Door: "..item)
-	print(Tracker:FindObjectForCode("SnurglarKeys").AcquiredCount..Tracker:FindObjectForCode("lock_mtt").Active)
+	print(Tracker:FindObjectForCode("SnurglarKeys").AcquiredCount.." "..tostring(Tracker:FindObjectForCode("lock_mtt").Active))
 	Tracker:FindObjectForCode("lock_mtt").Active = Tracker:FindObjectForCode("SnurglarKeys").AcquiredCount == 3
 end
 ScriptHost:AddWatchForCode("Snurglar Door", "SnurglarKeys", SnurglarDoor)

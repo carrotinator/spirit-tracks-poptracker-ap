@@ -203,5 +203,63 @@
         "img": "images/track_icons/portal_h.png",
         "initial_active_state": true,
         "codes": "portal_tracks"
+    },
+
+
+	{
+        "name": "Toggle Selector View",
+        "type": "toggle",
+        "img": "images/items/cargo/Vessel.png",
+        "initial_active_state": true,
+        "codes": "left_selector_view"
+    },
+	{
+        "name": "Toggle Passenger View",
+        "type": "toggle",
+        "img": "images/items/passenger/Passenger ferrus.png",
+        "initial_active_state": true,
+        "codes": "left_passenger_view"
+    },
+	{
+        "name": "Toggle Cargo View",
+        "type": "toggle",
+        "img": "images/items/cargo/Cucco.png",
+        "initial_active_state": true,
+        "codes": "left_cargo_view"
+    },
+	{
+        "name": "Toggle Small Key View",
+        "type": "toggle",
+        "img": "images/items/Keys/Small Key BLANK.png",
+        "initial_active_state": true,
+        "codes": "left_key_view"
+    },
+		{
+        "name": "Toggle Boss Key View",
+        "type": "toggle",
+        "img": "images/items/Keys/Boss Key BLANK.png",
+        "initial_active_state": true,
+        "codes": "left_boss_key_view"
+    },
+	{
+        "name": "Toggle Tear View",
+        "type": "toggle",
+        "img": "images/track_icons/portal_h.png",
+        "initial_active_state": true,
+        "codes": "left_tear_view"
+    },
+	{
+        "name": "Toggle Rail View",
+        "type": "toggle",
+        "img": "images/track_icons/portal_h.png",
+        "initial_active_state": false,
+        "codes": "left_rail_view"
+    },
+	{
+        "name": "Toggle Item View",
+        "type": "toggle",
+        "img": "images/items/Lokomo Sword.png",
+        "initial_active_state": true,
+        "codes": "left_item_view"
     }
 ]

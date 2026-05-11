@@ -1,0 +1,86 @@
+{
+    "shared_item_grid_vertical": {
+        "type": "dock",
+        "dock": "top",
+        "content": [
+            {
+                "type": "dock",
+                "dock": "top",
+                "content": {
+                    "type": "layout",
+                    "key": "item_grid"
+                }
+            },
+            {
+                "type": "dock",
+                "dock": "top",
+                "content": {
+                    "type": "layout",
+                    "key": "small_key_grid"
+                }
+            },
+            {
+                "type": "dock",
+                "dock": "top",
+                "content": {
+                    "type": "layout",
+                    "key": "boss_key_grid"
+                }
+            }
+        ]
+    },
+    "item_group": {
+        "type": "group",
+        "dock": "top",
+        "header": "Items",
+        "content": {
+            "type": "layout",
+            "key": "shared_item_grid_vertical"
+        }
+    },
+    "item_group_min": {
+        "type": "group",
+        "dock": "top",
+        "header": "Items",
+        "content": {
+            "type": "layout",
+            "key": "item_grid"
+        }
+    },
+    "cargo_group": {
+        "type": "group",
+        "dock": "top",
+        "header": "Cargo",
+        "content": {
+            "type": "layout",
+            "key": "Cargo_item_grid"
+        }
+    },
+    "passenger_group": {
+        "type": "group",
+        "dock": "top",
+        "header": "Passengers",
+        "content": {
+            "type": "layout",
+            "key": "Passenger_item_grid"
+        }
+    },
+    "selector_group": {
+        "type": "group",
+        "dock": "top",
+        "header": "Toggle Layouts (Left)",
+        "content": {
+            "type": "layout",
+            "key": "left_view_selector"
+        }
+    },
+    "rail_group": {
+        "type": "group",
+        "dock": "top",
+        "header": "Rails",
+        "content": {
+            "type": "layout",
+            "key": "rail_grid"
+        }
+    }
+}

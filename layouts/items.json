@@ -1,5 +1,5 @@
 {
-    "shared_item_grid_vertical": {
+    "item_grid": {
         "type": "array",
         "orientation": "vertical",
         "margin": "0,0",
@@ -53,7 +53,32 @@
                                 "oceanrabbit",
                                 "mountainrabbit",
                                 "sandrabbit"
-                            ],
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "small_key_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "center",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 58,
+                        "item_width": 62,
+                        "rows": [
                             [
                                 "WoodSmall",
                                 "BlizzSmall",
@@ -68,7 +93,32 @@
                                 "Tos4Small",
                                 "ToS5Small",
                                 "ToS6Small"
-                            ],
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "boss_key_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "center",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 58,
+                        "item_width": 62,
+                        "rows": [
                             [
                                 "WoodBig",
                                 "BlizzBig",
@@ -138,6 +188,7 @@
     "Cargo_item_grid": {
         "type": "array",
         "orientation": "vertical",
+        "v_alignment": "top",
         "margin": "0,0",
         "content": [
             {
@@ -215,6 +266,41 @@
                                 "Stamp: Trading Post",
                                 "Stamp: Icy Spring",
                                 "Stamp: Tower of Spirits"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "left_view_selector": {
+        "type": "array",
+        "orientation": "vertical",
+        "v_alignment": "top",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "center",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 58,
+                        "item_width": 62,
+                        "rows": [
+                            [
+                                "left_item_view",
+                                "left_key_view",
+                                "left_boss_key_view",
+                                "left_passenger_view",
+                                "left_cargo_view",
+                                "left_rail_view",
+                                "left_selector_view"
                             ]
                         ]
                     }

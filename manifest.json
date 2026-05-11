@@ -28,6 +28,12 @@
             "flags": [
                 "ap"
             ]
+        },
+		"Tracker_Customizable": {
+            "display_name": "Item Tracker (Customizable)",
+            "flags": [
+                "ap"
+            ]
         }
     },
     "min_poptracker_version": "0.31.0"

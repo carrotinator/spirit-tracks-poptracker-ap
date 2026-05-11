@@ -12,12 +12,11 @@
                     "v_alignment": "stretch",
                     "content": [
                         {
-                            "type": "group",
-                            "header": "Items",
+                            "type": "container",
                             "dock": "top",
                             "content": {
                                 "type": "layout",
-                                "key": "shared_item_grid_vertical"
+                                "key": "item_group"
                             }
                         },
                         {
