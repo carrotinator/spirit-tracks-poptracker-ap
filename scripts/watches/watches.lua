@@ -171,3 +171,41 @@ function Keyrings(item)
     end
 end
 DictItemWatches(Keyrings, keyringLookup)
+
+-- Special functions for Ice with various settings
+local function UpdateIce(item)
+    if Tracker:FindObjectForCode("randomize_cargo").CurrentStage == 3 then
+        ICE_LAYOUT.ItemState["count"] = Tracker:FindObjectForCode("cargo:megaice").AcquiredCount
+        ICE_LAYOUT.ItemState["mode"] = "shards"
+        ICE_LAYOUT:ProvidesCodeFunc(ICE_LAYOUT, "ice_layout")
+    else
+        ICE_LAYOUT.ItemState["active"] = Tracker:FindObjectForCode("cargo:megaice").AcquiredCount > 0
+        ICE_LAYOUT.ItemState["mode"] = "default"
+        ICE_LAYOUT:ProvidesCodeFunc(ICE_LAYOUT, "ice_layout")
+    end
+end
+
+ListItemWatches(UpdateIce, {"cargo:megaice", "randomize_cargo"})
+
+-- Special functions for Cuccos
+local function UpdateCuccos(item)
+    if Tracker:FindObjectForCode("randomize_cargo").CurrentStage == 3 then
+        CUCCO_LAYOUT.ItemState["count"] = Tracker:FindObjectForCode("cargo:cuccos_multi").AcquiredCount
+        CUCCO_LAYOUT.ItemState["mode"] = "shards"
+        CUCCO_LAYOUT:ProvidesCodeFunc(CUCCO_LAYOUT, "cucco_layout")
+    else
+        CUCCO_LAYOUT.ItemState["active"] = Tracker:FindObjectForCode("cargo:cuccos_single").Active
+        CUCCO_LAYOUT.ItemState["mode"] = "default"
+        CUCCO_LAYOUT:ProvidesCodeFunc(CUCCO_LAYOUT, "cucco_layout")
+    end
+end
+ListItemWatches(UpdateCuccos, {"cargo:cuccos_single", "cargo:cuccos_multi", "randomize_cargo"})
+
+
+local function TempDebug(item)
+    print(Tracker:FindObjectForCode("randomize_cargo"))
+    print(Tracker:FindObjectForCode("randomize_cargo").CurrentStage)
+    print(Tracker:FindObjectForCode("randomize_cargo").Icon)
+end
+
+ScriptHost:AddWatchForCode("TempDebug", "cucco_layout", TempDebug)

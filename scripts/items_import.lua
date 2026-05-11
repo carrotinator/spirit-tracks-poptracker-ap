@@ -10,4 +10,6 @@ Tracker:AddItems("items/items_rails.json")
 
 -- luaitems
 require("scripts/custom_items/compass_item")
-COMPASS_LAYOUT = CreateCompassLuaItem("compass_layout")
+COMPASS_LAYOUT = CreateMixedLuaItem("Compass of Light", "compass_layout", "/images/items/Compass of Light.png", 8, 5)
+CUCCO_LAYOUT = CreateMixedLuaItem("Cargo: Cuccos", "cucco_layout", "/images/items/cargo/Cucco.png", 3, 3)
+ICE_LAYOUT = CreateMixedLuaItem("Cargo: Mega Ice", "ice_layout", "/images/items/cargo/Mega Ice.png", 3, 3)

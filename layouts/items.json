@@ -206,8 +206,8 @@
                         "item_width": 62,
                         "rows": [
                             [
-                                "Cargo: Cuccos",
-                                "cargo:megaice",
+                                "cucco_layout",
+                                "ice_layout",
                                 "cargo:lumber",
                                 "cargo:goronsteel",
                                 "cargo:fish",

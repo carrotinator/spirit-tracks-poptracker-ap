@@ -396,12 +396,19 @@
         "codes": "purplepotion"
     },
     {
-        "name": "cargo: cuccos",
+        "name": "Cuccos (Multi)",
         "type": "consumable",
         "img": "images/items/cargo/Cucco.png",
         "overlay_align": "right",
-        "codes": "Cargo: Cuccos",
+        "codes": "cargo:cuccos_multi",
         "max_quantity": 3
+    },
+    {
+        "name": "Cuccos (Single)",
+        "type": "toggle",
+        "img": "images/items/cargo/Cucco.png",
+        "overlay_align": "right",
+        "codes": "cargo:cuccos_single"
     },
     {
         "name": "redpotion",
@@ -412,7 +419,7 @@
         "codes": "redpotion"
     },
     {
-        "name": "cargo: megaice",
+        "name": "Cargo: Mega Ice",
         "type": "consumable",
         "img": "images/items/cargo/Mega Ice.png",
         "overlay_align": "right",
@@ -476,7 +483,7 @@
         "codes": "pre-alpharupee(5000)"
     },
     {
-        "name": "cargo:lumber",
+        "name": "Cargo: Lumber",
         "type": "toggle",
         "img": "images/items/cargo/Lumber.png",
         "initial_active_state": false,
@@ -542,7 +549,7 @@
         "codes": "recruituniform"
     },
     {
-        "name": "cargo:fish",
+        "name": "Cargo: Fish",
         "type": "toggle",
         "img": "images/items/cargo/Fish.png",
         "initial_active_state": false,
@@ -550,7 +557,7 @@
         "codes": "cargo:fish"
     },
     {
-        "name": "cargo:darkore",
+        "name": "Cargo: Dark Ore",
         "type": "toggle",
         "img": "images/items/cargo/Dark Ore.png",
         "initial_active_state": false,
@@ -599,7 +606,7 @@
     },
 
     {
-        "name": "cargo:goronsteel",
+        "name": "Cargo: Goron Steel",
         "type": "toggle",
         "img": "images/items/cargo/Goron Iron.png",
         "initial_active_state": false,
@@ -607,7 +614,7 @@
         "codes": "cargo:goronsteel"
     },
     {
-        "name": "cargo:vessel",
+        "name": "Cargo: Vessel",
         "type": "toggle",
         "img": "images/items/cargo/Vessel.png",
         "initial_active_state": false,

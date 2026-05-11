@@ -250,8 +250,8 @@ ITEM_MAPPING = {
 	[218] = {{"cargo:goronsteel", "toggle"}},
 	[219] = {{"cargo:fish", "toggle"}},
 	[220] = {{"cargo:vessel", "toggle"}},
-	[221] = {{"Cargo: Cuccos", "toggle"}},
-	[222] = {{"Cargo: Cuccos", "toggle"}},
+	[221] = {{"cargo:cuccos_single", "toggle"}},
+	[222] = {{"cargo:cuccos_multi", "toggle"}},
 	[223] = {{"cargo:darkore", "toggle"}},
 
 	

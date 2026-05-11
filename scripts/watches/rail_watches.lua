@@ -358,6 +358,4 @@ end
 
 DictItemWatches(PortalItems, portalRailReqs)
 DictItemWatches(RailsThatUnlockPortals, railsWithPortals)
-ScriptHost:AddWatchForCode("CannonPortalSweep", "cannon", CannonPortalSweep)
-ScriptHost:AddWatchForCode("CannonPortalSweep_portal_tracks", "portal_tracks", CannonPortalSweep)  -- useful
-ScriptHost:AddWatchForCode("CannonPortalSweep_portal_behavior", "portal_behavior", CannonPortalSweep)
+ListItemWatches(CannonPortalSweep, {"cannon", "portal_tracks", "portal_behavior"})

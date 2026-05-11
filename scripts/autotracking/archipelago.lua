@@ -351,7 +351,10 @@ function UpdateSettings()
         dark_realm_unlock = {code="dark_realm_unlock"},
         compass_shard_count = {code="compass_shard_count"},
         portal_behavior = {code="portal_behavior"},
-        portal_checks = {code="portal_checks"}
+        portal_checks = {code="portal_checks"},
+
+        randomize_passengers = {code="randomize_passengers"},
+        randomize_cargo = {code="randomize_cargo"}
     }
 
     for settings_name , settings_value in pairs(SLOT_DATA) do

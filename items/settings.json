@@ -141,6 +141,7 @@
 			}
 		]
 	},
+	
     {
         "name": "Compass Shards Required",
         "type": "consumable",
@@ -204,6 +205,74 @@
         "initial_active_state": true,
         "codes": "portal_tracks"
     },
+	{
+		"name": "Randomize Passengers",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"loop": true,
+		"stages": [
+			{
+        		"img": "images/items/passenger/Passenger Kenzo.png",
+				"img_mods": "@disabled",
+				"codes": "randomize_passengers, no",
+				"name": "Randomize Passengers: No Passengers",
+				"inherit_codes": false
+			},
+            {
+        		"img": "images/items/passenger/Passenger Kenzo.png",
+				"codes": "randomize_passengers, vanilla",
+				"name": "Randomize Passengers: Vanilla",
+				"inherit_codes": false
+			},
+            {
+        		"img": "images/items/passenger/Passenger Kofu.png",
+				"codes": "randomize_passenger, abstract",
+				"name": "Randomize Passengers: Vanilla Abstract",
+				"inherit_codes": false
+			},
+            {
+        		"img": "images/items/passenger/Passenger Ferrus.png",
+				"codes": "randomize_passenger, randomize",
+				"name": "Randomize Passengers: Randomize",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Randomize Cargo",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"loop": true,
+		"stages": [
+			{
+        		"img": "images/items/cargo/Lumber.png",
+				"img_mods": "@disabled",
+				"codes": "randomize_cargo, no",
+				"name": "Randomize Cargo: No Cargo",
+				"inherit_codes": false
+			},
+            {
+        		"img": "images/items/cargo/Lumber.png",
+				"codes": "randomize_cargo, vanilla",
+				"name": "Randomize Cargo: Vanilla",
+				"inherit_codes": false
+			},
+            {
+        		"img": "images/items/cargo/Fish.png",
+				"codes": "randomize_cargo, abstract",
+				"name": "Randomize Cargo: Vanilla Abstract",
+				"inherit_codes": false
+			},
+            {
+        		"img": "images/items/cargo/Cucco.png",
+				"codes": "randomize_cargo, randomize",
+				"name": "Randomize Cargo: Randomize",
+				"inherit_codes": false
+			}
+		]
+	},
 
 
 	{

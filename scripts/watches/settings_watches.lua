@@ -12,12 +12,14 @@ function UpdateCompass(item)
         COMPASS_LAYOUT:Set("count", Tracker:FindObjectForCode("compass_shards").AcquiredCount)
         -- COMPASS_LAYOUT.Name = "Compass of Light"
         COMPASS_LAYOUT:ProvidesCodeFunc(COMPASS_LAYOUT, "compass_layout")
+        COMPASS_LAYOUT.Name = "Compass of Light Shards"
     else
         print("  Compass")
         COMPASS_LAYOUT:Set("mode", "default")
         COMPASS_LAYOUT:Set("active", Tracker:FindObjectForCode("Compass").Active)
         -- COMPASS_LAYOUT.Name = "Compass Shards"
         COMPASS_LAYOUT:ProvidesCodeFunc(COMPASS_LAYOUT, "compass_layout")
+        COMPASS_LAYOUT.Name = "Compass of Light"
     end
 end
 
@@ -46,6 +48,7 @@ local layoutLookup = {
     ["left_item_view"] = {file="item_group", side="left"}
 }
 
+-- Customizable layout toggle sections
 function UpdateLayout(item)
     print(item)
     if Tracker:FindObjectForCode(item).Active then
@@ -55,6 +58,7 @@ function UpdateLayout(item)
     end
 end
 
+-- Customizable layouts load everything correctly
 function SweepLayouts()
     for layout, _ in pairs(layoutLookup) do
         UpdateLayout(layout)

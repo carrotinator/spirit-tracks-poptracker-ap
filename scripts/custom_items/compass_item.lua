@@ -1,6 +1,6 @@
 
 local function CanProvideCodeFunc(self, code)
-    return code == self.Name
+    return code == self.ItemState["code"]
 end
 
 local function UpdateShards(self)
@@ -94,11 +94,11 @@ local function LoadManualLocationStorageFunc(self, data)
     end
 end
 
-function CreateCompassLuaItem(name)
+function CreateMixedLuaItem(name, code, icon, max_shards, required_shards)
     local self = ScriptHost:CreateLuaItem()
     -- self.Type = "custom"
     self.Name = name --code --
-    self.Icon = ImageReference:FromPackRelativePath("/images/items/Compass of Light.png")
+    self.Icon = ImageReference:FromPackRelativePath(icon)
     self.ItemState = {
         MANUAL_LOCATIONS = {
             ["default"] = {}
@@ -108,8 +108,9 @@ function CreateCompassLuaItem(name)
         ["mode"] = "default",
         ["count"] = 0,
         ["active"] = false,
-        ["max_shards"] = 30,
-        ["required_shards"] = 30
+        ["max_shards"] = max_shards,  -- original item was compass/shards, can't be bothered to update variable names
+        ["required_shards"] = required_shards,
+        ["code"] = code
     }
 
     self.CanProvideCodeFunc = CanProvideCodeFunc

@@ -17,9 +17,8 @@
                         "rows": [
                             ["autofill_tracker", "logic"],
                             ["dark_realm_unlock", "compass_shard_count", "compass_shard_total"],
-                            ["exclude_dungeons", "exclude_sections", "require_specific_dungeons"],
                             ["keysanity", "randomize_boss_keys", "big_keyrings"],
-                            ["rabbitsanity", "ranomize_passengers", "randomize_cargo"],
+                            ["rabbitsanity", "randomize_passengers", "randomize_cargo"],
                             ["portal_behavior", "portal_checks", "portal_tracks"],
                             ["randomize_tears", "spirit_weapons", "tear_sections"],
                             ["dark_realm_access", "randomize_stamps"],
