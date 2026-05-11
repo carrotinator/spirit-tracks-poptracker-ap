@@ -94,6 +94,14 @@ local function LoadManualLocationStorageFunc(self, data)
     end
 end
 
+function ResetMixedLuaItem(self)
+    print("Resetting "..self.ItemState["code"])
+    self.ItemState["mode"] = "default"
+    self.ItemState["count"] = 0
+    self.ItemState["active"] = false
+    UpdateVisuals(self)
+end
+
 function CreateMixedLuaItem(name, code, icon, max_shards, required_shards)
     local self = ScriptHost:CreateLuaItem()
     -- self.Type = "custom"

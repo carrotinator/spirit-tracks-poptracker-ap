@@ -261,9 +261,14 @@ local function CompassRail(item)
 	Tracker:FindObjectForCode("Compass").Active = Tracker:FindObjectForCode(item).Active
 end
 
+local function CompassLayout(item)
+	Tracker:FindObjectForCode("Compass").Active = COMPASS_LAYOUT.ItemState["active"]
+end
+
 ScriptHost:AddWatchForCode("CompassShards", "compass_shards", CompassShards)
 ScriptHost:AddWatchForCode("Compass", "Compass", Compass)
 ScriptHost:AddWatchForCode("CompassRail", "compass_rail", CompassRail)
+ScriptHost:AddWatchForCode("CompassLayout_sync", "compass_layout", CompassLayout)
 
 local portalRailReqs = {
 	["portalunlock_d"] = {track1="nicyspring", track2="mtt", portal="portal_d_sr"},

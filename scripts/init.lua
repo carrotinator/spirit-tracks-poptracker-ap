@@ -32,6 +32,7 @@ if PopVersion and PopVersion >= "0.26.0" then
 end
 
 function OnFrameHandler()
+    print("Frame Handler")
     ScriptHost:RemoveOnFrameHandler("load handler")
     -- stuff
     ScriptHost:AddWatchForCode("StateChanged", "*", StateChanged)

@@ -8,6 +8,7 @@ CUR_INDEX = -1
 ALL_LOCATIONS = {}
 SLOT_DATA = {}
 STAMP_PACK_ORDER = {}
+TOWER_SECTION_LOOKUP = {}
 
 MANUAL_CHECKED = true
 ROOM_SEED = "default"
@@ -172,6 +173,7 @@ function preOnClear()
 end
 
 function onClear(slot_data)
+    print("onClear")
     MANUAL_CHECKED = false
     local custom_storage_item = Tracker:FindObjectForCode("manual_location_storage").ItemState
     if custom_storage_item == nil then
@@ -230,6 +232,13 @@ function onClear(slot_data)
             end
         end
     end
+
+    -- Manually Reset Luaitems
+    ResetMixedLuaItem(COMPASS_LAYOUT)
+    ResetMixedLuaItem(CUCCO_LAYOUT)
+    ResetMixedLuaItem(ICE_LAYOUT)
+    ResetMixedLuaItem(TOS_LAYOUT)
+
     PLAYER_ID = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
     SLOT_DATA = slot_data
@@ -348,7 +357,7 @@ function UpdateSettings()
         rabbitsanity = {code="rabbitsanity"},
         keysanity = {code="keysanity"},
         big_keyrings = {code="big_keyrings"},
-        dark_realm_unlock = {code="dark_realm_unlock"},
+        dark_realm_access = {code="dark_realm_unlock"},
         compass_shard_count = {code="compass_shard_count"},
         portal_behavior = {code="portal_behavior"},
         portal_checks = {code="portal_checks"},
@@ -385,7 +394,7 @@ function UpdateSettings()
     STAMP_PACK_ORDER = SLOT_DATA["stamp_pack_order"]
     print("stamp pack order:", STAMP_PACK_ORDER)
     -- ToS section order
-
+    TOWER_SECTION_LOOKUP = SLOT_DATA["tower_section_lookup"]
 end
 
 function OnNotify(key, value, old_value)

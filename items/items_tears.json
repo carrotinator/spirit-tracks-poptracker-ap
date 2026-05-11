@@ -1,6 +1,6 @@
 [
         {
-        "name": "tearoflight(tos1)",
+        "name": "Tear of Light (ToS 1)",
         "type": "consumable",
         "max_quantity": 3,
         "img": "images/items/TearToS1.png",
@@ -8,7 +8,7 @@
         "codes": "TearToS1"
     },
     {
-        "name": "tearoflight(tos2)",
+        "name": "Tear of Light (ToS 2)",
         "type": "consumable",
         "max_quantity": 3,
         "img": "images/items/TearToS2.png",
@@ -16,7 +16,7 @@
         "codes": "TearToS2"
     },
     {
-        "name": "tearoflight(tos3)",
+        "name": "Tear of Light (ToS 3)",
         "type": "consumable",
         "max_quantity": 3,
         "img": "images/items/TearToS3.png",
@@ -24,7 +24,7 @@
         "codes": "TearToS3"
     },
     {
-        "name": "tearoflight(tos4)",
+        "name": "Tear of Light (ToS 4)",
         "type": "consumable",
         "max_quantity": 3,
         "img": "images/items/TearToS4.png",
@@ -32,7 +32,7 @@
         "codes": "TearToS4"
     },
     {
-        "name": "tearoflight(tos5)",
+        "name": "Tear of Light (ToS 5)",
         "type": "consumable",
         "max_quantity": 3,
         "img": "images/items/TearToS5.png",
@@ -40,11 +40,69 @@
         "codes": "TearToS5"
     },
     {
-        "name": "tearoflight(tos6)",
+        "name": "Tear of Light (ToS 6)",
         "type": "consumable",
         "max_quantity": 3,
         "img": "images/items/TearToS6.png",
         "overlay_align": "right",
         "codes": "TearToS6"
+    },
+
+    {
+        "name": "Big Tear of Light (ToS 1)",
+        "type": "toggle",
+        "codes": "big_TearToS1"
+    },
+    {
+        "name": "Big Tear of Light (ToS 2)",
+        "type": "toggle",
+        "codes": "big_TearToS2"
+    },
+    {
+        "name": "Big Tear of Light (ToS 3)",
+        "type": "toggle",
+        "codes": "big_TearToS3"
+    },
+    {
+        "name": "Big Tear of Light (ToS 4)",
+        "type": "toggle",
+        "codes": "big_TearToS4"
+    },
+    {
+        "name": "Big Tear of Light (ToS 5)",
+        "type": "toggle",
+        "codes": "big_TearToS5"
+    },
+    {
+        "name": "Big Tear of Light (ToS 6)",
+        "type": "toggle",
+        "codes": "big_TearToS6"
+    },
+
+    {
+        "name": "Tear of Light (Progressive)",
+        "type": "consumable",
+        "max_quantity": 16,
+        "codes": "tear_progressive"
+    },
+    {
+        "name": "Big Tear of Light (Progressive)",
+        "type": "consumable",
+        "max_quantity": 6,
+        "codes": "big_tear_progressive"
+    },
+
+    {
+        "name": "Tear of Light (All Sections)",
+        "type": "consumable",
+        "max_quantity": 16,
+        "codes": "tear_global"
+    },
+    {
+        "name": "Big Tear of Light (All Sections)",
+        "type": "consumable",
+        "max_quantity": 6,
+        "codes": "big_tear_global"
     }
+
 ]

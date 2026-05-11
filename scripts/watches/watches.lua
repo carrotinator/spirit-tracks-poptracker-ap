@@ -220,3 +220,68 @@ end
 ListItemWatches(TowerOfSpiritsBase, {"tos_unlock_base_item", "tos_section_unlocks", "towerofspiritsbase", "progressivetossection"})
 
 -- Tears of Light
+local function BigTears(item)
+    index = string.sub(item, -1, -1)
+    print(index)
+    if Tracker:FindObjectForCode(item).Active then
+        Tracker:FindObjectForCode("TearToS"..index).AcquiredCount = 3
+    end
+end
+
+local bigTears = {}
+for i=1,6 do
+    bigTears[i] = "big_TearToS"..i
+end
+
+ListItemWatches(BigTears, bigTears)
+
+local function GlobalTears(item)
+    send_weapons = false
+    if item == "tear_global" then
+        count = Tracker:FindObjectForCode(item).AcquiredCount
+        if count >= 4 then
+            send_weapons = true
+        end
+    elseif item == "big_tear_global" then
+        count = 3
+        if Tracker:FindObjectForCode(item).AcquiredCount >= 2 then
+            send_weapons = true
+        end
+    end
+    
+    for i=1,6 do
+        Tracker:FindObjectForCode("TearToS"..i).AcquiredCount = count
+    end
+
+    if send_weapons and Tracker:FindObjectForCode("spirit_weapons").Active then
+        Tracker:FindObjectForCode("bow_of_light").Active = true
+        Tracker:FindObjectForCode("lokomo_sword").Active = true
+    end
+end
+
+ListItemWatches(GlobalTears, {"tear_global", "big_tear_global", "spirit_weapons"})
+
+-- Upgrade the sword if playing with spirit weapons
+local function CheckSword(item)
+    if Tracker:FindObjectForCode("spirit_weapons").Active and Tracker:FindObjectForCode("ProgSword").CurrentStage > 0 and Tracker:FindObjectForCode("lokomo_sword").Active then
+        Tracker:FindObjectForCode("ProgSword").CurrentStage = 2
+    end
+end
+ListItemWatches(CheckSword, {"ProgSword", "lokomo_sword", "spirit_weapons"})
+
+local function ProgressiveTears(item)
+    total_tears = Tracker:FindObjectForCode("tear_progressive").AcquiredCount + Tracker:FindObjectForCode("big_tear_progressive").AcquiredCount * 3
+    
+    for section, order in pairs(TOWER_SECTION_LOOKUP) do
+        if total_tears >= (order-1)*3 then
+            Tracker:FindObjectForCode("TearToS"..section).AcquiredCount = total_tears-(order-1)*3
+        end
+    end
+    if Tracker:FindObjectForCode("spirit_weapons").Active and SLOT_DATA["section_count"] then
+        if total_tears > math.min(SLOT_DATA["section_count"], 5) * 3 then
+            Tracker:FindObjectForCode("bow_of_light").Active = true
+            Tracker:FindObjectForCode("lokomo_sword").Active = true
+        end
+    end
+end
+ListItemWatches(ProgressiveTears, {"tear_progressive", "big_tear_progressive", "spirit_weapons"})

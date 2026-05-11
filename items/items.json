@@ -3,6 +3,7 @@
         "name": "Progressive Sword",
         "type": "progressive",
         "img": "images/items/sword.png",
+        "loop": true,
         "stages": [
 	    {
                 "name": "Sword",
@@ -16,6 +17,14 @@
             }
         ],
         "codes": "ProgSword"
+    },
+    {
+        "name": "Lokomo Sword",
+        "type": "toggle",
+        "img": "images/items/Lokomo Sword.png",
+        "initial_active_state": false,
+        "overlay_align": "right",
+        "codes": "lokomo_sword"
     },
     {
         "name": "Whirlwind",

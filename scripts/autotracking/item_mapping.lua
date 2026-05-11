@@ -194,19 +194,19 @@ ITEM_MAPPING = {
 	[171] = {{"TearToS5", "toggle"}},
 	[172] = {{"TearToS6", "toggle"}},
 
-	[173] = {{"tearoflight(allsections)", "toggle"}}, -- progressive
-	[174] = {{"tearoflight(progressive)", "toggle"}}, -- all sections
+	[173] = {{"tear_global", "toggle"}}, -- progressive
+	[174] = {{"tear_progressive", "toggle"}}, -- all sections
 
 	-- big tears
-	[175] = {{"TearToS1", "toggle"}},
-	[176] = {{"TearToS2", "toggle"}},
-	[177] = {{"TearToS3", "toggle"}},
-	[178] = {{"TearToS4", "toggle"}},
-	[179] = {{"TearToS5", "toggle"}},
-	[180] = {{"TearToS6", "toggle"}},
+	[175] = {{"big_TearToS1", "toggle"}},
+	[176] = {{"big_TearToS2", "toggle"}},
+	[177] = {{"big_TearToS3", "toggle"}},
+	[178] = {{"big_TearToS4", "toggle"}},
+	[179] = {{"big_TearToS5", "toggle"}},
+	[180] = {{"big_TearToS6", "toggle"}},
 
-	[181] = {{"bigtearoflight(progressive)", "toggle"}}, -- progressive
-	[182] = {{"bigtearoflight(allsections)", "toggle"}}, -- all sections
+	[181] = {{"big_tear_progressive", "toggle"}}, -- progressive
+	[182] = {{"big_tear_global", "toggle"}}, -- all sections
 
 
 
