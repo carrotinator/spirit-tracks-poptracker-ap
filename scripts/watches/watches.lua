@@ -201,11 +201,22 @@ local function UpdateCuccos(item)
 end
 ListItemWatches(UpdateCuccos, {"cargo:cuccos_single", "cargo:cuccos_multi", "randomize_cargo"})
 
-
-local function TempDebug(item)
-    print(Tracker:FindObjectForCode("randomize_cargo"))
-    print(Tracker:FindObjectForCode("randomize_cargo").CurrentStage)
-    print(Tracker:FindObjectForCode("randomize_cargo").Icon)
+-- Tower of Spirits
+local function TowerOfSpiritsBase(item)
+    
+    if not Tracker:FindObjectForCode("tos_unlock_base_item").Active then
+        TOS_LAYOUT.ItemState["active"] = true
+        TOS_LAYOUT.ItemState["mode"] = "default"
+    elseif Tracker:FindObjectForCode("tos_section_unlocks").CurrentStage == 2 then
+        TOS_LAYOUT.ItemState["count"] = Tracker:FindObjectForCode("progressivetossection").AcquiredCount
+        TOS_LAYOUT.ItemState["mode"] = "shards"
+    else
+        TOS_LAYOUT.ItemState["active"] = Tracker:FindObjectForCode("towerofspiritsbase").Active
+        TOS_LAYOUT.ItemState["mode"] = "default"
+    end
+    TOS_LAYOUT:ProvidesCodeFunc(TOS_LAYOUT, "tos")
 end
 
-ScriptHost:AddWatchForCode("TempDebug", "cucco_layout", TempDebug)
+ListItemWatches(TowerOfSpiritsBase, {"tos_unlock_base_item", "tos_section_unlocks", "towerofspiritsbase", "progressivetossection"})
+
+-- Tears of Light

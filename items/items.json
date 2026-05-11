@@ -77,7 +77,7 @@
         "name": "Bow of Light",
         "type": "toggle",
         "img": "images/items/Bow of Light.png",
-        "codes": "BowofLight"
+        "codes": "bow_of_light"
   },
     {
         "name": "Whip",
@@ -517,28 +517,12 @@
         "codes": "_ut_glitched_logic"
     },
     {
-        "name": "stamppack(3)",
-        "type": "toggle",
-        "img": "images/items/stamppack(3).png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "stamppack(3)"
-    },
-    {
         "name": "bigredrupee(200)",
         "type": "toggle",
         "img": "images/items/bigredrupee(200).png",
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "bigredrupee(200)"
-    },
-    {
-        "name": "bowoflight",
-        "type": "toggle",
-        "img": "images/items/bowoflight.png",
-        "initial_active_state": false,
-        "overlay_align": "right",
-        "codes": "bowoflight"
     },
     {
         "name": "recruituniform",

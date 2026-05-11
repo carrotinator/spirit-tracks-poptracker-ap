@@ -354,7 +354,12 @@ function UpdateSettings()
         portal_checks = {code="portal_checks"},
 
         randomize_passengers = {code="randomize_passengers"},
-        randomize_cargo = {code="randomize_cargo"}
+        randomize_cargo = {code="randomize_cargo"},
+
+        tos_section_unlocks = {code="tos_section_unlocks"},
+        tos_unlock_base_item = {code="tos_unlock_base_item"},
+        shuffle_tos_sections = {code="shuffle_tos_sections"},
+        spirit_weapons = {code="spirit_weapons"}
     }
 
     for settings_name , settings_value in pairs(SLOT_DATA) do
@@ -379,6 +384,7 @@ function UpdateSettings()
     -- Other settings
     STAMP_PACK_ORDER = SLOT_DATA["stamp_pack_order"]
     print("stamp pack order:", STAMP_PACK_ORDER)
+    -- ToS section order
 
 end
 

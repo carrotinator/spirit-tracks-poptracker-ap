@@ -46,7 +46,6 @@
     {"name": "Fire Source", "type": "toggle", "loop": "true", "img": "images/tracks/fire_source_shared_glyph.png", "codes": "fire_source_shared_glyph"},
     {"name": "Fire Source", "type": "toggle", "loop": "true", "img": "images/tracks/fire_source_shared_mtt.png", "codes": "fire_source_shared_mtt"},
     {"name": "Fire Realm Sand Portal Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/sand_shortcut_shared.png", "codes": "sand_shortcut_shared"},
-    {"name": "Tower of Spirits", "type": "toggle", "loop": "true", "img": "images/tracks/tos.png", "codes": "tos"},
     {"name": "Forest Realm SE Portal Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/tp_portal.png", "codes": "tp_portal"},
     {"name": "W Wooded Temple Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/w_wt.png", "codes": "w_wt"},
     {"name": "Fire Realm Sand Portal Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/sand_sc_blocker.png", "codes": "sand_sc_blocker"},
@@ -114,7 +113,8 @@
     {"name": "Wooded Temple Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/wtt_blocker_fg.png", "codes": "wtt_blocker_fg"},
     {"name": "Ocean Shortcut Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/ocean_shortcut_blocker.png", "codes": "ocean_shortcut_blocker"},
     {"name": "Wooded Temple Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/w_forest_blocker.png", "codes": "w_forest_blocker"},
-
+    {"name": "Sand Source", "type": "toggle", "loop": "true", "img": "images/tracks/sand_source.png", "codes": "sand_source"},
+    {"name": "W Castle Town Tracks", "type": "toggle", "loop": "true", "img": "images/tracks/n_castle_blocker.png", "codes": "n_castle_blocker"},
 
     {
         "name": "westernforesttracks",
@@ -339,5 +339,7 @@
         "initial_active_state": false,
         "overlay_align": "right",
         "codes": "minordeserttracks"
-    }
+    },
+    {"name": "towerofspiritsbase", "type": "toggle", "loop": "true", "codes": "towerofspiritsbase"},
+    {"name": "progressivetossection", "type": "toggle", "loop": "true", "codes": "progressivetossection"}
 ]

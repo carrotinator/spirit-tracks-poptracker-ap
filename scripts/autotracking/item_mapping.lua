@@ -9,7 +9,7 @@ ITEM_MAPPING = {
 	[5] = {{"Whirlwind", "toggle"}},
 	[6] = {{"Bombs", "progressive"}},
 	[7] = {{"Bow", "progressive"}},
-	[8] = {{"bowoflight", "toggle"}},
+	[8] = {{"bow_of_light", "toggle"}},
 	[9] = {{"Whip", "toggle"}},
 	[10] = {{"Boomerang", "toggle"}},
 	[11] = {{"SandWand", "toggle"}},
@@ -82,7 +82,7 @@ ITEM_MAPPING = {
 	[69] = {{"snow_source", "toggle"}},
 	[70] = {{"ocean_source", "toggle"}},
 	[71] = {{"fire_source", "toggle"}},
-	[72] = {{"sandsource", "toggle"}},
+	[72] = {{"sand_source", "toggle"}},
 
  
 

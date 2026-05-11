@@ -330,5 +330,56 @@
         "img": "images/items/Lokomo Sword.png",
         "initial_active_state": true,
         "codes": "left_item_view"
+    },
+
+
+
+	{
+        "name": "ToS Base Item",
+        "type": "toggle",
+        "img": "images/tracks/tos.png",
+        "initial_active_state": false,
+        "codes": "tos_unlock_base_item"
+    },
+	{
+		"name": "ToS Section Unlocks",
+		"type": "progressive",
+		"allow_disabled": false,
+		"initial_stage_idx": 0,
+		"loop": true,
+		"stages": [
+            {
+        		"img": "images/tracks/tos.png",
+				"codes": "tos_section_unlocks, open",
+				"name": "ToS Section Unlocks: Open",
+				"inherit_codes": false
+			},
+            {
+        		"img": "images/items/cargo/Fish.png",
+				"codes": "tos_section_unlocks, sources",
+				"name": "ToS Section Unlocks: Sources",
+				"inherit_codes": false
+			},
+            {
+        		"img": "images/items/cargo/Cucco.png",
+				"codes": "tos_section_unlocks, progressive",
+				"name": "ToS Section Unlocks: Progressive",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+        "name": "Shuffle ToS Sections",
+        "type": "toggle",
+        "img": "images/tracks/tos.png",
+        "initial_active_state": false,
+        "codes": "shuffle_tos_sections"
+    },
+	{
+        "name": "Spirit Weapons",
+        "type": "toggle",
+        "img": "images/items/Tear of Light Model.png",
+        "initial_active_state": false,
+        "codes": "spirit_weapons"
     }
 ]

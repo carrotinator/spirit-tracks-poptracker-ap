@@ -21,7 +21,7 @@
                             ["rabbitsanity", "randomize_passengers", "randomize_cargo"],
                             ["portal_behavior", "portal_checks", "portal_tracks"],
                             ["randomize_tears", "spirit_weapons", "tear_sections"],
-                            ["dark_realm_access", "randomize_stamps"],
+                            ["randomize_stamps"],
                             ["tos_section_unlocks", "tos_unlock_base_item", "shuffle_tos_sections"]
                         ]
                     }

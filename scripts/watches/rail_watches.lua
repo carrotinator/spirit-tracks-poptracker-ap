@@ -113,24 +113,27 @@ local reverseRailDict = {
 local andRailDict = {
 	["fire_glyph"] = {
 		["sand_sc_blocker"] = {"sand_shortcut"},
-		["fire_snow_blocker"] = {"snow_source", "btt"}
+		["fire_snow_blocker"] = {"btt"}
 	},
 	["sand_shortcut"] = {
 		["sand_sc_blocker"] = {"fire_glyph"},
 		["sand_shortcut_shared"] = {"desert"}
 	},
-	["snow_source"] = {["fire_snow_blocker"] = {"fire_glyph", "btt"}},
-	["btt"] = {["fire_snow_blocker"] = {"fire_glyph", "snow_source"}},
+	["btt"] = {["fire_snow_blocker"] = {"fire_glyph"}},
 	["desert"] = {["sand_shortcut_shared"] = {"sand_shortcut"}},
-	
+
 	["wtt"] = {
 		["w_wt_blocker"] = {"w_wt"},
 		["snow_bridge_blocker"] = {"snow_bridge"},
 		["w_castle_blocker"] = {"w_castle"},
 		["wtt_blocker_fg"] = {"forest_glyph"}},
 	["w_wt"] = {["w_wt_blocker"] = {"wtt"}},
-	["snow_bridge"] = {["snow_bridge_blocker"] = {"wtt"}},
-	["w_castle"] = {["w_castle_blocker"] = {"wtt"}},
+	["snow_bridge"] = {
+		["snow_bridge_blocker"] = {"wtt"},
+		["n_castle_blocker"] = {"w_castle"}},
+	["w_castle"] = {
+		["w_castle_blocker"] = {"wtt"},
+		["n_castle_blocker"] = {"snow_bridge"}},
 	["forest_glyph"] = {
 		["wtt_blocker_fg"] = {"wtt"},
 		["ocean_shortcut_blocker"] = {"ocean_shortcut"}},
