@@ -1,0 +1,100 @@
+{
+    "treasure_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 110,
+                        "item_width": 110,
+                        "rows": [
+                            [
+                                "demonfossil",
+                                "stalfosskull",
+                                "starfragment",
+                                "beelarvae"
+                            ],
+                            [
+                                "woodheart",
+                                "darkpearlloop",
+                                "whitepearlloop",
+                                "rutocrown"
+                            ],
+                            [
+                                "dragonscale",
+                                "piratesnecklace",
+                                "palacedish",
+                                "goronamber"
+                            ],
+                            [
+                                "mysticjade",
+                                "ancientcoin",
+                                "pricelessstone",
+                                "regalring"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "treasure_grid_big": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 100,
+                        "item_width": 100,
+                        "rows": [
+                            [
+                                "demonfossil",
+                                "stalfosskull",
+                                "starfragment",
+                                "beelarvae"
+                            ],
+                            [
+                                "woodheart",
+                                "darkpearlloop",
+                                "whitepearlloop",
+                                "rutocrown"
+                            ],
+                            [
+                                "dragonscale",
+                                "piratesnecklace",
+                                "palacedish",
+                                "goronamber"
+                            ],
+                            [
+                                "mysticjade",
+                                "ancientcoin",
+                                "pricelessstone",
+                                "regalring"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

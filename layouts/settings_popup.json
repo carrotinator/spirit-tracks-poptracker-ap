@@ -15,14 +15,10 @@
                         "item_size": 90,
                         "item_margin": "5,5",
                         "rows": [
-                            ["autofill_tracker", "logic"],
-                            ["dark_realm_unlock", "compass_shard_count", "compass_shard_total"],
-                            ["keysanity", "randomize_boss_keys", "big_keyrings"],
-                            ["rabbitsanity", "randomize_passengers", "randomize_cargo"],
-                            ["portal_behavior", "portal_checks", "portal_tracks"],
-                            ["randomize_tears", "spirit_weapons", "tear_sections"],
-                            ["randomize_stamps"],
-                            ["tos_section_unlocks", "tos_unlock_base_item", "shuffle_tos_sections"]
+                            ["autofill_tracker", "dark_realm_unlock", "compass_shard_count", "big_keyrings"],
+                            ["rabbitsanity", "randomize_passengers", "randomize_cargo", "randomize_stamps"],
+                            ["portal_behavior", "portal_checks", "portal_tracks", "tos_unlock_base_item"],
+                            ["tos_section_unlocks", "spirit_weapons", "left_selector_view", "right_selector_view"]
                         ]
                     }
                 ]

@@ -290,8 +290,8 @@
                         "h_alignment": "center",
                         "item_h_alignment": "center",
                         "item_v_alignment": "center",
-                        "item_height": 58,
-                        "item_width": 62,
+                        "item_height": 44,
+                        "item_width": 47,
                         "rows": [
                             [
                                 "left_item_view",
@@ -300,7 +300,46 @@
                                 "left_passenger_view",
                                 "left_cargo_view",
                                 "left_rail_view",
+                                "left_stamp_view",
+                                "left_treasure_view",
                                 "left_selector_view"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "right_view_selector": {
+        "type": "array",
+        "orientation": "vertical",
+        "v_alignment": "top",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "center",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 44,
+                        "item_width": 47,
+                        "rows": [
+                            [
+                                "right_item_view",
+                                "right_key_view",
+                                "right_boss_key_view",
+                                "right_passenger_view",
+                                "right_cargo_view",
+                                "right_rail_view",
+                                "right_stamp_view",
+                                "right_treasure_view",
+                                "right_selector_view"
                             ]
                         ]
                     }

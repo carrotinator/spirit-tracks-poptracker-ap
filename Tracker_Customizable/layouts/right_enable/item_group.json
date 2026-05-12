@@ -1,0 +1,10 @@
+{
+    "right_item_group": {
+        "type": "container",
+        "dock": "top",
+        "content": {
+            "type": "layout",
+            "key": "item_group_min"
+        }
+    }
+}

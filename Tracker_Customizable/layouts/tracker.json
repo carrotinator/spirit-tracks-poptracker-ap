@@ -3,7 +3,9 @@
         "type": "container",
         "background": "#00000000",
         "content": {
-            "type": "dock",
+            "type": "array",
+            "orientation": "horizontal",
+            "margin": "5,0",
             "dropshadow": true,
             "content": [
                 {
@@ -20,6 +22,22 @@
                         {"type": "layout", "key": "left_rail_group", "dock": "top"},
                         {"type": "layout", "key": "left_stamp_group", "dock": "top"},
                         {"type": "layout", "key": "left_treasure_group", "dock": "top"}
+                    ]
+                },
+                {
+                    "type": "dock",
+                    "dock": "top",
+                    "v_alignment": "top",
+                    "content": [
+                        {"type": "layout", "key": "right_selector_group", "dock": "top"},
+                        {"type": "layout", "key": "right_item_group", "dock": "top"},
+                        {"type": "layout", "key": "right_small_key_grid", "dock": "top"},
+                        {"type": "layout", "key": "right_boss_key_grid", "dock": "top"},
+                        {"type": "layout", "key": "right_passenger_group", "dock": "top"},
+                        {"type": "layout", "key": "right_cargo_group", "dock": "top"},
+                        {"type": "layout", "key": "right_rail_group", "dock": "top"},
+                        {"type": "layout", "key": "right_stamp_group", "dock": "top"},
+                        {"type": "layout", "key": "right_treasure_group", "dock": "top"}
                     ]
                 }
             ]

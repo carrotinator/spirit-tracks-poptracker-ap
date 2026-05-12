@@ -5,4 +5,7 @@ Tracker:AddLayouts("layouts/tabs.json")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")
 Tracker:AddLayouts("layouts/groups.json")
+
 Tracker:AddLayouts("layouts/rail_layout.json")
+Tracker:AddLayouts("layouts/stamp_layout.json")
+Tracker:AddLayouts("layouts/treasure_layout.json")

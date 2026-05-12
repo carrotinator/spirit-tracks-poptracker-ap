@@ -364,6 +364,7 @@ function UpdateSettings()
 
         randomize_passengers = {code="randomize_passengers"},
         randomize_cargo = {code="randomize_cargo"},
+        randomize_stamps = {code="randomize_stamps"},
 
         tos_section_unlocks = {code="tos_section_unlocks"},
         tos_unlock_base_item = {code="tos_unlock_base_item"},

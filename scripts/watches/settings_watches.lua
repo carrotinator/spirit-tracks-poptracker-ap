@@ -45,7 +45,19 @@ local layoutLookup = {
     ["left_cargo_view"] = {file="cargo_group", side="left"},
     ["left_rail_view"] = {file="rail_group", side="left"},
     ["left_selector_view"] = {file="selector_group", side="left"},
-    ["left_item_view"] = {file="item_group", side="left"}
+    ["left_item_view"] = {file="item_group", side="left"},
+    ["left_treasure_view"] = {file="treasure_group", side="left"},
+    ["left_stamp_view"] = {file="stamp_group", side="left"},
+
+    ["right_key_view"] = {file="small_key_grid", side="right"},
+    ["right_boss_key_view"] = {file="boss_key_grid", side="right"},
+    ["right_passenger_view"] = {file="passenger_group", side="right"},
+    ["right_cargo_view"] = {file="cargo_group", side="right"},
+    ["right_rail_view"] = {file="rail_group", side="right"},
+    ["right_selector_view"] = {file="selector_group", side="right"},
+    ["right_item_view"] = {file="item_group", side="right"},
+    ["right_treasure_view"] = {file="treasure_group", side="right"},
+    ["right_stamp_view"] = {file="stamp_group", side="right"}
 }
 
 -- Customizable layout toggle sections

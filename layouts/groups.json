@@ -65,13 +65,22 @@
             "key": "Passenger_item_grid"
         }
     },
-    "selector_group": {
+    "left_selector_group_": {
         "type": "group",
         "dock": "top",
         "header": "Toggle Layouts (Left)",
         "content": {
             "type": "layout",
             "key": "left_view_selector"
+        }
+    },
+    "right_selector_group_": {
+        "type": "group",
+        "dock": "top",
+        "header": "Toggle Layouts (Right)",
+        "content": {
+            "type": "layout",
+            "key": "right_view_selector"
         }
     },
     "rail_group": {
@@ -81,6 +90,24 @@
         "content": {
             "type": "layout",
             "key": "rail_grid"
+        }
+    },
+    "stamp_group": {
+        "type": "group",
+        "dock": "top",
+        "header": "Stamps",
+        "content": {
+            "type": "layout",
+            "key": "stamp_grid"
+        }
+    },
+    "treasure_group": {
+        "type": "group",
+        "dock": "top",
+        "header": "Treasure",
+        "content": {
+            "type": "layout",
+            "key": "treasure_grid"
         }
     }
 }
