@@ -1,5 +1,5 @@
 {
-    "treasure_grid": {
+    "treasure_grid_fit": {
         "type": "array",
         "orientation": "vertical",
         "margin": "0,0",
@@ -37,6 +37,51 @@
                                 "goronamber"
                             ],
                             [
+                                "mysticjade",
+                                "ancientcoin",
+                                "pricelessstone",
+                                "regalring"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "treasure_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 54,
+                        "item_width": 54,
+                        "rows": [
+                            [
+                                "demonfossil",
+                                "stalfosskull",
+                                "starfragment",
+                                "beelarvae",
+                                "woodheart",
+                                "darkpearlloop",
+                                "whitepearlloop",
+                                "rutocrown"
+                            ],
+                            [
+                                "dragonscale",
+                                "piratesnecklace",
+                                "palacedish",
+                                "goronamber",
                                 "mysticjade",
                                 "ancientcoin",
                                 "pricelessstone",

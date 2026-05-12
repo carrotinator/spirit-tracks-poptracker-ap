@@ -79,3 +79,9 @@ end
 
 DictItemWatches(UpdateLayout, layoutLookup)
 SweepLayouts()
+
+-- Manually Reset Luaitems, THis and the sweep should probably get their own files
+ResetMixedLuaItem(COMPASS_LAYOUT)
+ResetMixedLuaItem(CUCCO_LAYOUT)
+ResetMixedLuaItem(ICE_LAYOUT)
+ResetMixedLuaItem(TOS_LAYOUT)

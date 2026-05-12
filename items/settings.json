@@ -358,49 +358,49 @@
         "name": "Toggle Passenger View",
         "type": "toggle",
         "img": "images/items/passenger/Passenger ferrus.png",
-        "initial_active_state": true,
+        "initial_active_state": false,
         "codes": "right_passenger_view"
     },
 	{
         "name": "Toggle Cargo View",
         "type": "toggle",
         "img": "images/items/cargo/Cucco.png",
-        "initial_active_state": true,
+        "initial_active_state": false,
         "codes": "right_cargo_view"
     },
 	{
         "name": "Toggle Small Key View",
         "type": "toggle",
         "img": "images/items/Keys/Small Key BLANK.png",
-        "initial_active_state": true,
+        "initial_active_state": false,
         "codes": "right_key_view"
     },
 		{
         "name": "Toggle Boss Key View",
         "type": "toggle",
         "img": "images/items/Keys/Boss Key BLANK.png",
-        "initial_active_state": true,
+        "initial_active_state": false,
         "codes": "right_boss_key_view"
     },
 	{
         "name": "Toggle Tear View",
         "type": "toggle",
         "img": "images/track_icons/portal_h.png",
-        "initial_active_state": true,
+        "initial_active_state": false,
         "codes": "right_tear_view"
     },
 	{
         "name": "Toggle Rail View",
         "type": "toggle",
         "img": "images/track_icons/portal_h.png",
-        "initial_active_state": false,
+        "initial_active_state": true,
         "codes": "right_rail_view"
     },
 	{
         "name": "Toggle Item View",
         "type": "toggle",
         "img": "images/items/Lokomo Sword.png",
-        "initial_active_state": true,
+        "initial_active_state": false,
         "codes": "right_item_view"
     },
 	{
