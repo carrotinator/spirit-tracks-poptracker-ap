@@ -311,13 +311,6 @@
         "codes": "left_boss_key_view"
     },
 	{
-        "name": "Toggle Tear View",
-        "type": "toggle",
-        "img": "images/track_icons/portal_h.png",
-        "initial_active_state": true,
-        "codes": "left_tear_view"
-    },
-	{
         "name": "Toggle Rail View",
         "type": "toggle",
         "img": "images/track_icons/portal_h.png",
@@ -344,6 +337,20 @@
         "img": "images/items/treasures/Mystic Jade.png",
         "initial_active_state": false,
         "codes": "left_treasure_view"
+    },
+	{
+        "name": "Toggle Rabbit View",
+        "type": "toggle",
+        "img": "images/items/Grass Rabbits.png",
+        "initial_active_state": true,
+        "codes": "left_rabbit_view"
+    },
+	{
+        "name": "Toggle Tear View",
+        "type": "toggle",
+        "img": "images/items/Tear of Light Model.png",
+        "initial_active_state": true,
+        "codes": "left_tear_view"
     },
 
 
@@ -383,13 +390,6 @@
         "codes": "right_boss_key_view"
     },
 	{
-        "name": "Toggle Tear View",
-        "type": "toggle",
-        "img": "images/track_icons/portal_h.png",
-        "initial_active_state": false,
-        "codes": "right_tear_view"
-    },
-	{
         "name": "Toggle Rail View",
         "type": "toggle",
         "img": "images/track_icons/portal_h.png",
@@ -416,6 +416,20 @@
         "img": "images/items/treasures/Mystic Jade.png",
         "initial_active_state": false,
         "codes": "right_treasure_view"
+    },
+	{
+        "name": "Toggle Rabbit View",
+        "type": "toggle",
+        "img": "images/items/Grass Rabbits.png",
+        "initial_active_state": false,
+        "codes": "right_rabbit_view"
+    },
+	{
+        "name": "Toggle Tear View",
+        "type": "toggle",
+        "img": "images/items/Tear of Light Model.png",
+        "initial_active_state": false,
+        "codes": "right_tear_view"
     },
 
 

@@ -16,6 +16,14 @@
                 "dock": "top",
                 "content": {
                     "type": "layout",
+                    "key": "rabbit_grid"
+                }
+            },
+            {
+                "type": "dock",
+                "dock": "top",
+                "content": {
+                    "type": "layout",
                     "key": "small_key_grid"
                 }
             },
@@ -25,6 +33,14 @@
                 "content": {
                     "type": "layout",
                     "key": "boss_key_grid"
+                }
+            },
+            {
+                "type": "dock",
+                "dock": "top",
+                "content": {
+                    "type": "layout",
+                    "key": "tear_grid"
                 }
             }
         ]
@@ -93,7 +109,7 @@
         "content": {
             "type": "array",
             "orientation": "horizontal",
-            "margin": "6,0,6,0",
+            "margin": "-1,0,-1,0",
             "content": [
                 {
                     "type": "layout",
@@ -109,7 +125,7 @@
         "content": {
             "type": "array",
             "orientation": "horizontal",
-            "margin": "6,0,6,0",
+            "margin": "-1,0,-1,0",
             "content": [
                 {
                     "type": "layout",

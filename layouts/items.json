@@ -7,7 +7,7 @@
             {
                 "type": "array",
                 "orientation": "vertical",
-                "margin": "0,0",
+                "margin": "0,0,0,-2",
                 "content": [
                     {
                         "type": "itemgrid",
@@ -44,7 +44,32 @@
                                 "Song of birds",
                                 "Song of light",
                                 "Song of discovery"
-                            ],
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "rabbit_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,-2, 0, 2",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "center",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 58,
+                        "item_width": 62,
+                        "rows": [
                             [
                                 "stampbook",
                                 "stamps",
@@ -68,7 +93,7 @@
             {
                 "type": "array",
                 "orientation": "vertical",
-                "margin": "0,0",
+                "margin": "0,-4",
                 "content": [
                     {
                         "type": "itemgrid",
@@ -108,7 +133,7 @@
             {
                 "type": "array",
                 "orientation": "vertical",
-                "margin": "0,0",
+                "margin": "0,-4",
                 "content": [
                     {
                         "type": "itemgrid",
@@ -127,7 +152,32 @@
                                 "DesBig",
                                 "ToS3Big",
                                 "Tos5Big"
-                            ],
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "tear_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "32,-4,32,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "center",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 58,
+                        "item_width": 62,
+                        "rows": [
                             [
                                 "TearToS1",
                                 "TearToS2",
@@ -290,13 +340,15 @@
                         "h_alignment": "center",
                         "item_h_alignment": "center",
                         "item_v_alignment": "center",
-                        "item_height": 44,
-                        "item_width": 47,
+                        "item_height": 36,
+                        "item_width": 39,
                         "rows": [
                             [
                                 "left_item_view",
+                                "left_rabbit_view",
                                 "left_key_view",
                                 "left_boss_key_view",
+                                "left_tear_view",
                                 "left_passenger_view",
                                 "left_cargo_view",
                                 "left_rail_view",
@@ -327,13 +379,15 @@
                         "h_alignment": "center",
                         "item_h_alignment": "center",
                         "item_v_alignment": "center",
-                        "item_height": 44,
-                        "item_width": 47,
+                        "item_height": 36,
+                        "item_width": 39,
                         "rows": [
                             [
                                 "right_item_view",
                                 "right_key_view",
+                                "right_rabbit_view",
                                 "right_boss_key_view",
+                                "right_tear_view",
                                 "right_passenger_view",
                                 "right_cargo_view",
                                 "right_rail_view",

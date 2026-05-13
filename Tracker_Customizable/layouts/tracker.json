@@ -15,8 +15,10 @@
                     "content": [
                         {"type": "layout", "key": "left_selector_group", "dock": "top"},
                         {"type": "layout", "key": "left_item_group", "dock": "top"},
+                        {"type": "layout", "key": "left_rabbit_grid", "dock": "top"},
                         {"type": "layout", "key": "left_small_key_grid", "dock": "top"},
                         {"type": "layout", "key": "left_boss_key_grid", "dock": "top"},
+                        {"type": "layout", "key": "left_tear_grid", "dock": "top"},
                         {"type": "layout", "key": "left_passenger_group", "dock": "top"},
                         {"type": "layout", "key": "left_cargo_group", "dock": "top"},
                         {"type": "layout", "key": "left_rail_group", "dock": "top"},
@@ -32,8 +34,10 @@
                     "content": [
                         {"type": "layout", "key": "right_selector_group", "dock": "top"},
                         {"type": "layout", "key": "right_item_group", "dock": "top"},
+                        {"type": "layout", "key": "right_rabbit_grid", "dock": "top"},
                         {"type": "layout", "key": "right_small_key_grid", "dock": "top"},
                         {"type": "layout", "key": "right_boss_key_grid", "dock": "top"},
+                        {"type": "layout", "key": "right_tear_grid", "dock": "top"},
                         {"type": "layout", "key": "right_passenger_group", "dock": "top"},
                         {"type": "layout", "key": "right_cargo_group", "dock": "top"},
                         {"type": "layout", "key": "right_rail_group", "dock": "top"},

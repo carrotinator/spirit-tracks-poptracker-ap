@@ -48,6 +48,8 @@ local layoutLookup = {
     ["left_item_view"] = {file="item_group", side="left"},
     ["left_treasure_view"] = {file="treasure_group", side="left"},
     ["left_stamp_view"] = {file="stamp_group", side="left"},
+    ["left_rabbit_view"] = {file="rabbit_grid", side="left"},
+    ["left_tear_view"] = {file="tear_grid", side="left"},
 
     ["right_key_view"] = {file="small_key_grid", side="right"},
     ["right_boss_key_view"] = {file="boss_key_grid", side="right"},
@@ -57,7 +59,9 @@ local layoutLookup = {
     ["right_selector_view"] = {file="selector_group", side="right"},
     ["right_item_view"] = {file="item_group", side="right"},
     ["right_treasure_view"] = {file="treasure_group", side="right"},
-    ["right_stamp_view"] = {file="stamp_group", side="right"}
+    ["right_stamp_view"] = {file="stamp_group", side="right"},
+    ["right_rabbit_view"] = {file="rabbit_grid", side="right"},
+    ["right_tear_view"] = {file="tear_grid", side="right"}
 }
 
 -- Customizable layout toggle sections
