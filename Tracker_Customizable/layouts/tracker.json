@@ -3,14 +3,14 @@
         "type": "container",
         "background": "#00000000",
         "content": {
-            "type": "array",
-            "orientation": "horizontal",
+            "type": "dock",
             "margin": "5,0",
             "dropshadow": true,
             "content": [
                 {
                     "type": "dock",
-                    "dock": "top",
+                    "dock": "left",
+                    "margin": "5",
                     "v_alignment": "top",
                     "content": [
                         {"type": "layout", "key": "left_selector_group", "dock": "top"},
@@ -26,7 +26,8 @@
                 },
                 {
                     "type": "dock",
-                    "dock": "top",
+                    "dock": "left",
+                    "margin": "5",
                     "v_alignment": "top",
                     "content": [
                         {"type": "layout", "key": "right_selector_group", "dock": "top"},

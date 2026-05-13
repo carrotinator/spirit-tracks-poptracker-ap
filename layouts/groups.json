@@ -43,8 +43,15 @@
         "dock": "top",
         "header": "Items",
         "content": {
-            "type": "layout",
-            "key": "item_grid"
+            "type": "array",
+            "orientation": "horizontal",
+            "margin": "4,0,5,0",
+            "content": [
+                {
+                    "type": "layout",
+                    "key": "item_grid"
+                }
+            ]
         }
     },
     "cargo_group": {
@@ -52,8 +59,15 @@
         "dock": "top",
         "header": "Cargo",
         "content": {
-            "type": "layout",
-            "key": "Cargo_item_grid"
+            "type": "array",
+            "orientation": "horizontal",
+            "margin": "4,0,5,0",
+            "content": [
+                {
+                "type": "layout",
+                "key": "Cargo_item_grid"
+                }
+            ]
         }
     },
     "passenger_group": {
@@ -61,8 +75,15 @@
         "dock": "top",
         "header": "Passengers",
         "content": {
-            "type": "layout",
-            "key": "Passenger_item_grid"
+            "type": "array",
+            "orientation": "horizontal",
+            "margin": "8,0,8,0",
+            "content": [
+                {
+                    "type": "layout",
+                    "key": "Passenger_item_grid"
+                }
+            ]
         }
     },
     "left_selector_group_": {
@@ -70,8 +91,15 @@
         "dock": "top",
         "header": "Toggle Layouts (Left)",
         "content": {
-            "type": "layout",
-            "key": "left_view_selector"
+            "type": "array",
+            "orientation": "horizontal",
+            "margin": "6,0,6,0",
+            "content": [
+                {
+                    "type": "layout",
+                    "key": "left_view_selector"
+                }
+            ]
         }
     },
     "right_selector_group_": {
@@ -79,8 +107,15 @@
         "dock": "top",
         "header": "Toggle Layouts (Right)",
         "content": {
-            "type": "layout",
-            "key": "right_view_selector"
+            "type": "array",
+            "orientation": "horizontal",
+            "margin": "6,0,6,0",
+            "content": [
+                {
+                    "type": "layout",
+                    "key": "right_view_selector"
+                }
+            ]
         }
     },
     "rail_group": {
@@ -97,8 +132,15 @@
         "dock": "top",
         "header": "Stamps",
         "content": {
-            "type": "layout",
-            "key": "stamp_grid"
+            "type": "array",
+            "orientation": "horizontal",
+            "margin": "4,0,5,0",
+            "content": [
+                {
+                    "type": "layout",
+                    "key": "stamp_grid_wide"
+                }
+            ]
         }
     },
     "treasure_group": {
@@ -106,8 +148,15 @@
         "dock": "top",
         "header": "Treasure",
         "content": {
+            "type": "array",
+            "orientation": "horizontal",
+            "margin": "3,0,4,0",
+            "content": [
+                {
             "type": "layout",
             "key": "treasure_grid"
+                }
+            ]
         }
     }
 }
