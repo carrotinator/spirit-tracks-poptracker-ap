@@ -662,6 +662,19 @@
         "type": "toggle",
         "initial_active_state": false,
         "codes": "portalunlock_h"
+    },
+
+    {
+        "name": "",
+        "type": "static",
+        "codes": "background",
+        "img": "images/backgrounds/background_x2.png"
+    },
+    {
+        "name": "",
+        "type": "static",
+        "codes": "filler",
+        "img": "images/backgrounds/filler.png"
     }
 
 ]

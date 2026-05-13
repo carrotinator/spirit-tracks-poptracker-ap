@@ -1,0 +1,48 @@
+{
+    "tracker_broadcast": {
+        "type": "canvas",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "height": 500,
+        "width": 512,
+        "content": [
+            {
+                "type": "item",
+                "item": "background",
+                "margin": "-488, -432"
+            },
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "content": [
+                    {
+                    "type": "item",
+                    "item": "filler",
+                    "margin": "12,70,0,0"
+                    },
+                    {
+                        "type": "array",
+                        "orientation": "vertical",
+                        "content": [
+                            {
+                            "type": "item",
+                            "item": "filler",
+                            "margin": "12,70,0,0"
+                            },
+                            {
+                                "type": "layout",
+                                "key": "item_grid"
+                            },
+                            {
+                                "type": "layout",
+                                "key": "small_key_grid"
+                            }
+                        ]
+                    }
+
+                ]
+            }
+
+        ]
+    }
+}

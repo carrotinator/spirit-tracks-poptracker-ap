@@ -34,6 +34,12 @@
             "flags": [
                 "ap"
             ]
+        },
+		"Custom_Broadcast": {
+            "display_name": "Marathon Broadcast",
+            "flags": [
+                "ap"
+            ]
         }
     },
     "min_poptracker_version": "0.31.0"

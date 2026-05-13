@@ -16,6 +16,14 @@
                 "dock": "top",
                 "content": {
                     "type": "layout",
+                    "key": "rabbit_grid"
+                }
+            },
+            {
+                "type": "dock",
+                "dock": "top",
+                "content": {
+                    "type": "layout",
                     "key": "small_key_grid"
                 }
             },
@@ -38,13 +46,29 @@
             "key": "shared_item_grid_vertical"
         }
     },
+    "item_grid_min": {
+        "type": "array",
+        "orientation": "vertical",
+        "header": "Items",
+        "content": [
+            {
+                "type": "layout",
+                "key": "item_grid"
+            },
+            {
+                "type": "layout",
+                "key": "rabbit_grid"
+            }
+        ]
+    },
+
     "item_group_min": {
         "type": "group",
         "dock": "top",
         "header": "Items",
         "content": {
             "type": "layout",
-            "key": "item_grid"
+            "key": "item_grid_min"
         }
     },
     "cargo_group": {
