@@ -507,5 +507,111 @@
                 "name": "Randomize Stamps: Vanilla"
 			},
 		]
+	},
+
+	{
+		"name": "Wooded Temple",
+		"type": "progressive",
+		"allow_disabled": true,
+		"initial_stage_idx": 0,
+		"loop": true,
+		"stages": [
+            {
+        		"img": "images/items/Dungeon Icons/wt.png",
+				"codes": "wooded_temple, wt_required",
+				"name": "Wooded Temple",
+				"inherit_codes": false
+			},
+            {
+        		"img": "images/items/Dungeon Icons/wt_done.png",
+				"codes": "wooded_temple, wt_complete",
+				"name": "Wooded Temple (Complete)",
+				"inherit_codes": false
+			}
+		]
+	},
+		{
+		"name": "Blizzard Temple",
+		"type": "progressive",
+		"allow_disabled": true,
+		"initial_stage_idx": 0,
+		"loop": true,
+		"stages": [
+            {
+        		"img": "images/items/Dungeon Icons/bliz.png",
+				"codes": "blizzard_temple, bt_required",
+				"name": "Blizzard Temple",
+				"inherit_codes": false
+			},
+            {
+        		"img": "images/items/Dungeon Icons/bliz_done.png",
+				"codes": "blizzard_temple, bt_complete",
+				"name": "Blizzard Temple (Complete)",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Marine Temple",
+		"type": "progressive",
+		"allow_disabled": true,
+		"initial_stage_idx": 0,
+		"loop": true,
+		"stages": [
+            {
+        		"img": "images/items/Dungeon Icons/oct.png",
+				"codes": "marine_temple, oct_required",
+				"name": "Marine Temple",
+				"inherit_codes": false
+			},
+            {
+        		"img": "images/items/Dungeon Icons/oct_done.png",
+				"codes": "marine_temple, oct_complete",
+				"name": "Marine Temple (Complete)",
+				"inherit_codes": false
+			}
+		]
+	},
+		{
+		"name": "Mountain Temple",
+		"type": "progressive",
+		"allow_disabled": true,
+		"initial_stage_idx": 0,
+		"loop": true,
+		"stages": [
+            {
+        		"img": "images/items/Dungeon Icons/mtt.png",
+				"codes": "mountain_temple, mtt_required",
+				"name": "Wooded Temple",
+				"inherit_codes": false
+			},
+            {
+        		"img": "images/items/Dungeon Icons/mtt_done.png",
+				"codes": "mountain_temple, mtt_complete",
+				"name": "Mountain Temple (Complete)",
+				"inherit_codes": false
+			}
+		]
+	},
+		{
+		"name": "Desert Temple",
+		"type": "progressive",
+		"allow_disabled": true,
+		"initial_stage_idx": 0,
+		"loop": true,
+		"stages": [
+            {
+        		"img": "images/items/Dungeon Icons/dt.png",
+				"codes": "desert_temple, dt_required",
+				"name": "Desert Temple",
+				"inherit_codes": false
+			},
+            {
+        		"img": "images/items/Dungeon Icons/dt_done.png",
+				"codes": "desert_temple, dt_complete",
+				"name": "Desert Temple (Complete)",
+				"inherit_codes": false
+			}
+		]
 	}
 ]

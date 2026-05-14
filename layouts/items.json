@@ -371,5 +371,108 @@
                 ]
             }
         ]
+    },
+    "dungeon_key_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "v_alignment": "top",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                        {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "center",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 64,
+                        "item_width": 64,
+                        "rows": [
+                            [
+                                "wooded_temple",
+                                "blizzard_temple",
+                                "marine_temple",
+                                "mountain_temple",
+                                "desert_temple"
+                            ],
+                            [
+                                "WoodSmall",
+                                "BlizzSmall",
+                                "Marinemall",
+                                "MountSmall",
+                                "DesSmall"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "alt_key_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "v_alignment": "top",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                        {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "center",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 52,
+                        "item_width": 55,
+                        "rows": [
+                            [
+                                "TunnelSmall",
+                                "SnurglarKeys"
+                            ],
+                            [
+                                "ToS2Small",
+                                "Tos4Small"
+                            ],
+                            [
+                                "ToS5Small",
+                                "ToS6Small"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "broadcast_key_grid": {
+        "type": "array",
+        "orientation": "horizontal",
+        "v_alignment": "top",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,6",
+                "dock": "left",
+                "content": [
+                    {
+                        "type": "layout",
+                        "key": "dungeon_key_grid"
+                    }
+                ]       
+            },
+            {
+                "type": "layout",
+                "key": "alt_key_grid",
+                "dock": "left" 
+            }
+        ]
     }
 }

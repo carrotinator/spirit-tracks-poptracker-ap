@@ -5,7 +5,8 @@
         "img": "images/items/Keys/Snurglar Keys.png",
         "max_quantity": 3,
         "overlay_align": "right",
-        "codes": "SnurglarKeys"
+        "codes": "SnurglarKeys",
+        "overlay_font_size": 20
     },
     {
         "name": "Small Key (tunnel to tos)",
@@ -13,7 +14,8 @@
         "img": "images/items/Keys/Small Key Tunnel.png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "TunnelSmall"
+        "codes": "TunnelSmall",
+        "overlay_font_size": 20
     },
     {
         "name": "Small Key (wooded temple)",
@@ -21,7 +23,8 @@
         "img": "images/items/Keys/Small Key Wooded.png",
         "max_quantity": 2,
         "overlay_align": "right",
-        "codes": "WoodSmall"
+        "codes": "WoodSmall",
+        "overlay_font_size": 20
     },
     {
         "name": "Small Key (blizzard temple)",
@@ -29,7 +32,8 @@
         "img": "images/items/Keys/Small Key Blizzard.png",
         "max_quantity": 1,
         "overlay_align": "right",
-        "codes": "BlizzSmall"
+        "codes": "BlizzSmall",
+        "overlay_font_size": 20
     },
     {
         "name": "Small Key (marine temple)",
@@ -37,7 +41,8 @@
         "img": "images/items/Keys/Small Key Marine.png",
         "max_quantity": 2,
         "overlay_align": "right",
-        "codes": "Marinemall"
+        "codes": "Marinemall",
+        "overlay_font_size": 20
     },
     {
         "name": "Small Key (mountain temple)",
@@ -45,7 +50,8 @@
         "img": "images/items/Keys/Small Key Mountain.png",
         "max_quantity": 3,
         "overlay_align": "right",
-        "codes": "MountSmall"
+        "codes": "MountSmall",
+        "overlay_font_size": 20
     },
     {
         "name": "Small Key (desert temple)",
@@ -53,7 +59,8 @@
         "img": "images/items/Keys/Small Key Desert.png",
         "max_quantity": 2,
         "overlay_align": "right",
-        "codes": "DesSmall"
+        "codes": "DesSmall",
+        "overlay_font_size": 20
     },
 
     {
@@ -62,7 +69,8 @@
         "img": "images/items/Keys/Small Key ToS2.png",
         "max_quantity": 2,
         "overlay_align": "right",
-        "codes": "ToS2Small"
+        "codes": "ToS2Small",
+        "overlay_font_size": 20
     },
     {
         "name": "Small Key (tos4)",
@@ -70,7 +78,8 @@
         "img": "images/items/Keys/Small Key ToS4.png",
         "max_quantity": 3,
         "overlay_align": "right",
-        "codes": "ToS4Small"
+        "codes": "ToS4Small",
+        "overlay_font_size": 20
     },
     {
         "name": "Small Key (tos5)",
@@ -78,7 +87,8 @@
         "img": "images/items/Keys/Small Key ToS5.png",
         "max_quantity": 2,
         "overlay_align": "right",
-        "codes": "ToS5Small"
+        "codes": "ToS5Small",
+        "overlay_font_size": 20
     },
     {
         "name": "Small Key (tos6)",
@@ -86,7 +96,8 @@
         "img": "images/items/Keys/Small Key ToS6.png",
         "max_quantity": 3,
         "overlay_align": "right",
-        "codes": "ToS6Small"
+        "codes": "ToS6Small",
+        "overlay_font_size": 20
     },
     {
         "name": "Small Key (tos)",
@@ -94,7 +105,8 @@
         "img": "images/items/Keys/Small Key (tos).png",
         "initial_active_state": false,
         "overlay_align": "right",
-        "codes": "Small Key (tos)"
+        "codes": "Small Key (tos)",
+        "overlay_font_size": 20
     },
     {
         "name": "Boss Key (Wooded temple)",
